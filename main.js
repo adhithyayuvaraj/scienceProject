@@ -1,16 +1,15 @@
 let rand = Math.floor(Math.random() * data.length);
 console.log(rand);
-let question = 0;
-function clear () {
-    rand = Math.floor(Math.random() * data.length);
-    return;
-}
-document.getElementById("question").innerHTML = data[rand].qAndP[question].question;
+let questionNum = 0;
+document.getElementById("question").innerHTML = "Click 'next question' for your questions to start appering";
 function nextQuestion () {
-    let text = data[rand].qAndP;
-    if(question <= text.length){
+    console.log(questionNum);
+    let randQuestionAndPoints = data[rand].questionAndPoints;
+    let question = randQuestionAndPoints[questionNum].question
+    if(question >= randQuestionAndPoints.length){
         rand = Math.floor(Math.random() * data.length);
     }
-    document.getElementById("question").innerHTML = text[question].question;
-    question++;
+    document.getElementById("question").innerHTML = question+ " :: " + randQuestionAndPoints[questionNum].points ;
+    questionNum = questionNum + 1;
+    console.log(`At the end ${questionNum}`)
 }
