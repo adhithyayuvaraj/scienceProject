@@ -12,14 +12,21 @@ function nextQuestion () {
     inputElement.style.display = "block";
     if(functionRun > 0){
         if (answer == document.getElementById("input").value) {
-            document.getElementById("result").innerHTML = "Correct! Click 'Next Question' to keep going !";
-            if(points != functionRun){
+            document.getElementById("result").innerHTML = " You got the last question correct!";
                 console.log(functionRun);
                 points++;
-                document.getElementById("showAndHide").innerHTML += `<b> You have ${points} point(s)!</b>`;
-            }
+                if(data[rand].points < 3){
+                    data[rand].points++;
+                }
+                console.log(data[rand].points + " On..." + rand);
+                document.getElementById("points").innerHTML = `<b> You have ${points} point(s)!</b>`;
         }else{
-            document.getElementById("result").innerHTML = "Incorrect. Sorry, the answer is:";
+            document.getElementById("result").innerHTML = " You got the last question incorrect. Sorry, the answer is:" + answer;
+            if(data[rand].points > 0){
+                points--;
+                data[rand].points --;
+                console.log(data[rand].points);
+            }
         }
     }
     questionNum = Math.floor(Math.random() * data[0].questionAndPoints.length);

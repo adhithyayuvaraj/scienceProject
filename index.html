@@ -5,16 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Periodic Table Game</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id= "question"></div>
-    <div id = "showAndHide">
-        <input type="text" id = "input"/>
-        <br/>
-        <br/>
+    <div id="progress" > 
+            <span id="points"> Waiting for progress...</span>
+        <span id="result">Waiting for progress...</span>
+    </div> 
+    <div id="quiz">
+        <div id= "question"></div>
+        <div id = "showAndHide">
+            <input type="text" id = "input"/>
+            <br/>
+            <br/>
+        </div>
+        <button id="next" onclick = "nextQuestion()">Next Question</button>
     </div>
-    <div id="result"></div>
-    <button id="next" onclick = "nextQuestion()">Next Question</button>
     <script src="data.js"></script>
     <script src="main.js"></script>
 </body>

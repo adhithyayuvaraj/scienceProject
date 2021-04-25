@@ -1,5 +1,6 @@
 let data = [
     {
+        points:0,
         questionAndPoints: [
             {
                 question:"Number or electrons in Hydrogen",
@@ -15,6 +16,7 @@ let data = [
         ]
     },
     {
+        points:0,
         questionAndPoints: [
             {
                 question:"Number or electrons in Helium",
