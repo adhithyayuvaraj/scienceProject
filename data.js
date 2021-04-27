@@ -3,14 +3,14 @@ let data = [
         points:0,
         questionAndPoints: [
             {
-                question:"Number or electrons in Hydrogen",
+                question:"Number of electrons in Hydrogen",
                 answer:1
             },{
-                question:" Hydrogen's State room temperature",
+                question:" Hydrogen's State at room temperature",
                 answer:"Gas"
             },
             {
-                question:"Hydrogen's abbravation",
+                question:"Hydrogen's abbreviation",
                 answer:"H"
             }
         ]
@@ -19,14 +19,14 @@ let data = [
         points:0,
         questionAndPoints: [
             {
-                question:"Number or electrons in Helium",
+                question:"Number of electrons in Helium",
                 answer:2
             },{
-                question:" Helium's State room temperature",
+                question:" Helium's State at room temperature",
                 answer:"Gas"
             },
             {
-                question:"Helium's abbravation",
+                question:"Helium's abbreviation",
                 answer:"He"
             }
         ]

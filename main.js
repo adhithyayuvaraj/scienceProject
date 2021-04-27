@@ -1,4 +1,4 @@
-document.getElementById("question").innerHTML = "Click 'next question' for your questions to start appering";
+document.getElementById("question").innerHTML = "Click 'next question' for your questions to start appearing";
 let functionRun = 0;
 let questionNum = Math.floor(Math.random() * data[0].questionAndPoints.length);
 let rand = Math.floor(Math.random() * data.length);
@@ -28,6 +28,7 @@ function nextQuestion () {
                 console.log(data[rand].points);
             }
         }
+        document.getElementById("input").value = "";
     }
     questionNum = Math.floor(Math.random() * data[0].questionAndPoints.length);
     rand = Math.floor(Math.random() * data.length);
@@ -36,7 +37,7 @@ function nextQuestion () {
     answer = randQuestionAndPoints[questionNum].answer;
     //console.log(rand + " " + answer);
     //console.log(questionNum);
-    document.getElementById("question").innerHTML = `${question}<br/><br/> Answer is: ${answer}`;
+    document.getElementById("question").innerHTML = `${question}`;
     functionRun++;
     
 }
