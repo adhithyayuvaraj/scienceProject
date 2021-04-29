@@ -27,9 +27,9 @@ function nextQuestion () {
         }else{
             document.getElementById("result").innerHTML = " You got the last question incorrect. Sorry, the answer is:" + answer;
             let idName = "el" + (rand+1);
-                console.log(idName)
                 let element = document.getElementById(idName);
-                element.style.visibily = "hidden";
+                element.style.visibility = "hidden";
+                console.log(element.style.visibility)
             if(data[rand].points > 0){
                 points--;
                 data[rand].points --;
