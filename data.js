@@ -191,5 +191,133 @@ let data = [
             }
         ]
     },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Aluminium            ",
+                answer:13
+            },{
+                question:"Aluminium 's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Aluminium 's abbreviation",
+                answer:"Al"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Silicon          ",
+                answer:14
+            },{
+                question:"Silicon 's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Silicon 's abbreviation",
+                answer:"Si"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Phosphorus  ",
+                answer:15
+            },{
+                question:"Phosphorus 's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Phosphorus 's abbreviation",
+                answer:"P"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Sulfur  ",
+                answer:16
+            },{
+                question:"Sulfur 's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Sulfur's abbreviation",
+                answer:"S"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Chlorine  ",
+                answer:17
+            },{
+                question:"Chlorine 's State at room temperature",
+                answer:"Gas"
+            },
+            {
+                question:"Sulfur's abbreviation",
+                answer:"Cl"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Argon  ",
+                answer:18
+            },{
+                question:"Argon's State at room temperature",
+                answer:"Gas"
+            },
+            {
+                question:"Argon's abbreviation",
+                answer:"Ar"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Potassium ",
+                answer:19
+            },{
+                question:"Potssium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Potassium's abbreviation",
+                answer:"K"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Potassium ",
+                answer:20
+            },{
+                question:"Potssium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Potassium's abbreviation",
+                answer:"Ca"
+            }
+        ]
+    },
 ]
 

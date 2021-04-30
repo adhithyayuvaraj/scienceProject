@@ -23,6 +23,7 @@ function nextQuestion () {
                 console.log(data[rand].points + " On..." + rand);
                 let element = document.getElementById(idName);
                 element.style.visibility = "visible";
+                document.getElementsByClassName("questionMark")[rand].style.visibility = "hidden";
                 document.getElementById("points").innerHTML = `<b> You have ${points} point(s)!</b>`;
         }else{
             document.getElementById("result").innerHTML = " You got the last question incorrect. Sorry, the answer is:" + answer;
