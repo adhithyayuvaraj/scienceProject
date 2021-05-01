@@ -266,7 +266,7 @@ let data = [
                 answer:"Gas"
             },
             {
-                question:"Sulfur's abbreviation",
+                question:"'s abbreviation",
                 answer:"Cl"
             }
         ]
@@ -307,14 +307,14 @@ let data = [
         points:0,
         questionAndPoints: [
             {
-                question:"Number of protons in Potassium ",
+                question:"Number of protons in Calium ",
                 answer:20
             },{
-                question:"Potssium's State at room temperature",
+                question:"Calium's State at room temperature",
                 answer:"Solid"
             },
             {
-                question:"Potassium's abbreviation",
+                question:"Calium's abbreviation",
                 answer:"Ca"
             }
         ]

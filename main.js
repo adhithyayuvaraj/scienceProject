@@ -4,14 +4,14 @@ let questionNum = Math.floor(Math.random() * data[0].questionAndPoints.length);
 let rand = Math.floor(Math.random() * data.length);
 let randQuestionAndPoints = data[rand].questionAndPoints;
 let question = randQuestionAndPoints[questionNum].question;
-let answer = randQuestionAndPoints[questionNum].answer;
+let answer = randQuestionAndPoints[questionNum].answer.toLowerCase();
 let inputElement = document.getElementById("showAndHide");
 inputElement.style.display =  "none";
 let points = 0;
 function nextQuestion () {
     inputElement.style.display = "block";
     if(functionRun > 0){
-        if (answer == document.getElementById("input").value) {
+        if (answer == document.getElementById("input").value.toLowerCase()) {
             document.getElementById("result").innerHTML = " You got the last question correct!";
                 console.log(functionRun);
                 points++;
@@ -30,6 +30,7 @@ function nextQuestion () {
             let idName = "el" + (rand+1);
                 let element = document.getElementById(idName);
                 element.style.visibility = "hidden";
+                document.getElementsByClassName("questionMark")[rand].style.visibility = "visible";
                 console.log(element.style.visibility)
             if(data[rand].points > 0){
                 points--;
