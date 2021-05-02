@@ -266,7 +266,7 @@ let data = [
                 answer:"Gas"
             },
             {
-                question:"'s abbreviation",
+                question:"Chlorine's abbreviation",
                 answer:"Cl"
             }
         ]
@@ -316,6 +316,102 @@ let data = [
             {
                 question:"Calium's abbreviation",
                 answer:"Ca"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Scandium",
+                answer:21
+            },{
+                question:"Scandium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Scandium's abbreviation",
+                answer:"Sc"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Titanium",
+                answer:22
+            },{
+                question:"Titanium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Titanium's abbreviation",
+                answer:"Ti"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Vandium",
+                answer:23
+            },{
+                question:"Vandium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Vandium's abbreviation",
+                answer:"V"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Chromium",
+                answer:24
+            },{
+                question:"Chromium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Chromium's abbreviation",
+                answer:"Cr"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Manganese",
+                answer:25
+            },{
+                question:"Manganese's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Manganese's abbreviation",
+                answer:"Mn"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of electrons in Iron",
+                answer:26
+            },{
+                question:"Manganese's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Iron's abbreviation",
+                answer:"Fe"
             }
         ]
     },
