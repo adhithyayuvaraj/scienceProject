@@ -527,5 +527,21 @@ let data = [
             }
         ]
     },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of electrons in Selenium",
+                answer:34
+            },{
+                question:"Selenium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Selenium's abbreviation",
+                answer:"Se"
+            }
+        ]
+    },
 ]
 
