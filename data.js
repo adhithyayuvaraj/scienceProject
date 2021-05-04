@@ -406,12 +406,124 @@ let data = [
                 question:"Number of electrons in Iron",
                 answer:26
             },{
-                question:"Manganese's State at room temperature",
+                question:"Iron's State at room temperature",
                 answer:"Solid"
             },
             {
                 question:"Iron's abbreviation",
                 answer:"Fe"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of electrons in Colbat",
+                answer:27
+            },{
+                question:"Colbat's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Colbat's abbreviation",
+                answer:"Co"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of electrons in Nickel",
+                answer:28
+            },{
+                question:"Nickel's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Nickel's abbreviation",
+                answer:"Ni"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of electrons in Copper",
+                answer:29
+            },{
+                question:"Copper's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Copper's abbreviation",
+                answer:"Cu"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of electrons in Zinc",
+                answer:30
+            },{
+                question:"Zinc's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Zinc's abbreviation",
+                answer:"Zn"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of electrons in Gallium",
+                answer:31
+            },{
+                question:"Gallium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Gallium's abbreviation",
+                answer:"Ga"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of electrons in Germanium",
+                answer:32
+            },{
+                question:"Germanium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Germanium's abbreviation",
+                answer:"Ge"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of electrons in Arsenic",
+                answer:33
+            },{
+                question:"Arsenic's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Arsenic's abbreviation",
+                answer:"As"
             }
         ]
     },

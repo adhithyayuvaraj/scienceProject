@@ -8,7 +8,18 @@ let answer = randQuestionAndPoints[questionNum].answer;
 let inputElement = document.getElementById("showAndHide");
 inputElement.style.display =  "none";
 let points = 0;
+/*
+function showTable () {
+    for(let i=1; i <= 118; i++){
+        let name = `el${i}`
+        document.getElementById(name).style.visibility = "visible";
+        let j = i - 1;
+        document.getElementsByClassName("questionMark")[j].style.visibility = "hidden";
+    }
+}
+showTable();
 
+*/
 
 function nextQuestion () {
     inputElement.style.display = "block";
