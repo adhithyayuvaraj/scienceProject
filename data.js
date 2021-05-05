@@ -1,3 +1,5 @@
+// All the questions in the quiz
+
 let data = [
     {
         points:0,
@@ -543,5 +545,468 @@ let data = [
             }
         ]
     },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of electrons in Bromine",
+                answer:35
+            },{
+                question:"Bromine's State at room temperature",
+                answer:"Liquid"
+            },
+            {
+                question:"Bromine's abbreviation",
+                answer:"Br"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of electrons in Krypton",
+                answer:36
+            },{
+                question:"Krypton's State at room temperature",
+                answer:"Liquid"
+            },
+            {
+                question:"Krypton's abbreviation",
+                answer:"Kr"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of electrons in Rubidium",
+                answer:37
+            },{
+                question:"Rubidium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Rubidium's abbreviation",
+                answer:"Rb"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Strontium",
+                answer:37
+            },{
+                question:"Strontium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Strontium's abbreviation",
+                answer:"Sr"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Yttrium",
+                answer:39
+            },{
+                question:"Yttrium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Yttrium's abbreviation",
+                answer:"Y"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Zirconium",
+                answer:40
+            },{
+                question:"Zirconium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Zirconium's abbreviation",
+                answer:"Zr"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Niobium",
+                answer:41
+            },{
+                question:"Niobium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Niobium's abbreviation",
+                answer:"Nb"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Molybdenum",
+                answer:42
+            },{
+                question:"Molybdenum's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Molybdenum's abbreviation",
+                answer:"Mo"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Technetium",
+                answer:43
+            },{
+                question:"Technetium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Technetium's abbreviation",
+                answer:"Tc"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Ruthenium",
+                answer:44
+            },{
+                question:"Ruthenium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Ruthenium's abbreviation",
+                answer:"Ru"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Rhodium",
+                answer:45
+            },{
+                question:"Rhodium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Rhodium's abbreviation",
+                answer:"Rh"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Palladium",
+                answer:46
+            },{
+                question:"Palladium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Palladium's abbreviation",
+                answer:"Pd"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Silver",
+                answer:47
+            },{
+                question:"Silver's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Silver's abbreviation",
+                answer:"Ag"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Cadmium",
+                answer:48
+            },{
+                question:"Cadmium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Cadmium's abbreviation",
+                answer:"Cd"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Indium",
+                answer:49
+            },{
+                question:"Indium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Indium's abbreviation",
+                answer:"In"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Tin",
+                answer:50
+            },{
+                question:"Tin's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Tin's abbreviation",
+                answer:"Sn"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of electrons in Antimony",
+                answer:51
+            },{
+                question:"Antimony's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Antimony's abbreviation",
+                answer:"Sb"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of electrons in Tellurium",
+                answer:52
+            },{
+                question:"Tellurium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Tellurium's abbreviation",
+                answer:"Te"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of electrons in Iodine",
+                answer:53
+            },{
+                question:"Iodine's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Iodine's abbreviation",
+                answer:"I"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of electrons in Xneon",
+                answer:54
+            },{
+                question:"Xneon's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Xneon's abbreviation",
+                answer:"Xe"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of electrons in Caesium",
+                answer:55
+            },{
+                question:"Caesium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Caesium's abbreviation",
+                answer:"Cs"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of electrons in Barium",
+                answer:56
+            },{
+                question:"Barium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Barium's abbreviation",
+                answer:"Ba"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of electrons in Lanthanum",
+                answer:57
+            },{
+                question:"Lanthanum's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Lanthanum's abbreviation",
+                answer:"La"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of electrons in Cerium",
+                answer:58
+            },{
+                question:"Cerium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Cerium's abbreviation",
+                answer:"Ce"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of electrons in Praseodymium",
+                answer:59
+            },{
+                question:"Praseodymium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Praseodymium's abbreviation",
+                answer:"Pr"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of electrons in Neodymium",
+                answer:60
+            },{
+                question:"Neodymium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Neodymium's abbreviation",
+                answer:"Nd"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of electrons in Promethium",
+                answer:61
+            },{
+                question:"Promethium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Promethium's abbreviation",
+                answer:"Pm"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of electrons in Samarium",
+                answer:62
+            },{
+                question:"Samarium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Samarium's abbreviation",
+                answer:"Sm"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of electrons in Europium",
+                answer:63
+            },{
+                question:"Europium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Europium's abbreviation",
+                answer:"Eu"
+            }
+        ]
+    },
 ]
-

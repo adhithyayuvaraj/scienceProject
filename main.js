@@ -33,18 +33,20 @@ function nextQuestion () {
                         data[rand].points++;
                     }
                     let idName = "el" + (rand+1);
+                    let AidName = idName + "a"
                     console.log(idName)
                     console.log(data[rand].points + " On..." + rand);
                     let element = document.getElementById(idName);
                     element.style.visibility = "visible";
-                    document.getElementsByClassName("questionMark")[rand].style.visibility = "hidden";
+                    document.getElementById(AidName).style.visibility = "hidden";
                     document.getElementById("points").innerHTML = `<b> You have ${points} point(s)!</b>`;
             }else{
                 document.getElementById("result").innerHTML = " You got the last question incorrect. Sorry, the answer is:" + answer;
                 let idName = "el" + (rand+1);
+                let AidName = idName + "a"
                     let element = document.getElementById(idName);
                     element.style.visibility = "hidden";
-                    document.getElementsByClassName("questionMark")[rand].style.visibility = "visible";
+                    document.getElementById(AidName).style.visibility = "visible";
                     console.log(element.style.visibility)
                 if(data[rand].points > 0){
                     points--;
@@ -62,18 +64,20 @@ function nextQuestion () {
                         data[rand].points++;
                     }
                     let idName = "el" + (rand+1);
+                    let AidName = idName + "a"
                     console.log(idName)
                     console.log(data[rand].points + " On..." + rand);
                     let element = document.getElementById(idName);
                     element.style.visibility = "visible";
-                    document.getElementsByClassName("questionMark")[rand].style.visibility = "hidden";
+                    document.getElementById(AidName).style.visibility = "hidden";
                     document.getElementById("points").innerHTML = `<b> You have ${points} point(s)!</b>`;
             }else{
                 document.getElementById("result").innerHTML = " You got the last question incorrect. Sorry, the answer is:" + answer;
                 let idName = "el" + (rand+1);
+                let AidName = idName + "a"
                     let element = document.getElementById(idName);
                     element.style.visibility = "hidden";
-                    document.getElementsByClassName("questionMark")[rand].style.visibility = "visible";
+                    document.getElementById(AidName).style.visibility = "visible";
                     console.log(element.style.visibility)
                 if(data[rand].points > 0){
                     points--;
