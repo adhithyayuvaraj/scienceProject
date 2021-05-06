@@ -1,5 +1,3 @@
-// All the questions in the quiz
-
 let data = [
     {
         points:0,
@@ -1006,6 +1004,902 @@ let data = [
             {
                 question:"Europium's abbreviation",
                 answer:"Eu"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of electrons in Gadolinium",
+                answer:64
+            },{
+                question:"Gadolinium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Gadolinium's abbreviation",
+                answer:"Gd"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of electrons in Terbium",
+                answer:65
+            },{
+                question:"Terbium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Terbium's abbreviation",
+                answer:"Tb"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of electrons in Dysprosium",
+                answer:66
+            },{
+                question:"Dysprosium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Dysprosium's abbreviation",
+                answer:"Dy"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Holmium",
+                answer:67
+            },{
+                question:"Holmium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Holmium's abbreviation",
+                answer:"Ho"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Erbium",
+                answer:68
+            },{
+                question:"Erbium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Erbium's abbreviation",
+                answer:"Er"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Thulium",
+                answer:69
+            },{
+                question:"Thulium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Thulium's abbreviation",
+                answer:"Tm"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Ytterbium",
+                answer:70
+            },{
+                question:"Ytterbium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Ytterbium's abbreviation",
+                answer:"Yb"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Lutetium",
+                answer:71
+            },{
+                question:"Lutetium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Lutetium's abbreviation",
+                answer:"Lu"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Hafnium",
+                answer:72
+            },{
+                question:"Hafnium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Hafnium's abbreviation",
+                answer:"Hf"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Hafnium",
+                answer:72
+            },{
+                question:"Hafnium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Hafnium's abbreviation",
+                answer:"Hf"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Tantalum",
+                answer:73
+            },{
+                question:"Tantalum's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Tantalum's abbreviation",
+                answer:"Ta"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Tungsten",
+                answer:74
+            },{
+                question:"Tungsten's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Tungsten's abbreviation",
+                answer:"W"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Rhenium",
+                answer:75
+            },{
+                question:"Rhenium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Rhenium's abbreviation",
+                answer:"Re"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Osmium",
+                answer:76
+            },{
+                question:"Osmium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Osmium's abbreviation",
+                answer:"Os"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Iridium",
+                answer:77
+            },{
+                question:"Iridium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Iridium's abbreviation",
+                answer:"Ir"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Platinum",
+                answer:77
+            },{
+                question:"Platinum's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Platinum's abbreviation",
+                answer:"Pt"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Gold",
+                answer:79
+            },{
+                question:"Gold's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Gold's abbreviation",
+                answer:"Au"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Mercury",
+                answer:80
+            },{
+                question:"Mercury's State at room temperature",
+                answer:"Liquid"
+            },
+            {
+                question:"Mercury's abbreviation",
+                answer:"Au"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Thallium",
+                answer:81
+            },{
+                question:"Thallium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Thallium's abbreviation",
+                answer:"Tl"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Lead",
+                answer:82
+            },{
+                question:"Lead's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Lead's abbreviation",
+                answer:"Pb"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Bismuth",
+                answer:83
+            },{
+                question:"Bismuth's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Bismuth's abbreviation",
+                answer:"Bi"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Polonium",
+                answer:84
+            },{
+                question:"Polonium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Polonium's abbreviation",
+                answer:"Po"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Astatine",
+                answer:85
+            },{
+                question:"Astatine's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Astatine's abbreviation",
+                answer:"At"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Radon",
+                answer:86
+            },{
+                question:"Radon's State at room temperature",
+                answer:"Gas"
+            },
+            {
+                question:"Radon's abbreviation",
+                answer:"Rn"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Francium",
+                answer:87
+            },{
+                question:"Francium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Francium's abbreviation",
+                answer:"Fr"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Radium",
+                answer:88
+            },{
+                question:"Radium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Radium's abbreviation",
+                answer:"Ra"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Actinium",
+                answer:89
+            },{
+                question:"Actinium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Actinium's abbreviation",
+                answer:"Ac"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Thorium",
+                answer:90
+            },{
+                question:"Thorium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Thorium's abbreviation",
+                answer:"Th"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Protactinium",
+                answer:91
+            },{
+                question:"Protactinium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Protactinium's abbreviation",
+                answer:"Pa"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Uranium",
+                answer:92
+            },{
+                question:"Uranium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Uranium's abbreviation",
+                answer:"U"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Neptunium ",
+                answer:93
+            },{
+                question:"Neptunium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Neptunium's abbreviation",
+                answer:"Np"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Plutonium ",
+                answer:94
+            },{
+                question:"Plutonium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Plutonium's abbreviation",
+                answer:"Pu"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Americium",
+                answer:95
+            },{
+                question:"Americium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Americium's abbreviation",
+                answer:"Am"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Curium",
+                answer:96
+            },{
+                question:"Curium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Curium's abbreviation",
+                answer:"Cm"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Berkelium",
+                answer:97
+            },{
+                question:"Berkelium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Berkelium's abbreviation",
+                answer:"Bk"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Californium",
+                answer:98
+            },{
+                question:"Californium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Californium's abbreviation",
+                answer:"Cf"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Einsteinium",
+                answer:99
+            },{
+                question:"Einsteinium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Einsteinium's abbreviation",
+                answer:"Es"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Fermium",
+                answer:100
+            },{
+                question:"Fermium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Fermium's abbreviation",
+                answer:"Fm"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Mendelevium",
+                answer:101
+            },{
+                question:"Mendelevium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Mendelevium's abbreviation",
+                answer:"Md"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Nobelium",
+                answer:102
+            },{
+                question:"Nobelium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Nobelium's abbreviation",
+                answer:"No"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Lawrencium",
+                answer:103
+            },{
+                question:"Lawrencium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Lawrencium's abbreviation",
+                answer:"Lr"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Rutherfordium",
+                answer:104
+            },{
+                question:"Rutherfordium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Rutherfordium's abbreviation",
+                answer:"Rf"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Dubnium",
+                answer:105
+            },{
+                question:"Dubnium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Dubnium's abbreviation",
+                answer:"Db"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Seaborgium",
+                answer:106
+            },{
+                question:"Seaborgium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Seaborgium's abbreviation",
+                answer:"Sg"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Bohrium",
+                answer:107
+            },{
+                question:"Bohrium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Bohrium's abbreviation",
+                answer:"Bh"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Hassium",
+                answer:108
+            },{
+                question:"Hassium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Hassium's abbreviation",
+                answer:"Hs"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Meitnerium",
+                answer:109
+            },{
+                question:"Meitnerium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Meitnerium's abbreviation",
+                answer:"Mt"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Darmstadtium",
+                answer:110
+            },{
+                question:"Darmstadtium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Darmstadtium's abbreviation",
+                answer:"Ds"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Roentgenium",
+                answer:111
+            },{
+                question:"Roentgenium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Roentgenium's abbreviation",
+                answer:"Rg"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Copernicium",
+                answer:112
+            },{
+                question:"Copernicium's State at room temperature",
+                answer:"Liquid"
+            },
+            {
+                question:"Copernicium's abbreviation",
+                answer:"Cn"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Nihonium",
+                answer:113
+            },{
+                question:"Nihonium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Nihonium's abbreviation",
+                answer:"Nh"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Flerovium",
+                answer:114
+            },{
+                question:"Flerovium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Flerovium's abbreviation",
+                answer:"Fl"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Moscovium",
+                answer:115
+            },{
+                question:"Moscovium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Moscovium's abbreviation",
+                answer:"Mc"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Livermorium",
+                answer:116
+            },{
+                question:"Livermorium's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Livermorium's abbreviation",
+                answer:"Lv"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Tennessine",
+                answer:117
+            },{
+                question:"Tennessine's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Tennessine's abbreviation",
+                answer:"Ts"
+            }
+        ]
+    },
+    {
+        points:0,
+        questionAndPoints: [
+            {
+                question:"Number of protons in Oganesson",
+                answer:118
+            },{
+                question:"Oganesson's State at room temperature",
+                answer:"Solid"
+            },
+            {
+                question:"Oganesson's abbreviation",
+                answer:"Og"
             }
         ]
     },

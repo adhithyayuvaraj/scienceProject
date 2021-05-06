@@ -8,19 +8,6 @@ let answer = randQuestionAndPoints[questionNum].answer;
 let inputElement = document.getElementById("showAndHide");
 inputElement.style.display =  "none";
 let points = 0;
-/*
-function showTable () {
-    for(let i=1; i <= 118; i++){
-        let name = `el${i}`
-        document.getElementById(name).style.visibility = "visible";
-        let j = i - 1;
-        document.getElementsByClassName("questionMark")[j].style.visibility = "hidden";
-    }
-}
-showTable();
-
-*/
-
 function nextQuestion () {
     inputElement.style.display = "block";
     if(functionRun > 0){
@@ -32,6 +19,7 @@ function nextQuestion () {
                     if(data[rand].points < 3){
                         data[rand].points++;
                     }
+                    
                     let idName = "el" + (rand+1);
                     let AidName = idName + "a"
                     console.log(idName)
@@ -43,7 +31,7 @@ function nextQuestion () {
             }else{
                 document.getElementById("result").innerHTML = " You got the last question incorrect. Sorry, the answer is:" + answer;
                 let idName = "el" + (rand+1);
-                let AidName = idName + "a"
+                    let AidName = idName + "a"
                     let element = document.getElementById(idName);
                     element.style.visibility = "hidden";
                     document.getElementById(AidName).style.visibility = "visible";
@@ -74,7 +62,7 @@ function nextQuestion () {
             }else{
                 document.getElementById("result").innerHTML = " You got the last question incorrect. Sorry, the answer is:" + answer;
                 let idName = "el" + (rand+1);
-                let AidName = idName + "a"
+                    let AidName = idName + "a"
                     let element = document.getElementById(idName);
                     element.style.visibility = "hidden";
                     document.getElementById(AidName).style.visibility = "visible";
