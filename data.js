@@ -1155,22 +1155,6 @@ let data = [
         points:0,
         questionAndPoints: [
             {
-                question:"Number of protons in Hafnium",
-                answer:72
-            },{
-                question:"Hafnium's State at room temperature",
-                answer:"Solid"
-            },
-            {
-                question:"Hafnium's abbreviation",
-                answer:"Hf"
-            }
-        ]
-    },
-    {
-        points:0,
-        questionAndPoints: [
-            {
                 question:"Number of protons in Tantalum",
                 answer:73
             },{

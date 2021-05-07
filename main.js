@@ -23,7 +23,7 @@ function nextQuestion () {
                     let idName = "el" + (rand+1);
                     let AidName = idName + "a"
                     console.log(idName)
-                    console.log(data[rand].points + " On..." + rand);
+                    console.log(data[rand].points + " On..." + (rand + 1));
                     let element = document.getElementById(idName);
                     element.style.visibility = "visible";
                     document.getElementById(AidName).style.visibility = "hidden";
@@ -54,7 +54,7 @@ function nextQuestion () {
                     let idName = "el" + (rand+1);
                     let AidName = idName + "a"
                     console.log(idName)
-                    console.log(data[rand].points + " On..." + rand);
+                    console.log(data[rand].points + " On..." + (rand + 1));
                     let element = document.getElementById(idName);
                     element.style.visibility = "visible";
                     document.getElementById(AidName).style.visibility = "hidden";
@@ -88,3 +88,9 @@ function nextQuestion () {
     
 }
 
+function showRules () {
+    document.getElementById("rules").style.display = "block"
+}
+function hideRules () {
+    document.getElementById("rules").style.display = "none"
+}

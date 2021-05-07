@@ -14,8 +14,22 @@
             <span id="points"> You have no points</span>
             <br/><br/><span id="result">Answer a question to see if you got it right.</span>
             <br/><br/>
+            <button id="showRules" onclick="hideRules()" style="display: block;">Hide Rules</button>
+            <br/>
+            <button id="showRules" onclick="showRules()" style="display: block;">Show Rules</button>
     </div>
-    <hr/> 
+    <hr/>
+    <div id="rules">
+        <h1>Rules</h1>
+        <p>
+            The rules are simple: Keep clicking next question
+            to see your, well, next question. Then, your progress bar
+            will tell you if you got it right or wrong, and what the correct
+            answer was. Also, the periodic table progress section will
+            tell you what elements you discovered!
+        </p>
+        <h2>3,2,1 get element uncovering!</h2>
+    </div> 
     <div id="quiz">
         <div id= "question"></div>
         <div id = "showAndHide">
@@ -134,6 +148,7 @@
             <td id="el117" title="Tennessine" class="halogen" style="visibility:hidden"><sup>117</sup>Ts<span id="el117a" style="visibility: visible;">?</span></td>
             <td id="el118" title="Oganesson" class="noble" style="visibility:hidden"><sup>118</sup>Og<span id="el118a" style="visibility: visible;">?</span></td>
             </tr>
+            <tr class="spacer"><td class="empty" colspan=18></td></tr>
             <tr class="spacer"><td class="empty" colspan=18></td></tr>
             <tr>
             <td class="empty" colspan="3"></td>
