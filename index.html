@@ -9,17 +9,17 @@
     <link rel="shortcut icon" type="image/jpg" href="logo.png"/>
 </head>
 <body>
+    <!--All the text and input boxes on the page-->
+    <br/><br/>
     <h1 style="text-align: center;">The Periodic Table Game!</h1>
     <h3 style="text-align: center;">Made by Adhithya Yuvaraj</h3>
-    <!--All the text and input boxes on the page-->
-    <div id="progress" > 
-            <span id="points"> You have no points</span>
-            <br/><br/><span id="result">Answer a question to see if you got it right.</span>
-            <br/><br/>
-            <button id="hideRules" onclick="hideRules()" style="display:inline-block">Hide Rules</button>
-            <br/>
-            <button id="showRules" onclick="showRules()" style="display: inline-block;">Show Rules</button>
+    <div class="topBar">
+        <button id="ruleBtn" class="topBtn">Rules</button>
+        <button id="quizBtn" class="topBtn">Quiz</button>
+        <button id="progressBtn" class="topBtn">Progress</button>
     </div>
+    <br/>
+    <br/>
     <div id="rules">
         <h1>Rules</h1>
         <p>
@@ -32,6 +32,8 @@
         <h2>3,2,1 get element uncovering!</h2>
     </div> 
     <div id="quiz">
+        <span id="result"><b>Answer a question to see if you got it right.</b></span>
+        <br/><br/>
         <div id= "question"></div>
         <div id = "showAndHide">
             <input type="text" id = "input"/>
@@ -40,8 +42,11 @@
         </div>
         <button id="next" onclick = "nextQuestion()">Next Question</button>
     </div>
-    <div class="table">
-        <h1 style="text-align: center;">Periodic Table Progress!</h1>
+    <div id="progress">
+
+        <h2 style="text-align: center;">Periodic Table Progress!</h1>
+        <span id="points"> You have no points</span>
+            <br/><br/>
         <table class="periodic">
             <tr id="p1">
             <td id="el1" title="Hydrogen" style="visibility:hidden"><sup>1</sup>H<span id="el1a" style="visibility: visible;">?</span></td>
@@ -191,7 +196,9 @@
             </tr>
         </table>
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="data.js"></script>
     <script src="main.js"></script>
+    <script src="topbar.js"></script>
 </body>
 </html>

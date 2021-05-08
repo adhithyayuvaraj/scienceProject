@@ -1,3 +1,4 @@
+//all the logic
 document.getElementById("question").innerHTML = "Click 'next question' for your questions to start appearing";
 let functionRun = 0;
 let questionNum = Math.floor(Math.random() * data[0].questionAndPoints.length);

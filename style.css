@@ -88,13 +88,34 @@ td:hover{
 .table{
     font-size: 18px;
 }
-.periodic{
-    text-align:center;
-}
 #rules{
     width:50%;
     padding:5%;
     margin:5% 25% 0% 25%;
     border:3px solid black;
     background-image: url(paper.png);
+}
+
+.topBar{
+    position: absolute;
+    width:100%;
+    text-align:center;
+}
+.topBtn{
+    font-size:18px;
+    border:none;
+    border-radius:5px;
+    background-color:inherit;
+    width:100px;
+    height:50px;
+    text-align:center; 
+    transition-property: background-color;
+    transition-duration: 750ms;
+    font-family: Helvetica;
+    border:3px solid black;
+}
+.topBtn:hover{
+    font-style: italic;
+    color:gray;
+    font-family: "cursive","Comic Sans MS","serif";
 }
