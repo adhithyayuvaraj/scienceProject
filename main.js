@@ -90,7 +90,11 @@ function nextQuestion () {
 
 function showRules () {
     document.getElementById("rules").style.display = "block"
+    document.getElementById("showRules").style.display = "none"
+    document.getElementById("showRules").style.display = "block"
 }
 function hideRules () {
     document.getElementById("rules").style.display = "none"
+    document.getElementById("hideRules").style.display = "block"
+    document.getElementById("hideRules").style.display = "block"
 }
