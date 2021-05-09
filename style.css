@@ -7,10 +7,15 @@
     font-size:25px;
     margin:5% 25% 0% 25%;
 }
+.periodic{
+    font-size:20px;
+    text-align:left;
+}
 body{
     width:100%;
     height: 100%;
     margin: 3px;
+    background-image: url(paper.png);
 }
 #next{
     cursor:pointer;
@@ -20,8 +25,6 @@ body{
     padding:5%;
     margin:5% 25% 0% 25%;
     font-size:25px;
-    border:3px solid black;
-    background-image: url(paper.png);
 }
 td{
     border:1px solid white;
@@ -92,8 +95,6 @@ td:hover{
     width:50%;
     padding:5%;
     margin:5% 25% 0% 25%;
-    border:3px solid black;
-    background-image: url(paper.png);
 }
 
 .topBar{
@@ -119,3 +120,16 @@ td:hover{
     color:gray;
     font-family: "cursive","Comic Sans MS","serif";
 }
+.onTab{
+    font-style: italic;
+    background-color:rgb(207, 207, 207);
+    transition-duration: 750ms;
+    font-family: Helvetica;
+    border:3px solid black;
+    width:100px;
+    height:50px;
+    border-radius:5px;
+    font-size:18px;
+    
+}
+
