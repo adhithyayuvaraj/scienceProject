@@ -1,3 +1,4 @@
+// the data for the elements.
 let data = [
     {
         points:0,
