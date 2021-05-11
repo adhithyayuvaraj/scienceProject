@@ -9,6 +9,14 @@ let answer = randQuestionAndPoints[questionNum].answer;
 let inputElement = document.getElementById("showAndHide");
 inputElement.style.display =  "none";
 let points = 0;
+function wrongMessage (answer) {
+    let message = ` <div class="alert alert-danger" role="alert"> <b>You got the last question incorrect. The answer is: __ANSWER__ &#129300;</b></div>`;
+    return message.replace("__ANSWER__", answer);
+}
+function rightMessage (points) {
+    let message = `<div class="alert alert-success" role="alert"><b> You got the last question correct!</b><br/><b> You have __POINTS__ point(s)! &#128077;</b></div>`;
+    return message.replace("__POINTS__", points);
+}
 function nextQuestion () {
     inputElement.style.display = "block";
     if(functionRun > 0){
@@ -17,7 +25,6 @@ function nextQuestion () {
         }else{
             if(isNaN(answer)){
                 if (answer.toLowerCase() == document.getElementById("input").value.toLowerCase()) {
-                    document.getElementById("result").innerHTML = " You got the last question correct!";
                         console.log(functionRun);
                         points++;
                         if(data[rand].points < 3){
@@ -31,9 +38,10 @@ function nextQuestion () {
                         let element = document.getElementById(idName);
                         element.style.visibility = "visible";
                         document.getElementById(AidName).style.visibility = "hidden";
-                        document.getElementById("points").innerHTML = `<b> You have ${points} point(s)!</b>`;
+                        `<b> You have ${points} point(s)!</b>`;
+                        document.getElementById("result").innerHTML = rightMessage(points);
                 }else{
-                    document.getElementById("result").innerHTML = " You got the last question incorrect. The answer is:" + answer;
+                    document.getElementById("result").innerHTML = wrongMessage(answer);
                     let idName = "el" + (rand+1);
                         let AidName = idName + "a"
                         let element = document.getElementById(idName);
@@ -49,7 +57,6 @@ function nextQuestion () {
                 document.getElementById("input").value = "";
             }else{
                 if (answer == document.getElementById("input").value) {
-                    document.getElementById("result").innerHTML = " You got the last question correct!";
                         console.log(functionRun);
                         points++;
                         if(data[rand].points < 3){
@@ -62,9 +69,9 @@ function nextQuestion () {
                         let element = document.getElementById(idName);
                         element.style.visibility = "visible";
                         document.getElementById(AidName).style.visibility = "hidden";
-                        document.getElementById("points").innerHTML = `<b> You have ${points} point(s)!</b>`;
+                        document.getElementById("result").innerHTML = rightMessage(points);
                 }else{
-                    document.getElementById("result").innerHTML = " You got the last question incorrect. The answer is:" + answer;
+                    document.getElementById("result").innerHTML = wrongMessage(answer);
                     let idName = "el" + (rand+1);
                         let AidName = idName + "a"
                         let element = document.getElementById(idName);
