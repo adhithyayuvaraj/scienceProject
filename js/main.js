@@ -30,6 +30,7 @@ function nextQuestion () {
                         if(data[rand].points < 3){
                             data[rand].points++;
                         }
+                        pop();
                         
                         let idName = "el" + (rand+1);
                         let AidName = idName + "a"
@@ -62,6 +63,7 @@ function nextQuestion () {
                         if(data[rand].points < 3){
                             data[rand].points++;
                         }
+                        pop();
                         let idName = "el" + (rand+1);
                         let AidName = idName + "a"
                         console.log(idName)
