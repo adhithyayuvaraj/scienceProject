@@ -21,7 +21,7 @@ function nextQuestion () {
     inputElement.style.display = "block";
     if(functionRun > 0){
         if(document.getElementById("input").value.toLowerCase() == ""){
-            document.getElementById("result").innerHTML = "Uh-oh! You did not write anything for the last question!";
+            document.getElementById("result").innerHTML = `<div class="alert alert-warning" role="alert">Uh-oh! You did not write anything for the last question! You will not lose or gain any points!&#9888;&#65039;`;
         }else{
             if(isNaN(answer)){
                 if (answer.toLowerCase() == document.getElementById("input").value.toLowerCase()) {

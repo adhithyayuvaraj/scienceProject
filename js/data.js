@@ -856,7 +856,7 @@ let data = [
                 answer:54
             },{
                 question:"Xneon's State at room temperature",
-                answer:"Solid"
+                answer:"Gas"
             },
             {
                 question:"Xneon's abbreviation",
