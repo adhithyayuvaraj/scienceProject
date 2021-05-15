@@ -26,15 +26,18 @@
         </div>
         <div class="modal-body">
             <p>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;To start the game, click the ‘next question’ button. 
-                    Once you click the next question button, a question will pop up. 
-                    Answer  the question in the input box and then click next 
-                    question again. A new question will pop up and a box 
-                    below the place you input you answer, (green for correct,
-                    red for incorrect) will tell you if you got the last question you 
-                    answered right. Make sure to look at the periodic table to see what 
-                    elements you uncovered! Make sure not to reload or exit the page, 
-                    or all your progress will be lost!
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;
+                    To begin the game you need to click the “Let the fun begin” button.
+                    First, you will answer the question above the input box. Next, you must click the “Continue” button.
+                    Once the you click the continue button, an alert will pop up. If the alert is red, you answered the question wrong.
+                     If the alert is green, you answered the question right. 
+                     If the alert is yellow, you did not type anything for the last question.
+                     You get one point for every right answer. Also, the element based on the 
+                     question is revealed on the periodic table. Your progress will be lost if 
+                     you exit or reload the page (version two is on the way to fix this). 
+                     The game can continue on until all the elements in the periodic table are 
+                     revealed!
+                    
                 </p>
     
             </p>
@@ -65,7 +68,7 @@
                     <span id="points"><b>Look below to see what elements you uncovered!</b></span>
             </div>
         </div>
-            <button id="next" onclick = "nextQuestion()" class="btn btn-primary">Next Question</button>
+            <button id="next" onclick = "nextQuestion()" class="btn btn-primary">Let the fun begin</button>
         <br/>
   </div>
         <table class="periodic">

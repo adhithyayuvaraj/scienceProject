@@ -10,18 +10,20 @@ let inputElement = document.getElementById("showAndHide");
 inputElement.style.display =  "none";
 let points = 0;
 function wrongMessage (answer) {
-    let message = ` <div class="alert alert-danger" role="alert"> <b>You got the last question incorrect. The answer is: __ANSWER__ &#129300;</b></div>`;
+    let message = ` <div class="alert alert-danger" role="alert"> <b>You got the last question incorrect.<br/> The answer is: __ANSWER__ &#129300;</b></div>`;
     return message.replace("__ANSWER__", answer);
 }
 function rightMessage (points) {
     let message = `<div class="alert alert-success" role="alert"><b> You got the last question correct!</b><br/><b> You have __POINTS__ point(s)! &#128077;</b></div>`;
     return message.replace("__POINTS__", points);
 }
+
 function nextQuestion () {
     inputElement.style.display = "block";
+    document.getElementById("next").innerHTML = "Continue";
     if(functionRun > 0){
         if(document.getElementById("input").value.toLowerCase() == ""){
-            document.getElementById("result").innerHTML = `<div class="alert alert-warning" role="alert">Uh-oh! You did not write anything for the last question! You will not lose or gain any points!&#9888;&#65039;`;
+            document.getElementById("result").innerHTML = `<div class="alert alert-warning" role="alert">You did not write anything for the last question!<br/> The answer is: ${answer}  &#9888;&#65039;`;
         }else{
             if(isNaN(answer)){
                 if (answer.toLowerCase() == document.getElementById("input").value.toLowerCase()) {
