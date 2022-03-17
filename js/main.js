@@ -1,9 +1,9 @@
 //all the logic
 document.getElementById("question").innerHTML = "Click 'next question' for your questions to start appearing";
 let functionRun = 0;
-let questionNum = Math.floor(Math.random() * data[0].questionAndPoints.length);
 let rand = Math.floor(Math.random() * data.length);
 let randQuestionAndPoints = data[rand].questionAndPoints;
+let questionNum = Math.floor(Math.random() * randQuestionAndPoints.length);
 let question = randQuestionAndPoints[questionNum].question;
 let answer = randQuestionAndPoints[questionNum].answer;
 let inputElement = document.getElementById("showAndHide");
@@ -29,7 +29,7 @@ function nextQuestion () {
                 if (answer.toLowerCase() == document.getElementById("input").value.toLowerCase()) {
                         console.log(functionRun);
                         points++;
-                        if(data[rand].points < 3){
+                        if(data[rand].points < 4){
                             data[rand].points++;
                         }
                         pop();
@@ -62,7 +62,7 @@ function nextQuestion () {
                 if (answer == document.getElementById("input").value) {
                         console.log(functionRun);
                         points++;
-                        if(data[rand].points < 3){
+                        if(data[rand].points < 4){
                             data[rand].points++;
                         }
                         pop();

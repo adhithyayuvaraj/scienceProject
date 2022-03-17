@@ -13,6 +13,10 @@ let data = [
             {
                 question:"Hydrogen's abbreviation",
                 answer:"H"
+            },
+            {
+                question:"Hydrogen's (most common) oxidation",
+                answer:1
             }
         ]
     },
@@ -29,6 +33,10 @@ let data = [
             {
                 question:"Helium's abbreviation",
                 answer:"He"
+            },
+            {
+                question:"Helium's (most common) oxidation",
+                answer:0
             }
         ]
     },
@@ -45,6 +53,10 @@ let data = [
             {
                 question:"Lithium's abbreviation",
                 answer:"Li"
+            },
+            {
+                question:"Lithium's (most common) oxidation",
+                answer:+1
             }
         ]
     },
@@ -61,6 +73,10 @@ let data = [
             {
                 question:"Beryllium's abbreviation",
                 answer:"Be"
+            },
+            {
+                question:"Beryllium's (most common) oxidation",
+                answer:+2
             }
         ]
     },
@@ -77,6 +93,10 @@ let data = [
             {
                 question:"Boron's abbreviation",
                 answer:"B"
+            },
+            {
+                question:"Boron's (most common) oxidation",
+                answer:+3
             }
         ]
     },
@@ -93,6 +113,10 @@ let data = [
             {
                 question:"Carbon's abbreviation",
                 answer:"C"
+            },
+            {
+                question:"Carbon's (most common) oxidation",
+                answer:+4
             }
         ]
     },
@@ -109,6 +133,10 @@ let data = [
             {
                 question:"Nitrogen's abbreviation",
                 answer:"N"
+            },
+            {
+                question:"Nitrogen's (most common) oxidation",
+                answer:-3
             }
         ]
     },
@@ -125,6 +153,10 @@ let data = [
             {
                 question:"Oxygen's abbreviation",
                 answer:"O"
+            },
+            {
+                question:"Oxygen's (most common) oxidation",
+                answer:-2
             }
         ]
     },
@@ -141,6 +173,10 @@ let data = [
             {
                 question:"Fluorine's abbreviation",
                 answer:"F"
+            },
+            {
+                question:"Fluorine's (most common) oxidation",
+                answer:-1
             }
         ]
     },
@@ -157,6 +193,10 @@ let data = [
             {
                 question:"Neon's abbreviation",
                 answer:"Ne"
+            },
+            {
+                question:"Neon's (most common) oxidation",
+                answer:0
             }
         ]
     },
@@ -1887,5 +1927,5 @@ let data = [
                 answer:"Og"
             }
         ]
-    },
+    }
 ]
