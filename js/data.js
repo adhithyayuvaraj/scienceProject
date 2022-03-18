@@ -1,5 +1,7 @@
 // the data for the elements.
+
 let data = [
+
     {
         points:0,
         questionAndPoints: [
@@ -15,7 +17,11 @@ let data = [
                 answer:"H"
             },
             {
-                question:"Hydrogen's (most common) oxidation",
+                question:"Hydrogen's oxidation state that makes the outer shell of itself 'full' when combined with another element",
+                answer:+1
+            },
+            {
+                question:"Number of valence electrons in Hyrdogen",
                 answer:1
             }
         ]
@@ -35,11 +41,16 @@ let data = [
                 answer:"He"
             },
             {
-                question:"Helium's (most common) oxidation",
+                question:"Helium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
+                answer:0
+            },
+            {
+                question:"Number of valence electrons in Helium",
                 answer:0
             }
         ]
     },
+
     {
         points:0,
         questionAndPoints: [
@@ -55,7 +66,7 @@ let data = [
                 answer:"Li"
             },
             {
-                question:"Lithium's (most common) oxidation",
+                question:"Lithium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+1
             }
         ]
@@ -75,7 +86,7 @@ let data = [
                 answer:"Be"
             },
             {
-                question:"Beryllium's (most common) oxidation",
+                question:"Beryllium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+2
             }
         ]
@@ -95,7 +106,7 @@ let data = [
                 answer:"B"
             },
             {
-                question:"Boron's (most common) oxidation",
+                question:"Boron's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+3
             }
         ]
@@ -115,7 +126,7 @@ let data = [
                 answer:"C"
             },
             {
-                question:"Carbon's (most common) oxidation",
+                question:"Carbon's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+4
             }
         ]
@@ -135,7 +146,7 @@ let data = [
                 answer:"N"
             },
             {
-                question:"Nitrogen's (most common) oxidation",
+                question:"Nitrogen's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:-3
             }
         ]
@@ -155,7 +166,7 @@ let data = [
                 answer:"O"
             },
             {
-                question:"Oxygen's (most common) oxidation",
+                question:"Oxygen's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:-2
             }
         ]
@@ -175,7 +186,7 @@ let data = [
                 answer:"F"
             },
             {
-                question:"Fluorine's (most common) oxidation",
+                question:"Fluorine's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:-1
             }
         ]
@@ -195,11 +206,12 @@ let data = [
                 answer:"Ne"
             },
             {
-                question:"Neon's (most common) oxidation",
+                question:"Neon's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:0
             }
         ]
     },
+
     {
         points:0,
         questionAndPoints: [
