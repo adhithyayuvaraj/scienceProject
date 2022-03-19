@@ -21,8 +21,12 @@ let data = [
                 answer:+1
             },
             {
-                question:"Number of valence electrons in Hyrdogen",
+                question:"Number of valence electrons in Hyrdogen (including the d-subshell and s-subshell for the d-block and f-block elements!)",
                 answer:1
+            },
+            {
+                question:"Electronegativity in Hydrogen. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:2.20
             }
         ]
     },
@@ -45,8 +49,12 @@ let data = [
                 answer:0
             },
             {
-                question:"Number of valence electrons in Helium",
-                answer:0
+                question:"Number of valence electrons in Hyrdogen (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:2
+            },
+            {
+                question:"Electronegativity in Helium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:"none"
             }
         ]
     },
@@ -68,6 +76,14 @@ let data = [
             {
                 question:"Lithium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+1
+            },
+            {
+                question:"Electronegativity in Lithium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:0.98
+            },
+            {
+                question:"Number of valence electrons in Lithium (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:1
             }
         ]
     },
@@ -88,6 +104,14 @@ let data = [
             {
                 question:"Beryllium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+2
+            },
+            {
+                question:"Electronegativity in Beryllium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:2.04
+            },
+            {
+                question:"Number of valence electrons in Beryllium (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:2
             }
         ]
     },
@@ -108,6 +132,14 @@ let data = [
             {
                 question:"Boron's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+3
+            },
+            {
+                question:"Electronegativity in Boron. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:2.04
+            },
+            {
+                question:"Number of valence electrons in Boron (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:3
             }
         ]
     },
@@ -128,6 +160,14 @@ let data = [
             {
                 question:"Carbon's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+4
+            },
+            {
+                question:"Electronegativity in Carbon. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:2.55
+            },
+            {
+                question:"Number of valence electrons in Carbon (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:4
             }
         ]
     },
@@ -148,6 +188,14 @@ let data = [
             {
                 question:"Nitrogen's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:-3
+            },
+            {
+                question:"Electronegativity in Nitrogen. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:3.04
+            },
+            {
+                question:"Number of valence electrons in Nitrogen (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:5
             }
         ]
     },
@@ -168,6 +216,14 @@ let data = [
             {
                 question:"Oxygen's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:-2
+            },
+            {
+                question:"Electronegativity in Oxygen. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:3.44
+            },
+            {
+                question:"Number of valence electrons in Oxygen (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:6
             }
         ]
     },
@@ -188,6 +244,14 @@ let data = [
             {
                 question:"Fluorine's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:-1
+            },
+            {
+                question:"Electronegativity in Fluorine. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:3.93
+            },
+            {
+                question:"Number of valence electrons in Fluorine (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:7
             }
         ]
     },
@@ -208,6 +272,14 @@ let data = [
             {
                 question:"Neon's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:0
+            },
+            {
+                question:"Electronegativity in Neon. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:"none"
+            },
+            {
+                question:"Number of valence electrons in Neon (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:8
             }
         ]
     },
@@ -225,6 +297,14 @@ let data = [
             {
                 question:"Sodium's abbreviation",
                 answer:"Na"
+            },
+            {
+                question:"Electronegativity in Sodium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:0.93
+            },
+            {
+                question:"Number of valence electrons in Sodium (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:1
             }
         ]
     },
@@ -232,15 +312,24 @@ let data = [
         points:0,
         questionAndPoints: [
             {
-                question:"Number of protons in Magnesium                ",
+                question:"Number of protons in Magnesium",
                 answer:12
-            },{
+            },
+            {
                 question:"Magnesium's State at room temperature",
                 answer:"Solid"
             },
             {
                 question:"Magnesium's abbreviation",
                 answer:"Mg"
+            },
+            {
+                question:"Electronegativity in Magnesium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.31
+            },
+            {
+                question:"Number of valence electrons in Magnesium (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:2
             }
         ]
     },
@@ -257,6 +346,14 @@ let data = [
             {
                 question:"Aluminum 's abbreviation",
                 answer:"Al"
+            },
+            {
+                question:"Electronegativity in Aluminum. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.61
+            },
+            {
+                question:"Number of valence electrons in Aluminum (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:3
             }
         ]
     },
@@ -273,6 +370,14 @@ let data = [
             {
                 question:"Silicon 's abbreviation",
                 answer:"Si"
+            },
+            {
+                question:"Electronegativity in Silicon. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.9
+            },
+            {
+                question:"Number of valence electrons in Silicon (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:4
             }
         ]
     },
@@ -289,6 +394,14 @@ let data = [
             {
                 question:"Phosphorus 's abbreviation",
                 answer:"P"
+            },
+            {
+                question:"Electronegativity in Phosphorus. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:2.19
+            },
+            {
+                question:"Number of valence electrons in Phosphorus (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:5
             }
         ]
     },
@@ -305,6 +418,14 @@ let data = [
             {
                 question:"Sulfur's abbreviation",
                 answer:"S"
+            },
+            {
+                question:"Electronegativity in Sulfur. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:2.58
+            },
+            {
+                question:"Number of valence electrons in Sulfur (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:6
             }
         ]
     },
@@ -321,6 +442,14 @@ let data = [
             {
                 question:"Chlorine's abbreviation",
                 answer:"Cl"
+            },
+            {
+                question:"Electronegativity in Chlorine. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:3.16
+            },
+            {
+                question:"Number of valence electrons in Chlorine (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:7
             }
         ]
     },
@@ -337,6 +466,14 @@ let data = [
             {
                 question:"Argon's abbreviation",
                 answer:"Ar"
+            },
+            {
+                question:"Electronegativity in Argon. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:"none"
+            },
+            {
+                question:"Number of valence electrons in Argon (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:8
             }
         ]
     },
@@ -353,6 +490,14 @@ let data = [
             {
                 question:"Potassium's abbreviation",
                 answer:"K"
+            },
+            {
+                question:"Electronegativity in Potassium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:0.82
+            },
+            {
+                question:"Number of valence electrons in Potassium (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:1
             }
         ]
     },
@@ -369,6 +514,14 @@ let data = [
             {
                 question:"Calcium's abbreviation",
                 answer:"Ca"
+            },
+            {
+                question:"Electronegativity in Calcium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1
+            },
+            {
+                question:"Number of valence electrons in Calcium (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:2
             }
         ]
     },
@@ -385,6 +538,14 @@ let data = [
             {
                 question:"Scandium's abbreviation",
                 answer:"Sc"
+            },
+            {
+                question:"Electronegativity in Scandium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.36
+            },
+            {
+                question:"Number of valence electrons in Scandium (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:3
             }
         ]
     },
@@ -401,6 +562,14 @@ let data = [
             {
                 question:"Titanium's abbreviation",
                 answer:"Ti"
+            },
+            {
+                question:"Electronegativity in Titanium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.54
+            },
+            {
+                question:"Number of valence electrons in Titanium (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:4
             }
         ]
     },
@@ -417,6 +586,14 @@ let data = [
             {
                 question:"Vanadium's abbreviation",
                 answer:"V"
+            },
+            {
+                question:"Electronegativity in Vandium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.63
+            },
+            {
+                question:"Number of valence electrons in Vandium (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:5
             }
         ]
     },
@@ -433,6 +610,14 @@ let data = [
             {
                 question:"Chromium's abbreviation",
                 answer:"Cr"
+            },
+            {
+                question:"Electronegativity in Chromium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.66
+            },
+            {
+                question:"Number of valence electrons in Chromium (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:6
             }
         ]
     },
@@ -449,6 +634,14 @@ let data = [
             {
                 question:"Manganese's abbreviation",
                 answer:"Mn"
+            },
+            {
+                question:"Electronegativity in Manganese. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.55
+            },
+            {
+                question:"Number of valence electrons in Manganese (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:7
             }
         ]
     },
@@ -465,6 +658,14 @@ let data = [
             {
                 question:"Iron's abbreviation",
                 answer:"Fe"
+            },
+            {
+                question:"Electronegativity in Iron. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.83
+            },
+            {
+                question:"Number of valence electrons in Iron (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:8
             }
         ]
     },
@@ -481,6 +682,14 @@ let data = [
             {
                 question:"Cobalt's abbreviation",
                 answer:"Co"
+            },
+            {
+                question:"Electronegativity in Cobalt. (If their is none, type 'none')",
+                answer:1.88
+            },
+            {
+                question:"Number of valence electrons in Cobalt (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:9
             }
         ]
     },
@@ -497,6 +706,14 @@ let data = [
             {
                 question:"Nickel's abbreviation",
                 answer:"Ni"
+            },
+            {
+                question:"Electronegativity in Nickel. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.91
+            },
+            {
+                question:"Number of valence electrons in Nickel (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:10
             }
         ]
     },
@@ -513,6 +730,14 @@ let data = [
             {
                 question:"Copper's abbreviation",
                 answer:"Cu"
+            },
+            {
+                question:"Electronegativity in Copper. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.9
+            },
+            {
+                question:"Number of valence electrons in Copper (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:11
             }
         ]
     },
@@ -529,6 +754,14 @@ let data = [
             {
                 question:"Zinc's abbreviation",
                 answer:"Zn"
+            },
+            {
+                question:"Electronegativity in Zinc. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.65
+            },
+            {
+                question:"Number of valence electrons in Zinc (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:12
             }
         ]
     },
@@ -545,6 +778,14 @@ let data = [
             {
                 question:"Gallium's abbreviation",
                 answer:"Ga"
+            },
+            {
+                question:"Electronegativity in Gallium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.81
+            },
+            {
+                question:"Number of valence electrons in Gallium (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:3
             }
         ]
     },
@@ -561,6 +802,14 @@ let data = [
             {
                 question:"Germanium's abbreviation",
                 answer:"Ge"
+            },
+            {
+                question:"Electronegativity in Germanium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:2.01
+            },
+            {
+                question:"Number of valence electrons in Germanium (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:4
             }
         ]
     },
@@ -577,6 +826,14 @@ let data = [
             {
                 question:"Arsenic's abbreviation",
                 answer:"As"
+            },
+            {
+                question:"Electronegativity in Arsenic. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:2.18
+            },
+            {
+                question:"Number of valence electrons in Arsenic (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:5
             }
         ]
     },
@@ -593,6 +850,14 @@ let data = [
             {
                 question:"Selenium's abbreviation",
                 answer:"Se"
+            },
+            {
+                question:"Electronegativity in Selenium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:2.55
+            },
+            {
+                question:"Number of valence electrons in Selenium (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:6
             }
         ]
     },
@@ -609,6 +874,14 @@ let data = [
             {
                 question:"Bromine's abbreviation",
                 answer:"Br"
+            },
+            {
+                question:"Electronegativity in Bromine. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:2.96
+            },
+            {
+                question:"Number of valence electrons in Bromine (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:7
             }
         ]
     },
@@ -625,6 +898,14 @@ let data = [
             {
                 question:"Krypton's abbreviation",
                 answer:"Kr"
+            },
+            {
+                question:"Electronegativity in Krypton. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:3
+            },
+            {
+                question:"Number of valence electrons in Krypton. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:8
             }
         ]
     },
@@ -641,6 +922,14 @@ let data = [
             {
                 question:"Rubidium's abbreviation",
                 answer:"Rb"
+            },
+            {
+                question:"Electronegativity in Rubidium (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:0.92
+            },
+            {
+                question:"Number of valence electrons in Rubidium. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:1
             }
         ]
     },
@@ -657,6 +946,14 @@ let data = [
             {
                 question:"Strontium's abbreviation",
                 answer:"Sr"
+            },
+            {
+                question:"Electronegativity in Strontium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:0.95
+            },
+            {
+                question:"Number of valence electrons in Strontium. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:2
             }
         ]
     },
@@ -673,6 +970,14 @@ let data = [
             {
                 question:"Yttrium's abbreviation",
                 answer:"Y"
+            },
+            {
+                question:"Electronegativity in Yttrium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.22
+            },
+            {
+                question:"Number of valence electrons in Yttrium. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:3
             }
         ]
     },
@@ -689,6 +994,14 @@ let data = [
             {
                 question:"Zirconium's abbreviation",
                 answer:"Zr"
+            },
+            {
+                question:"Electronegativity in Zirconium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.33
+            },
+            {
+                question:"Number of valence electrons in Zirocnium. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:4
             }
         ]
     },
@@ -705,6 +1018,14 @@ let data = [
             {
                 question:"Niobium's abbreviation",
                 answer:"Nb"
+            },
+            {
+                question:"Electronegativity in Niobium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.6
+            },
+            {
+                question:"Number of valence electrons in Niobium. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:5
             }
         ]
     },
@@ -721,6 +1042,14 @@ let data = [
             {
                 question:"Molybdenum's abbreviation",
                 answer:"Mo"
+            },
+            {
+                question:"Electronegativity in Molybdenum. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:2.16
+            },
+            {
+                question:"Number of valence electrons in Molybdenum. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:6
             }
         ]
     },
@@ -737,6 +1066,14 @@ let data = [
             {
                 question:"Technetium's abbreviation",
                 answer:"Tc"
+            },
+            {
+                question:"Electronegativity in Technetium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.9
+            },
+            {
+                question:"Number of valence electrons in Technetium. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:7
             }
         ]
     },
@@ -753,6 +1090,14 @@ let data = [
             {
                 question:"Ruthenium's abbreviation",
                 answer:"Ru"
+            },
+            {
+                question:"Electronegativity in Ruthenium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer: 2.2
+            },
+            {
+                question:"Number of valence electrons in Ruthenium. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:8
             }
         ]
     },
@@ -769,6 +1114,14 @@ let data = [
             {
                 question:"Rhodium's abbreviation",
                 answer:"Rh"
+            },
+            {
+                question:"Electronegativity in Rhodium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:2.28
+            },
+            {
+                question:"Number of valence electrons in Rhodium. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:9
             }
         ]
     },
@@ -785,6 +1138,14 @@ let data = [
             {
                 question:"Palladium's abbreviation",
                 answer:"Pd"
+            },
+            {
+                question:"Electronegativity in Palladium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:2.2
+            },
+            {
+                question:"Number of valence electrons in Palladium. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:10
             }
         ]
     },
@@ -801,6 +1162,14 @@ let data = [
             {
                 question:"Silver's abbreviation",
                 answer:"Ag"
+            },
+            {
+                question:"Electronegativity in Silver. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.93
+            },
+            {
+                question:"Number of valence electrons in Silver. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:11
             }
         ]
     },
@@ -817,6 +1186,14 @@ let data = [
             {
                 question:"Cadmium's abbreviation",
                 answer:"Cd"
+            },
+            {
+                question:"Electronegativity in Cadmium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.69
+            },
+            {
+                question:"Number of valence electrons in Cadmium. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:12
             }
         ]
     },
@@ -833,6 +1210,14 @@ let data = [
             {
                 question:"Indium's abbreviation",
                 answer:"In"
+            },
+            {
+                question:"Electronegativity in Indium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.78
+            },
+            {
+                question:"Number of valence electrons in Indium. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:3
             }
         ]
     },
@@ -849,6 +1234,14 @@ let data = [
             {
                 question:"Tin's abbreviation",
                 answer:"Sn"
+            },
+            {
+                question:"Electronegativity in Tin. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.96
+            },
+            {
+                question:"Number of valence electrons in Tin. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:4
             }
         ]
     },
@@ -865,6 +1258,14 @@ let data = [
             {
                 question:"Antimony's abbreviation",
                 answer:"Sb"
+            },
+            {
+                question:"Electronegativity in Antimony. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:2.05
+            },
+            {
+                question:"Number of valence electrons in Antimony. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:5
             }
         ]
     },
@@ -881,6 +1282,14 @@ let data = [
             {
                 question:"Tellurium's abbreviation",
                 answer:"Te"
+            },
+            {
+                question:"Electronegativity in Tellirum. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:2.1
+            },
+            {
+                question:"Number of valence electrons in Tellirum. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:6
             }
         ]
     },
@@ -897,6 +1306,14 @@ let data = [
             {
                 question:"Iodine's abbreviation",
                 answer:"I"
+            },
+            {
+                question:"Electronegativity in Iodine. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:2.66
+            },
+            {
+                question:"Number of valence electrons in Iodine. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:7
             }
         ]
     },
@@ -913,6 +1330,14 @@ let data = [
             {
                 question:"Xenon's abbreviation",
                 answer:"Xe"
+            },
+            {
+                question:"Electronegativity in Xneon. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:2.6
+            },
+            {
+                question:"Number of valence electrons in Xneon. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:8
             }
         ]
     },
@@ -929,6 +1354,14 @@ let data = [
             {
                 question:"Cesium's abbreviation",
                 answer:"Cs"
+            },
+            {
+                question:"Electronegativity in Cesium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:0.79
+            },
+            {
+                question:"Number of valence electrons in Cesium. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:1
             }
         ]
     },
@@ -945,6 +1378,14 @@ let data = [
             {
                 question:"Barium's abbreviation",
                 answer:"Ba"
+            },
+            {
+                question:"Electronegativity in Barium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:0.89
+            },
+            {
+                question:"Number of valence electrons in Barium. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:2
             }
         ]
     },
@@ -961,6 +1402,14 @@ let data = [
             {
                 question:"Lanthanum's abbreviation",
                 answer:"La"
+            },
+            {
+                question:"Electronegativity in Lanthanum. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.10
+            },
+            {
+                question:"Number of valence electrons in Lanthanum. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:3
             }
         ]
     },
@@ -977,6 +1426,14 @@ let data = [
             {
                 question:"Cerium's abbreviation",
                 answer:"Ce"
+            },
+            {
+                question:"Electronegativity in Cerium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.12
+            },
+            {
+                question:"Number of valence electrons in Cerium. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:4
             }
         ]
     },
@@ -993,6 +1450,14 @@ let data = [
             {
                 question:"Praseodymium's abbreviation",
                 answer:"Pr"
+            },
+            {
+                question:"Electronegativity in Praseodymium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.13
+            },
+            {
+                question:"Number of valence electrons in Praseodymium. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:8
             }
         ]
     },
@@ -1009,6 +1474,10 @@ let data = [
             {
                 question:"Neodymium's abbreviation",
                 answer:"Nd"
+            },
+            {
+                question:"Electronegativity in Neodymium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.14
             }
         ]
     },
@@ -1025,6 +1494,10 @@ let data = [
             {
                 question:"Promethium's abbreviation",
                 answer:"Pm"
+            },
+            {
+                question:"Electronegativity in Promethium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.13
             }
         ]
     },
@@ -1041,6 +1514,10 @@ let data = [
             {
                 question:"Samarium's abbreviation",
                 answer:"Sm"
+            },
+            {
+                question:"Electronegativity in Samarium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.17
             }
         ]
     },
@@ -1057,6 +1534,10 @@ let data = [
             {
                 question:"Europium's abbreviation",
                 answer:"Eu"
+            },
+            {
+                question:"Electronegativity in Europium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.2
             }
         ]
     },
@@ -1073,6 +1554,10 @@ let data = [
             {
                 question:"Gadolinium's abbreviation",
                 answer:"Gd"
+            },
+            {
+                question:"Electronegativity in Gadolinium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.2
             }
         ]
     },
@@ -1089,6 +1574,10 @@ let data = [
             {
                 question:"Terbium's abbreviation",
                 answer:"Tb"
+            },
+            {
+                question:"Electronegativity in Terbium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.2
             }
         ]
     },
@@ -1105,6 +1594,10 @@ let data = [
             {
                 question:"Dysprosium's abbreviation",
                 answer:"Dy"
+            },
+            {
+                question:"Electronegativity in Dysprossium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.22
             }
         ]
     },
@@ -1121,6 +1614,10 @@ let data = [
             {
                 question:"Holmium's abbreviation",
                 answer:"Ho"
+            },
+            {
+                question:"Electronegativity in Holmium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.23
             }
         ]
     },
@@ -1137,6 +1634,10 @@ let data = [
             {
                 question:"Erbium's abbreviation",
                 answer:"Er"
+            },
+            {
+                question:"Electronegativity in Erbium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.24
             }
         ]
     },
@@ -1153,6 +1654,10 @@ let data = [
             {
                 question:"Thulium's abbreviation",
                 answer:"Tm"
+            },
+            {
+                question:"Electronegativity in Thulium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.25
             }
         ]
     },
@@ -1169,6 +1674,10 @@ let data = [
             {
                 question:"Ytterbium's abbreviation",
                 answer:"Yb"
+            },
+            {
+                question:"Electronegativity in Ytterbium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.1
             }
         ]
     },
@@ -1185,6 +1694,10 @@ let data = [
             {
                 question:"Lutetium's abbreviation",
                 answer:"Lu"
+            },
+            {
+                question:"Electronegativity in Lutetium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.27
             }
         ]
     },
@@ -1201,6 +1714,10 @@ let data = [
             {
                 question:"Hafnium's abbreviation",
                 answer:"Hf"
+            },
+            {
+                question:"Electronegativity in Hafnium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.3
             }
         ]
     },
@@ -1217,6 +1734,10 @@ let data = [
             {
                 question:"Tantalum's abbreviation",
                 answer:"Ta"
+            },
+            {
+                question:"Electronegativity in Tantalum. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.5
             }
         ]
     },
@@ -1233,6 +1754,10 @@ let data = [
             {
                 question:"Tungsten's abbreviation",
                 answer:"W"
+            },,
+            {
+                question:"Electronegativity in Tungsten. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:2.36
             }
         ]
     },
@@ -1249,6 +1774,10 @@ let data = [
             {
                 question:"Rhenium's abbreviation",
                 answer:"Re"
+            },
+            {
+                question:"Electronegativity in Rhenium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.9
             }
         ]
     },
@@ -1265,6 +1794,10 @@ let data = [
             {
                 question:"Osmium's abbreviation",
                 answer:"Os"
+            },
+            {
+                question:"Electronegativity in Osmium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:2.2
             }
         ]
     },
@@ -1281,6 +1814,10 @@ let data = [
             {
                 question:"Iridium's abbreviation",
                 answer:"Ir"
+            },
+            {
+                question:"Electronegativity in Irdium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:2.2
             }
         ]
     },
@@ -1297,6 +1834,10 @@ let data = [
             {
                 question:"Platinum's abbreviation",
                 answer:"Pt"
+            },
+            {
+                question:"Electronegativity in Platinum. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:2.28
             }
         ]
     },
@@ -1313,6 +1854,10 @@ let data = [
             {
                 question:"Gold's abbreviation",
                 answer:"Au"
+            },
+            {
+                question:"Electronegativity in Gold. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:2.54
             }
         ]
     },
@@ -1329,6 +1874,10 @@ let data = [
             {
                 question:"Mercury's abbreviation",
                 answer:"Au"
+            },
+            {
+                question:"Electronegativity in Mercury. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:2.6
             }
         ]
     },
@@ -1345,6 +1894,10 @@ let data = [
             {
                 question:"Thallium's abbreviation",
                 answer:"Tl"
+            },
+            {
+                question:"Electronegativity in Thallium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.62
             }
         ]
     },
@@ -1361,6 +1914,10 @@ let data = [
             {
                 question:"Lead's abbreviation",
                 answer:"Pb"
+            },
+            {
+                question:"Electronegativity in Lead. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:2.33
             }
         ]
     },
@@ -1377,6 +1934,10 @@ let data = [
             {
                 question:"Bismuth's abbreviation",
                 answer:"Bi"
+            },
+            {
+                question:"Electronegativity in Bismuth. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:2.02
             }
         ]
     },
@@ -1393,6 +1954,10 @@ let data = [
             {
                 question:"Polonium's abbreviation",
                 answer:"Po"
+            },
+            {
+                question:"Electronegativity in Polonium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:2
             }
         ]
     },
@@ -1409,6 +1974,10 @@ let data = [
             {
                 question:"Astatine's abbreviation",
                 answer:"At"
+            },
+            {
+                question:"Electronegativity in Astaine. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:2.2
             }
         ]
     },
@@ -1425,6 +1994,10 @@ let data = [
             {
                 question:"Radon's abbreviation",
                 answer:"Rn"
+            },
+            {
+                question:"Electronegativity in Radon. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:"none"
             }
         ]
     },
@@ -1441,6 +2014,10 @@ let data = [
             {
                 question:"Francium's abbreviation",
                 answer:"Fr"
+            },
+            {
+                question:"Electronegativity in Francium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:0.7
             }
         ]
     },
@@ -1457,6 +2034,10 @@ let data = [
             {
                 question:"Radium's abbreviation",
                 answer:"Ra"
+            },
+            {
+                question:"Electronegativity in Radium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:0.89
             }
         ]
     },
@@ -1473,6 +2054,10 @@ let data = [
             {
                 question:"Actinium's abbreviation",
                 answer:"Ac"
+            },
+            {
+                question:"Electronegativity in Actinium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.1
             }
         ]
     },
@@ -1489,6 +2074,10 @@ let data = [
             {
                 question:"Thorium's abbreviation",
                 answer:"Th"
+            },
+            {
+                question:"Electronegativity in Thorium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.3
             }
         ]
     },
@@ -1505,6 +2094,10 @@ let data = [
             {
                 question:"Protactinium's abbreviation",
                 answer:"Pa"
+            },
+            {
+                question:"Electronegativity in Protactinium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.5
             }
         ]
     },
@@ -1521,6 +2114,10 @@ let data = [
             {
                 question:"Uranium's abbreviation",
                 answer:"U"
+            },
+            {
+                question:"Electronegativity in Uranium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.38
             }
         ]
     },
@@ -1537,6 +2134,10 @@ let data = [
             {
                 question:"Neptunium's abbreviation",
                 answer:"Np"
+            },
+            {
+                question:"Electronegativity in Neptunium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.36
             }
         ]
     },
@@ -1553,6 +2154,10 @@ let data = [
             {
                 question:"Plutonium's abbreviation",
                 answer:"Pu"
+            },
+            {
+                question:"Electronegativity in Plutonium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.28
             }
         ]
     },
@@ -1569,6 +2174,10 @@ let data = [
             {
                 question:"Americium's abbreviation",
                 answer:"Am"
+            },
+            {
+                question:"Electronegativity in Americium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.3
             }
         ]
     },
@@ -1585,6 +2194,10 @@ let data = [
             {
                 question:"Curium's abbreviation",
                 answer:"Cm"
+            },
+            {
+                question:"Electronegativity in Curium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.3
             }
         ]
     },
@@ -1601,6 +2214,10 @@ let data = [
             {
                 question:"Berkelium's abbreviation",
                 answer:"Bk"
+            },
+            {
+                question:"Electronegativity in Berkelium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.3
             }
         ]
     },
@@ -1617,6 +2234,10 @@ let data = [
             {
                 question:"Californium's abbreviation",
                 answer:"Cf"
+            },
+            {
+                question:"Electronegativity in Californium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.3
             }
         ]
     },
@@ -1633,6 +2254,10 @@ let data = [
             {
                 question:"Einsteinium's abbreviation",
                 answer:"Es"
+            },
+            {
+                question:"Electronegativity in Ensteinium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.3
             }
         ]
     },
@@ -1649,6 +2274,10 @@ let data = [
             {
                 question:"Fermium's abbreviation",
                 answer:"Fm"
+            },
+            {
+                question:"Electronegativity in Fermium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.3
             }
         ]
     },
@@ -1665,6 +2294,10 @@ let data = [
             {
                 question:"Mendelevium's abbreviation",
                 answer:"Md"
+            },
+            {
+                question:"Electronegativity in Mendelevium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.3
             }
         ]
     },
@@ -1681,6 +2314,10 @@ let data = [
             {
                 question:"Nobelium's abbreviation",
                 answer:"No"
+            },
+            {
+                question:"Electronegativity in Nobelium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:1.3
             }
         ]
     },
@@ -1697,6 +2334,10 @@ let data = [
             {
                 question:"Lawrencium's abbreviation",
                 answer:"Lr"
+            },
+            {
+                question:"Electronegativity in Lawrencium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:"unknown"
             }
         ]
     },
@@ -1713,6 +2354,10 @@ let data = [
             {
                 question:"Rutherfordium's abbreviation",
                 answer:"Rf"
+            },
+            {
+                question:"Electronegativity in Rutherfordium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:"unknown"
             }
         ]
     },
@@ -1729,6 +2374,10 @@ let data = [
             {
                 question:"Dubnium's abbreviation",
                 answer:"Db"
+            },
+            {
+                question:"Electronegativity in Dubnium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:"unknown"
             }
         ]
     },
@@ -1745,6 +2394,10 @@ let data = [
             {
                 question:"Seaborgium's abbreviation",
                 answer:"Sg"
+            },
+            {
+                question:"Electronegativity in Seaborgium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:"unknown"
             }
         ]
     },
@@ -1761,6 +2414,10 @@ let data = [
             {
                 question:"Bohrium's abbreviation",
                 answer:"Bh"
+            },
+            {
+                question:"Electronegativity in Bohrium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:"unknown"
             }
         ]
     },
@@ -1777,6 +2434,10 @@ let data = [
             {
                 question:"Hassium's abbreviation",
                 answer:"Hs"
+            },
+            {
+                question:"Electronegativity in Hassium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:"unknown"
             }
         ]
     },
@@ -1793,6 +2454,10 @@ let data = [
             {
                 question:"Meitnerium's abbreviation",
                 answer:"Mt"
+            },
+            {
+                question:"Electronegativity in Meitnerium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:"unknown"
             }
         ]
     },
@@ -1809,6 +2474,10 @@ let data = [
             {
                 question:"Darmstadtium's abbreviation",
                 answer:"Ds"
+            },
+            {
+                question:"Electronegativity in Darmstadtium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:"unknown"
             }
         ]
     },
@@ -1825,6 +2494,10 @@ let data = [
             {
                 question:"Roentgenium's abbreviation",
                 answer:"Rg"
+            },
+            {
+                question:"Electronegativity in Roentgenium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:"unknown"
             }
         ]
     },
@@ -1841,6 +2514,10 @@ let data = [
             {
                 question:"Copernicium's abbreviation",
                 answer:"Cn"
+            },
+            {
+                question:"Electronegativity in Copernicium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:"unknown"
             }
         ]
     },
@@ -1850,13 +2527,18 @@ let data = [
             {
                 question:"Number of protons in Nihonium",
                 answer:113
-            },{
+            },
+            {
                 question:"Nihonium's State at room temperature",
                 answer:"Solid"
             },
             {
                 question:"Nihonium's abbreviation",
                 answer:"Nh"
+            },
+            {
+                question:"Electronegativity in Nihonium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:"unknown"
             }
         ]
     },
@@ -1873,6 +2555,10 @@ let data = [
             {
                 question:"Flerovium's abbreviation",
                 answer:"Fl"
+            },
+            {
+                question:"Electronegativity in Flerovium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:"unknown"
             }
         ]
     },
@@ -1889,6 +2575,10 @@ let data = [
             {
                 question:"Moscovium's abbreviation",
                 answer:"Mc"
+            },
+            {
+                question:"Electronegativity in Moscovium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:"unknown"
             }
         ]
     },
@@ -1905,6 +2595,10 @@ let data = [
             {
                 question:"Livermorium's abbreviation",
                 answer:"Lv"
+            },
+            {
+                question:"Electronegativity in Livermorium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:"unknown"
             }
         ]
     },
@@ -1921,6 +2615,10 @@ let data = [
             {
                 question:"Tennessine's abbreviation",
                 answer:"Ts"
+            },
+            {
+                question:"Electronegativity in Tennessine. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:"unknown"
             }
         ]
     },
@@ -1937,6 +2635,10 @@ let data = [
             {
                 question:"Oganesson's abbreviation",
                 answer:"Og"
+            },
+            {
+                question:"Electronegativity in Oganesson. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                answer:"unknown"
             }
         ]
     }
