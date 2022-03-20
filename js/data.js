@@ -1457,7 +1457,7 @@ let data = [
             },
             {
                 question:"Number of valence electrons in Praseodymium. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
-                answer:8
+                answer:5
             }
         ]
     },
@@ -1478,6 +1478,10 @@ let data = [
             {
                 question:"Electronegativity in Neodymium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
                 answer:1.14
+            },
+            {
+                question:"Number of valence electrons in Neodymium. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:6
             }
         ]
     },
@@ -1498,6 +1502,10 @@ let data = [
             {
                 question:"Electronegativity in Promethium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
                 answer:1.13
+            },
+            {
+                question:"Number of valence electrons in Promethium. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:7
             }
         ]
     },
@@ -1518,6 +1526,10 @@ let data = [
             {
                 question:"Electronegativity in Samarium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
                 answer:1.17
+            },
+            {
+                question:"Number of valence electrons in Samarium. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:8
             }
         ]
     },
@@ -1538,6 +1550,10 @@ let data = [
             {
                 question:"Electronegativity in Europium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
                 answer:1.2
+            },
+            {
+                question:"Number of valence electrons in Europium. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:9
             }
         ]
     },
@@ -1558,6 +1574,10 @@ let data = [
             {
                 question:"Electronegativity in Gadolinium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
                 answer:1.2
+            },
+            {
+                question:"Number of valence electrons in Gadolinium. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:10
             }
         ]
     },
@@ -1578,6 +1598,10 @@ let data = [
             {
                 question:"Electronegativity in Terbium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
                 answer:1.2
+            },
+            {
+                question:"Number of valence electrons in Terbium. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:11
             }
         ]
     },
@@ -1596,8 +1620,12 @@ let data = [
                 answer:"Dy"
             },
             {
-                question:"Electronegativity in Dysprossium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
+                question:"Electronegativity in Dysprosium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
                 answer:1.22
+            },
+            {
+                question:"Number of valence electrons in Dysprosium. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:12
             }
         ]
     },
@@ -1618,6 +1646,10 @@ let data = [
             {
                 question:"Electronegativity in Holmium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
                 answer:1.23
+            },
+            {
+                question:"Number of valence electrons in Holium. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:13
             }
         ]
     },
@@ -1638,6 +1670,10 @@ let data = [
             {
                 question:"Electronegativity in Erbium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
                 answer:1.24
+            },
+            {
+                question:"Number of valence electrons in Erbium. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:14
             }
         ]
     },
@@ -1658,6 +1694,10 @@ let data = [
             {
                 question:"Electronegativity in Thulium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
                 answer:1.25
+            },
+            {
+                question:"Number of valence electrons in Thulium. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:15
             }
         ]
     },
@@ -1678,6 +1718,10 @@ let data = [
             {
                 question:"Electronegativity in Ytterbium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
                 answer:1.1
+            },
+            {
+                question:"Number of valence electrons in Ytterbium. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:16
             }
         ]
     },
@@ -1698,6 +1742,10 @@ let data = [
             {
                 question:"Electronegativity in Lutetium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
                 answer:1.27
+            },
+            {
+                question:"Number of valence electrons in Lutetium. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:3
             }
         ]
     },
@@ -1718,6 +1766,10 @@ let data = [
             {
                 question:"Electronegativity in Hafnium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
                 answer:1.3
+            },
+            {
+                question:"Number of valence electrons in Hafnium. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:4
             }
         ]
     },
@@ -1738,6 +1790,10 @@ let data = [
             {
                 question:"Electronegativity in Tantalum. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
                 answer:1.5
+            },
+            {
+                question:"Number of valence electrons in Tantalum. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:5
             }
         ]
     },
@@ -1754,10 +1810,14 @@ let data = [
             {
                 question:"Tungsten's abbreviation",
                 answer:"W"
-            },,
+            },
             {
                 question:"Electronegativity in Tungsten. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
                 answer:2.36
+            },
+            {
+                question:"Number of valence electrons in Tungsten. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:6
             }
         ]
     },
@@ -1778,6 +1838,10 @@ let data = [
             {
                 question:"Electronegativity in Rhenium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
                 answer:1.9
+            },
+            {
+                question:"Number of valence electrons in Rhenium. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:7
             }
         ]
     },
@@ -1798,6 +1862,10 @@ let data = [
             {
                 question:"Electronegativity in Osmium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
                 answer:2.2
+            },
+            {
+                question:"Number of valence electrons in Osmium. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:8
             }
         ]
     },
@@ -1818,6 +1886,10 @@ let data = [
             {
                 question:"Electronegativity in Irdium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
                 answer:2.2
+            },
+            {
+                question:"Number of valence electrons in Irdium. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:9
             }
         ]
     },
@@ -1838,6 +1910,10 @@ let data = [
             {
                 question:"Electronegativity in Platinum. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
                 answer:2.28
+            },
+            {
+                question:"Number of valence electrons in Platinum. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:10
             }
         ]
     },
@@ -1858,6 +1934,10 @@ let data = [
             {
                 question:"Electronegativity in Gold. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
                 answer:2.54
+            },
+            {
+                question:"Number of valence electrons in GOld. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:11
             }
         ]
     },
@@ -1878,6 +1958,10 @@ let data = [
             {
                 question:"Electronegativity in Mercury. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
                 answer:2.6
+            },
+            {
+                question:"Number of valence electrons in Mercury. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:12
             }
         ]
     },
@@ -1898,6 +1982,10 @@ let data = [
             {
                 question:"Electronegativity in Thallium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
                 answer:1.62
+            },
+            {
+                question:"Number of valence electrons in Thallium. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:3
             }
         ]
     },
@@ -1918,6 +2006,10 @@ let data = [
             {
                 question:"Electronegativity in Lead. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
                 answer:2.33
+            },
+            {
+                question:"Number of valence electrons in Lead. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                answer:4
             }
         ]
     },
