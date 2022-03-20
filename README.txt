@@ -1,2 +1,1 @@
-This is open source.
-I love to code.
+Please use my database if you wish. :)
