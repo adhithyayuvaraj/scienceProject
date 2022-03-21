@@ -3108,7 +3108,7 @@ let data = [
                 answer:11
             },
             {
-                question:"Meitnerium's oxidation state that makes the outer shell of itself 'full' when combined with another element (if unkown, type 'unknown')",
+                question:"Roentgenium's oxidation state that makes the outer shell of itself 'full' when combined with another element (if unkown, type 'unknown')",
                 answer:"unknown"
             }
         ]
@@ -3136,7 +3136,7 @@ let data = [
                 answer:12
             },
             {
-                question:"Meitnerium's oxidation state that makes the outer shell of itself 'full' when combined with another element (if unkown, type 'unknown')",
+                question:"Copernicium's oxidation state that makes the outer shell of itself 'full' when combined with another element (if unkown, type 'unknown')",
                 answer:+2
             }
         ]
@@ -3165,7 +3165,7 @@ let data = [
                 answer:3
             },
             {
-                question:"Meitnerium's oxidation state that makes the outer shell of itself 'full' when combined with another element (if unkown, type 'unknown')",
+                question:"Nihonium's oxidation state that makes the outer shell of itself 'full' when combined with another element (if unkown, type 'unknown')",
                 answer:"unknown"
             }
         ]
@@ -3191,6 +3191,10 @@ let data = [
             {
                 question:"Number of valence electrons in Flerovium. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
                 answer:4
+            },
+            {
+                question:"Flerovium's oxidation state that makes the outer shell of itself 'full' when combined with another element (if unkown, type 'unknown')",
+                answer:"unknown"
             }
         ]
     },
@@ -3215,6 +3219,10 @@ let data = [
             {
                 question:"Number of valence electrons in Moscovium. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
                 answer:5
+            },
+            {
+                question:"Moscovium's oxidation state that makes the outer shell of itself 'full' when combined with another element (if unkown, type 'unknown')",
+                answer:"unknown"
             }
         ]
     },
@@ -3239,6 +3247,10 @@ let data = [
             {
                 question:"Number of valence electrons in Livermorium. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
                 answer:6
+            },
+            {
+                question:"Livermorium's oxidation state that makes the outer shell of itself 'full' when combined with another element (if unkown, type 'unknown')",
+                answer:"unknown"
             }
         ]
     },
@@ -3263,6 +3275,10 @@ let data = [
             {
                 question:"Number of valence electrons in Tennessine. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
                 answer:7
+            },
+            {
+                question:"Tennessine's oxidation state that makes the outer shell of itself 'full' when combined with another element (if unkown, type 'unknown')",
+                answer:"unknown"
             }
         ]
     },
@@ -3287,6 +3303,10 @@ let data = [
             {
                 question:"Number of valence electrons in Oganesson. (including the d-subshell and s-subshell for the d-block and f-block elements!)",
                 answer:8
+            },
+            {
+                question:"Oganesson's oxidation state that makes the outer shell of itself 'full' when combined with another element (if unkown, type 'unknown')",
+                answer:"unknown"
             }
         ]
     }
