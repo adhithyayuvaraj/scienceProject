@@ -27,6 +27,10 @@ let data = [
             {
                 question:"Electronegativity in Hydrogen. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
                 answer:2.20
+            },
+            {
+                question:"Hydrogen's Electron Configuration. (Powers displayed as '^', so 2^3 = 8)",
+                answer:"1s^1"
             }
         ]
     },
@@ -55,7 +59,12 @@ let data = [
             {
                 question:"Electronegativity in Helium. (If their is none, type 'none' and if it is not known yet as of 2020, type 'unknown'",
                 answer:"none"
+            },
+            {
+                question:"Helium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8)",
+                answer:"1s^2"
             }
+ 
         ]
     },
 
@@ -84,7 +93,12 @@ let data = [
             {
                 question:"Number of valence electrons in Lithium (including the d-subshell and s-subshell for the d-block and f-block elements!)",
                 answer:1
+            },
+            {
+                question:"Lithium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8)",
+                answer:"1s^2 2s^1"
             }
+ 
         ]
     },
     {
@@ -112,7 +126,12 @@ let data = [
             {
                 question:"Number of valence electrons in Beryllium (including the d-subshell and s-subshell for the d-block and f-block elements!)",
                 answer:2
+            },
+            {
+                question:"Beryllium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8)",
+                answer:"1s^2 2s^2"
             }
+ 
         ]
     },
     {
@@ -140,7 +159,12 @@ let data = [
             {
                 question:"Number of valence electrons in Boron (including the d-subshell and s-subshell for the d-block and f-block elements!)",
                 answer:3
+            },
+            {
+                question:"Boron's Electron Configuration. (Powers displayed as '^', so 2^3 = 8)",
+                answer:"1s^2 2s^2 2p^1"
             }
+ 
         ]
     },
     {
@@ -168,7 +192,12 @@ let data = [
             {
                 question:"Number of valence electrons in Carbon (including the d-subshell and s-subshell for the d-block and f-block elements!)",
                 answer:4
+            },
+            {
+                question:"Carbon's Electron Configuration. (Powers displayed as '^', so 2^3 = 8)",
+                answer:"1s^2 2s^2 2p^2"
             }
+ 
         ]
     },
     {
@@ -196,7 +225,12 @@ let data = [
             {
                 question:"Number of valence electrons in Nitrogen (including the d-subshell and s-subshell for the d-block and f-block elements!)",
                 answer:5
+            },
+            {
+                question:"Nitrogen's Electron Configuration. (Powers displayed as '^', so 2^3 = 8)",
+                answer:"1s^2 2s^2 2p^3"
             }
+ 
         ]
     },
     {
@@ -224,6 +258,10 @@ let data = [
             {
                 question:"Number of valence electrons in Oxygen (including the d-subshell and s-subshell for the d-block and f-block elements!)",
                 answer:6
+            },
+            {
+                question:"Oxygen's Electron Configuration. (Powers displayed as '^', so 2^3 = 8)",
+                answer:"1s^2 2s^2 2p^4"
             }
         ]
     },
@@ -252,6 +290,10 @@ let data = [
             {
                 question:"Number of valence electrons in Fluorine (including the d-subshell and s-subshell for the d-block and f-block elements!)",
                 answer:7
+            },
+            {
+                question:"Fluorine's Electron Configuration. (Powers displayed as '^', so 2^3 = 8)",
+                answer:"1s^2 2s^2 2p^5"
             }
         ]
     },
@@ -280,6 +322,10 @@ let data = [
             {
                 question:"Number of valence electrons in Neon (including the d-subshell and s-subshell for the d-block and f-block elements!)",
                 answer:8
+            },
+            {
+                question:"Neon's Electron Configuration. (Powers displayed as '^', so 2^3 = 8)",
+                answer:"1s^2 2s^2 2p^6"
             }
         ]
     },
@@ -309,6 +355,10 @@ let data = [
             {
                 question:"Sodium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+1
+            },
+            {
+                question:"Sodium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8)",
+                answer:"1s^2 2s^2 2p^6 3s^1"
             }
         ]
     },
@@ -338,6 +388,10 @@ let data = [
             {
                 question:"Magnesium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+2
+            },
+            {
+                question:"Magnesium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8)",
+                answer:"1s^2 2s^2 2p^6 3s^2"
             }
         ]
     },
@@ -366,6 +420,10 @@ let data = [
             {
                 question:"Aluminum's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+3
+            },
+            {
+                question:"Aluminum's Electron Configuration. (Powers displayed as '^', so 2^3 = 8)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^1"
             }
         ]
     },
@@ -394,6 +452,10 @@ let data = [
             {
                 question:"Silicon's oxidation state that makes the outer shell of itself 'full' when combined with another element.",
                 answer:+4
+            },
+            {
+                question:"Silicon's Electron Configuration. (Powers displayed as '^', so 2^3 = 8)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^2"
             }
         ]
     },
@@ -422,6 +484,10 @@ let data = [
             {
                 question:"Phosphorus's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:-3
+            },
+            {
+                question:"Phosphorus's Electron Configuration. (Powers displayed as '^', so 2^3 = 8)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^3"
             }
         ]
     },
@@ -450,6 +516,10 @@ let data = [
             {
                 question:"Sulfur's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:-2
+            },
+            {
+                question:"Sulfur's Electron Configuration. (Powers displayed as '^', so 2^3 = 8)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^4"
             }
         ]
     },
@@ -478,6 +548,10 @@ let data = [
             {
                 question:"Chlorine's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:-1
+            },
+            {
+                question:"Chlorine's Electron Configuration. (Powers displayed as '^', so 2^3 = 8)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^5"
             }
         ]
     },
@@ -506,6 +580,10 @@ let data = [
             {
                 question:"Argon's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:0
+            },
+            {
+                question:"Argon's Electron Configuration. (Powers displayed as '^', so 2^3 = 8)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6"
             }
         ]
     },
@@ -534,6 +612,10 @@ let data = [
             {
                 question:"Potassium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+1
+            },
+            {
+                question:"Potassium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^1"
             }
         ]
     },
@@ -562,6 +644,10 @@ let data = [
             {
                 question:"Calcium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+2
+            },
+            {
+                question:"Calcium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2"
             }
         ]
     },
