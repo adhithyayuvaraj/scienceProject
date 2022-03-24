@@ -29,7 +29,7 @@ let data = [
                 answer:2.20
             },
             {
-                question:"Hydrogen's Electron Configuration. (Powers displayed as '^', so 2^3 = 8)",
+                question:"Hydrogen's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
                 answer:"1s^1"
             }
         ]
@@ -61,7 +61,7 @@ let data = [
                 answer:"none"
             },
             {
-                question:"Helium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8)",
+                question:"Helium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
                 answer:"1s^2"
             }
  
@@ -95,7 +95,7 @@ let data = [
                 answer:1
             },
             {
-                question:"Lithium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8)",
+                question:"Lithium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
                 answer:"1s^2 2s^1"
             }
  
@@ -128,7 +128,7 @@ let data = [
                 answer:2
             },
             {
-                question:"Beryllium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8)",
+                question:"Beryllium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
                 answer:"1s^2 2s^2"
             }
  
@@ -161,7 +161,7 @@ let data = [
                 answer:3
             },
             {
-                question:"Boron's Electron Configuration. (Powers displayed as '^', so 2^3 = 8)",
+                question:"Boron's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
                 answer:"1s^2 2s^2 2p^1"
             }
  
@@ -194,7 +194,7 @@ let data = [
                 answer:4
             },
             {
-                question:"Carbon's Electron Configuration. (Powers displayed as '^', so 2^3 = 8)",
+                question:"Carbon's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^2"
             }
  
@@ -227,7 +227,7 @@ let data = [
                 answer:5
             },
             {
-                question:"Nitrogen's Electron Configuration. (Powers displayed as '^', so 2^3 = 8)",
+                question:"Nitrogen's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
                 answer:"1s^2 2s^2 2p^3"
             }
  
@@ -260,7 +260,7 @@ let data = [
                 answer:6
             },
             {
-                question:"Oxygen's Electron Configuration. (Powers displayed as '^', so 2^3 = 8)",
+                question:"Oxygen's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
                 answer:"1s^2 2s^2 2p^4"
             }
         ]
@@ -292,7 +292,7 @@ let data = [
                 answer:7
             },
             {
-                question:"Fluorine's Electron Configuration. (Powers displayed as '^', so 2^3 = 8)",
+                question:"Fluorine's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
                 answer:"1s^2 2s^2 2p^5"
             }
         ]
@@ -324,7 +324,7 @@ let data = [
                 answer:8
             },
             {
-                question:"Neon's Electron Configuration. (Powers displayed as '^', so 2^3 = 8)",
+                question:"Neon's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
                 answer:"1s^2 2s^2 2p^6"
             }
         ]
@@ -357,7 +357,7 @@ let data = [
                 answer:+1
             },
             {
-                question:"Sodium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8)",
+                question:"Sodium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
                 answer:"1s^2 2s^2 2p^6 3s^1"
             }
         ]
@@ -390,7 +390,7 @@ let data = [
                 answer:+2
             },
             {
-                question:"Magnesium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8)",
+                question:"Magnesium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
                 answer:"1s^2 2s^2 2p^6 3s^2"
             }
         ]
@@ -422,7 +422,7 @@ let data = [
                 answer:+3
             },
             {
-                question:"Aluminum's Electron Configuration. (Powers displayed as '^', so 2^3 = 8)",
+                question:"Aluminum's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^1"
             }
         ]
@@ -454,7 +454,7 @@ let data = [
                 answer:+4
             },
             {
-                question:"Silicon's Electron Configuration. (Powers displayed as '^', so 2^3 = 8)",
+                question:"Silicon's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^2"
             }
         ]
@@ -486,7 +486,7 @@ let data = [
                 answer:-3
             },
             {
-                question:"Phosphorus's Electron Configuration. (Powers displayed as '^', so 2^3 = 8)",
+                question:"Phosphorus's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^3"
             }
         ]
@@ -518,7 +518,7 @@ let data = [
                 answer:-2
             },
             {
-                question:"Sulfur's Electron Configuration. (Powers displayed as '^', so 2^3 = 8)",
+                question:"Sulfur's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^4"
             }
         ]
@@ -550,7 +550,7 @@ let data = [
                 answer:-1
             },
             {
-                question:"Chlorine's Electron Configuration. (Powers displayed as '^', so 2^3 = 8)",
+                question:"Chlorine's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^5"
             }
         ]
@@ -582,7 +582,7 @@ let data = [
                 answer:0
             },
             {
-                question:"Argon's Electron Configuration. (Powers displayed as '^', so 2^3 = 8)",
+                question:"Argon's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6"
             }
         ]
@@ -614,7 +614,7 @@ let data = [
                 answer:+1
             },
             {
-                question:"Potassium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8)",
+                question:"Potassium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^1"
             }
         ]
@@ -646,7 +646,7 @@ let data = [
                 answer:+2
             },
             {
-                question:"Calcium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8)",
+                question:"Calcium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2"
             }
         ]
@@ -676,6 +676,10 @@ let data = [
             {
                 question:"Scandium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+3
+            },
+            {
+                question:"Scandium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^1"
             }
         ]
     },
@@ -704,6 +708,10 @@ let data = [
             {
                 question:"Titanium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+4
+            },
+            {
+                question:"Titanium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^2"
             }
         ]
     },
@@ -732,6 +740,10 @@ let data = [
             {
                 question:"Vandium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+5
+            },
+            {
+                question:"Vandium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^3"
             }
         ]
     },
@@ -760,6 +772,10 @@ let data = [
             {
                 question:"Chromium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+6
+            },
+            {
+                question:"Chromium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^5"
             }
         ]
     },
@@ -788,6 +804,10 @@ let data = [
             {
                 question:"Maganese's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+7
+            },
+            {
+                question:"Maganese's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^5"
             }
         ]
     },
@@ -816,6 +836,10 @@ let data = [
             {
                 question:"Iron's oxidation state that makes the outer shell of itself 'full' when combined with another element.",
                 answer:+2
+            },
+            {
+                question:"Iron's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^6"
             }
         ]
     },
@@ -844,6 +868,10 @@ let data = [
             {
                 question:"Cobalt's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+3
+            },
+            {
+                question:"Cobalt's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^7"
             }
         ]
     },
@@ -872,6 +900,10 @@ let data = [
             {
                 question:"Nickel's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+2
+            },
+            {
+                question:"Nickel's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^8"
             }
         ]
     },
@@ -900,6 +932,10 @@ let data = [
             {
                 question:"Copper's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+2
+            },
+            {
+                question:"Copper's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10"
             }
         ]
     },
@@ -928,6 +964,10 @@ let data = [
             {
                 question:"Zinc's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+2
+            },
+            {
+                question:"Zinc's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10"
             }
         ]
     },
@@ -956,6 +996,10 @@ let data = [
             {
                 question:"Gallium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+3
+            },
+            {
+                question:"Gallium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^2"
             }
         ]
     },
@@ -984,6 +1028,10 @@ let data = [
             {
                 question:"Germanium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+4
+            },
+            {
+                question:"Germanium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^3"
             }
         ]
     },
@@ -1012,6 +1060,10 @@ let data = [
             {
                 question:"Arsenic's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:-3
+            },
+            {
+                question:"Arsenic's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^3"
             }
         ]
     },
@@ -1040,6 +1092,10 @@ let data = [
             {
                 question:"Selenium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:-2
+            },
+            {
+                question:"Selenium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^4"
             }
         ]
     },
@@ -1068,6 +1124,10 @@ let data = [
             {
                 question:"Bromine's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:-1
+            },
+            {
+                question:"Bromine's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^5"
             }
         ]
     },
@@ -1096,6 +1156,10 @@ let data = [
             {
                 question:"Krypton's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:0
+            },
+            {
+                question:"Krypton's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6"
             }
         ]
     },
