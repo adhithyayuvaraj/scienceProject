@@ -864,6 +864,10 @@ let data = [
             {
                 question:"Chromium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^5"
+            },
+            {
+                question:"Chromium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:653
             }
         ]
     },
@@ -896,6 +900,10 @@ let data = [
             {
                 question:"Maganese's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^5"
+            },
+            {
+                question:"Maganese's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:717
             }
         ]
     },
@@ -928,6 +936,10 @@ let data = [
             {
                 question:"Iron's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^6"
+            },
+            {
+                question:"Iron's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:759
             }
         ]
     },
@@ -960,6 +972,10 @@ let data = [
             {
                 question:"Cobalt's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^7"
+            },
+            {
+                question:"Cobalt's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:760
             }
         ]
     },
@@ -992,6 +1008,10 @@ let data = [
             {
                 question:"Nickel's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^8"
+            },
+            {
+                question:"Nickel's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:737
             }
         ]
     },
@@ -1024,6 +1044,10 @@ let data = [
             {
                 question:"Copper's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10"
+            },
+            {
+                question:"Copper's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:745
             }
         ]
     },
@@ -1056,6 +1080,10 @@ let data = [
             {
                 question:"Zinc's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10"
+            },
+            {
+                question:"Zinc's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:906
             }
         ]
     },
@@ -1088,6 +1116,10 @@ let data = [
             {
                 question:"Gallium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^2"
+            },
+            {
+                question:"Gallium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:579
             }
         ]
     },
@@ -1120,6 +1152,10 @@ let data = [
             {
                 question:"Germanium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^3"
+            },
+            {
+                question:"Germanium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:762
             }
         ]
     },
@@ -1152,6 +1188,10 @@ let data = [
             {
                 question:"Arsenic's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^3"
+            },
+            {
+                question:"Arsenic's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:947
             }
         ]
     },
@@ -1184,6 +1224,10 @@ let data = [
             {
                 question:"Selenium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^4"
+            },
+            {
+                question:"Selenium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:941
             }
         ]
     },
@@ -1216,6 +1260,10 @@ let data = [
             {
                 question:"Bromine's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^5"
+            },
+            {
+                question:"Bromine's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:1140
             }
         ]
     },
@@ -1248,6 +1296,10 @@ let data = [
             {
                 question:"Krypton's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6"
+            },
+            {
+                question:"Krypton's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:1351
             }
         ]
     },
