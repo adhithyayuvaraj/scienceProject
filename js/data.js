@@ -31,6 +31,10 @@ let data = [
             {
                 question:"Hydrogen's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
                 answer:"1s^1"
+            },
+            {
+                question:"Hydrogen's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:1312
             }
         ]
     },
@@ -63,6 +67,10 @@ let data = [
             {
                 question:"Helium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
                 answer:"1s^2"
+            },
+            {
+                question:"Helium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:2372
             }
  
         ]
@@ -97,6 +105,10 @@ let data = [
             {
                 question:"Lithium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
                 answer:"1s^2 2s^1"
+            },
+            {
+                question:"Lithium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:513
             }
  
         ]
@@ -130,6 +142,10 @@ let data = [
             {
                 question:"Beryllium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
                 answer:"1s^2 2s^2"
+            },
+            {
+                question:"Beryllium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:899
             }
  
         ]
@@ -163,6 +179,10 @@ let data = [
             {
                 question:"Boron's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
                 answer:"1s^2 2s^2 2p^1"
+            },
+            {
+                question:"Boron's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:801
             }
  
         ]
@@ -196,6 +216,10 @@ let data = [
             {
                 question:"Carbon's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^2"
+            },
+            {
+                question:"Carbon's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:1086
             }
  
         ]
@@ -229,6 +253,10 @@ let data = [
             {
                 question:"Nitrogen's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
                 answer:"1s^2 2s^2 2p^3"
+            },
+            {
+                question:"Nitrogen's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:1402
             }
  
         ]
@@ -262,6 +290,10 @@ let data = [
             {
                 question:"Oxygen's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
                 answer:"1s^2 2s^2 2p^4"
+            },
+            {
+                question:"Oxygen's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:1314
             }
         ]
     },
@@ -294,6 +326,10 @@ let data = [
             {
                 question:"Fluorine's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
                 answer:"1s^2 2s^2 2p^5"
+            },
+            {
+                question:"Fluorine's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:1681
             }
         ]
     },
@@ -326,6 +362,10 @@ let data = [
             {
                 question:"Neon's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
                 answer:"1s^2 2s^2 2p^6"
+            },
+            {
+                question:"Neon's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:2081
             }
         ]
     },
@@ -359,6 +399,10 @@ let data = [
             {
                 question:"Sodium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
                 answer:"1s^2 2s^2 2p^6 3s^1"
+            },
+            {
+                question:"Sodium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:496
             }
         ]
     },
@@ -392,6 +436,10 @@ let data = [
             {
                 question:"Magnesium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
                 answer:"1s^2 2s^2 2p^6 3s^2"
+            },
+            {
+                question:"Magnesium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:738
             }
         ]
     },
@@ -399,7 +447,7 @@ let data = [
         points:0,
         questionAndPoints: [
             {
-                question:"Number of protons in Aluminum            ",
+                question:"Number of protons in Aluminum",
                 answer:13
             },{
                 question:"Aluminum 's State at room temperature",
@@ -424,6 +472,10 @@ let data = [
             {
                 question:"Aluminum's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^1"
+            },
+            {
+                question:"Alminum's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:577
             }
         ]
     },
@@ -456,6 +508,10 @@ let data = [
             {
                 question:"Silicon's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^2"
+            },
+            {
+                question:"Silicon's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:786
             }
         ]
     },
@@ -520,6 +576,10 @@ let data = [
             {
                 question:"Sulfur's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^4"
+            },
+            {
+                question:"Sulfur's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:1000
             }
         ]
     },
@@ -552,6 +612,10 @@ let data = [
             {
                 question:"Chlorine's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^5"
+            },
+            {
+                question:"Chlorine's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:1251
             }
         ]
     },
@@ -584,6 +648,10 @@ let data = [
             {
                 question:"Argon's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6"
+            },
+            {
+                question:"Argon's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:1520
             }
         ]
     },
@@ -616,6 +684,10 @@ let data = [
             {
                 question:"Potassium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^1"
+            },
+            {
+                question:"Potassium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:419
             }
         ]
     },
@@ -648,6 +720,10 @@ let data = [
             {
                 question:"Calcium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2"
+            },
+            {
+                question:"Calcium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:590
             }
         ]
     },
@@ -680,6 +756,10 @@ let data = [
             {
                 question:"Scandium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^1"
+            },
+            {
+                question:"Scandium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:631
             }
         ]
     },
@@ -712,6 +792,10 @@ let data = [
             {
                 question:"Titanium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^2"
+            },
+            {
+                question:"Titanium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:658
             }
         ]
     },
@@ -744,6 +828,10 @@ let data = [
             {
                 question:"Vandium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^3"
+            },
+            {
+                question:"Vandium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:650
             }
         ]
     },
