@@ -2308,6 +2308,10 @@ let data = [
             {
                 question:"Hafnium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+4
+            },
+            {
+                question:"Hafnium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^2"
             }
         ]
     },
@@ -2336,6 +2340,10 @@ let data = [
             {
                 question:"Tantalum's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+5
+            },
+            {
+                question:"Tantalum's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^3"
             }
         ]
     },
@@ -2364,6 +2372,10 @@ let data = [
             {
                 question:"Tungsten's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+6
+            },
+            {
+                question:"Tungsten's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^4"
             }
         ]
     },
@@ -2392,6 +2404,10 @@ let data = [
             {
                 question:"Rhenium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+7
+            },
+            {
+                question:"Rhenium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^5"
             }
         ]
     },
@@ -2420,6 +2436,10 @@ let data = [
             {
                 question:"Osmium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+4
+            },
+            {
+                question:"Osmium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^6"
             }
         ]
     },
@@ -2448,6 +2468,10 @@ let data = [
             {
                 question:"Irdium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+4
+            },
+            {
+                question:"Idium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^7"
             }
         ]
     },
@@ -2476,6 +2500,10 @@ let data = [
             {
                 question:"Platinum's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+4
+            },
+            {
+                question:"Platinum's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^9"
             }
         ]
     },
@@ -2504,6 +2532,10 @@ let data = [
             {
                 question:"Gold's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+3
+            },
+            {
+                question:"Gold's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10"
             }
         ]
     },
@@ -2532,6 +2564,10 @@ let data = [
             {
                 question:"Mercury's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+2
+            },
+            {
+                question:"Mercury's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10"
             }
         ]
     },
@@ -2560,6 +2596,10 @@ let data = [
             {
                 question:"Thallium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+3
+            },
+            {
+                question:"Thallium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1"
             }
         ]
     },
@@ -2588,6 +2628,10 @@ let data = [
             {
                 question:"Lead's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+4
+            },
+            {
+                question:"Lead's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^2"
             }
         ]
     },
@@ -2616,6 +2660,10 @@ let data = [
             {
                 question:"Bismuth's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:-3
+            },
+            {
+                question:"Bismuth's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^3"
             }
         ]
     },
@@ -2644,6 +2692,10 @@ let data = [
             {
                 question:"Polonium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:-2
+            },
+            {
+                question:"Polonium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^4"
             }
         ]
     },
@@ -2672,6 +2724,10 @@ let data = [
             {
                 question:"Astatine's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:-1
+            },
+            {
+                question:"Astatine's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^5"
             }
         ]
     },
@@ -2700,6 +2756,10 @@ let data = [
             {
                 question:"Radon's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:0
+            },
+            {
+                question:"Radon's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^6"
             }
         ]
     },
@@ -2728,6 +2788,10 @@ let data = [
             {
                 question:"Francium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+1
+            },
+            {
+                question:"Francium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^6 7s^1"
             }
         ]
     },
@@ -2756,6 +2820,10 @@ let data = [
             {
                 question:"Radium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+2
+            },
+            {
+                question:"Radium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^6 7s^2"
             }
         ]
     },
@@ -2784,6 +2852,10 @@ let data = [
             {
                 question:"Actinium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+3
+            },
+            {
+                question:"Actinium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^6 7s^2 6d^1"
             }
         ]
     },
@@ -2812,6 +2884,10 @@ let data = [
             {
                 question:"Thorium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+4
+            },
+            {
+                question:"Thorium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^6 7s^2 6d^2"
             }
         ]
     },
@@ -2840,6 +2916,10 @@ let data = [
             {
                 question:"Protactinium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+3
+            },
+            {
+                question:"Protactinium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^2 6d^1"
             }
         ]
     },
@@ -2868,6 +2948,10 @@ let data = [
             {
                 question:"Uranium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+3
+            },
+            {
+                question:"Uranium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^3 6d^1"
             }
         ]
     },
@@ -2896,6 +2980,10 @@ let data = [
             {
                 question:"Neptunium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+3
+            },
+            {
+                question:"Neptunium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^4 6d^1"
             }
         ]
     },
@@ -2924,6 +3012,10 @@ let data = [
             {
                 question:"Plutonium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+3
+            },
+            {
+                question:"Plutonium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^6"
             }
         ]
     },
@@ -2952,6 +3044,10 @@ let data = [
             {
                 question:"Americium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+3
+            },
+            {
+                question:"Americium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^7"
             }
         ]
     },
@@ -2980,6 +3076,10 @@ let data = [
             {
                 question:"Curium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+3
+            },
+            {
+                question:"Curium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^7 6d^1"
             }
         ]
     },
@@ -3008,6 +3108,10 @@ let data = [
             {
                 question:"Berkelium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+3
+            },
+            {
+                question:"Berkelium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^9"
             }
         ]
     },
@@ -3036,6 +3140,10 @@ let data = [
             {
                 question:"Californium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+3
+            },
+            {
+                question:"Californium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^10"
             }
         ]
     },
@@ -3064,6 +3172,10 @@ let data = [
             {
                 question:"Ensteinium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+3
+            },
+            {
+                question:"Enstenium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^11"
             }
         ]
     },
@@ -3092,6 +3204,10 @@ let data = [
             {
                 question:"Fermium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+3
+            },
+            {
+                question:"Fermium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^12"
             }
         ]
     },
@@ -3120,6 +3236,10 @@ let data = [
             {
                 question:"Mendelevium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+3
+            },
+            {
+                question:"Mendelevium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^13"
             }
         ]
     },
@@ -3148,6 +3268,10 @@ let data = [
             {
                 question:"Nobelium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+3
+            },
+            {
+                question:"Nobelium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^14"
             }
         ]
     },
@@ -3176,6 +3300,10 @@ let data = [
             {
                 question:"Lawrencium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+3
+            },
+            {
+                question:"Lawrencium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^14 7p^1"
             }
         ]
     },
@@ -3204,6 +3332,10 @@ let data = [
             {
                 question:"Rutherfordium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+4
+            },
+            {
+                question:"Rutherfordium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^14 6d^2"
             }
         ]
     },
@@ -3232,6 +3364,10 @@ let data = [
             {
                 question:"Dubnium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+5
+            },
+            {
+                question:"Dubnium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^14 6d^3"
             }
         ]
     },
@@ -3260,6 +3396,10 @@ let data = [
             {
                 question:"Seaborgium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+6
+            },
+            {
+                question:"Seaborgium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^14 6d^4"
             }
         ]
     },
@@ -3288,6 +3428,10 @@ let data = [
             {
                 question:"Bohrium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+7
+            },
+            {
+                question:"Bohrium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^14 6d^5"
             }
         ]
     },
@@ -3316,6 +3460,10 @@ let data = [
             {
                 question:"Hassium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
                 answer:+8
+            },
+            {
+                question:"Hassium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^14 6d^6"
             }
         ]
     },
@@ -3344,6 +3492,10 @@ let data = [
             {
                 question:"Meitnerium's oxidation state that makes the outer shell of itself 'full' when combined with another element (if unkown, type 'unknown')",
                 answer:"unknown"
+            },
+            {
+                question:"Meitnerium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^14 6d^7"
             }
         ]
     },
@@ -3370,8 +3522,12 @@ let data = [
                 answer:10
             },
             {
-                question:"Meitnerium's oxidation state that makes the outer shell of itself 'full' when combined with another element (if unkown, type 'unknown')",
+                question:"Darmstadtium's oxidation state that makes the outer shell of itself 'full' when combined with another element (if unkown, type 'unknown')",
                 answer:"unknown"
+            },
+            {
+                question:"Darmstadtium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^14 6d^8"
             }
         ]
     },
@@ -3400,6 +3556,10 @@ let data = [
             {
                 question:"Roentgenium's oxidation state that makes the outer shell of itself 'full' when combined with another element (if unkown, type 'unknown')",
                 answer:"unknown"
+            },
+            {
+                question:"Roentgenium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^14 6d^9"
             }
         ]
     },
@@ -3428,6 +3588,10 @@ let data = [
             {
                 question:"Copernicium's oxidation state that makes the outer shell of itself 'full' when combined with another element (if unkown, type 'unknown')",
                 answer:+2
+            },
+            {
+                question:"Copernicium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^14 6d^10"
             }
         ]
     },
@@ -3457,6 +3621,10 @@ let data = [
             {
                 question:"Nihonium's oxidation state that makes the outer shell of itself 'full' when combined with another element (if unkown, type 'unknown')",
                 answer:"unknown"
+            },
+            {
+                question:"Nihonium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^14 6d^10 7p^1"
             }
         ]
     },
@@ -3485,6 +3653,10 @@ let data = [
             {
                 question:"Flerovium's oxidation state that makes the outer shell of itself 'full' when combined with another element (if unkown, type 'unknown')",
                 answer:"unknown"
+            },
+            {
+                question:"Flerovium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^14 6d^10 7p^2"
             }
         ]
     },
@@ -3513,6 +3685,10 @@ let data = [
             {
                 question:"Moscovium's oxidation state that makes the outer shell of itself 'full' when combined with another element (if unkown, type 'unknown')",
                 answer:"unknown"
+            },
+            {
+                question:"Moscovium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^14 6d^10 7p^3"
             }
         ]
     },
@@ -3541,6 +3717,10 @@ let data = [
             {
                 question:"Livermorium's oxidation state that makes the outer shell of itself 'full' when combined with another element (if unkown, type 'unknown')",
                 answer:"unknown"
+            },
+            {
+                question:"Livermorium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^14 6d^10 7p^4"
             }
         ]
     },
@@ -3569,6 +3749,10 @@ let data = [
             {
                 question:"Tennessine's oxidation state that makes the outer shell of itself 'full' when combined with another element (if unkown, type 'unknown')",
                 answer:"unknown"
+            },
+            {
+                question:"Tennessine's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^14 6d^10 7p^5"
             }
         ]
     },
@@ -3597,6 +3781,10 @@ let data = [
             {
                 question:"Oganesson's oxidation state that makes the outer shell of itself 'full' when combined with another element (if unkown, type 'unknown')",
                 answer:"unknown"
+            },
+            {
+                question:"Oganesson's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^14 6d^10 7p^6"
             }
         ]
     }
