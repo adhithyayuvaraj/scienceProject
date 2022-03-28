@@ -52,6 +52,11 @@ body {
     background-color: rgba(0, 128, 128, 0.6);
   }
 
+  .question-mark {
+      text-align: center;
+      padding: 40px;
+  }
+
   .cell:hover .element {
     border-color: rgba(0, 0, 0, 0.1);
     -webkit-transform: scale(3, 3);
