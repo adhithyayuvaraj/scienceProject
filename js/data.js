@@ -1332,6 +1332,10 @@ let data = [
             {
                 question:"Rubidium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1"
+            },
+            {
+                question:"Rubidium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:403
             }
         ]
     },
@@ -1364,6 +1368,10 @@ let data = [
             {
                 question:"Strontium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^2"
+            },
+            {
+                question:"Strontium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:550
             }
         ]
     },
@@ -1396,6 +1404,10 @@ let data = [
             {
                 question:"Yttrium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^1"
+            },
+            {
+                question:"Yttrium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:616
             }
         ]
     },
@@ -1428,6 +1440,10 @@ let data = [
             {
                 question:"Zirocnium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^2"
+            },
+            {
+                question:"Zirocnium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:660
             }
         ]
     },
@@ -1460,6 +1476,10 @@ let data = [
             {
                 question:"Niobium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^4"
+            },
+            {
+                question:"Niobium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:664
             }
         ]
     },
@@ -1492,6 +1512,10 @@ let data = [
             {
                 question:"Molybdenum's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^5"
+            },
+            {
+                question:"Molybdenum's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:685
             }
         ]
     },
@@ -1524,6 +1548,10 @@ let data = [
             {
                 question:"Technetium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^2 4d^5"
+            },
+            {
+                question:"Technetium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:702
             }
         ]
     },
@@ -1556,6 +1584,10 @@ let data = [
             {
                 question:"Ruthenium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^7"
+            },
+            {
+                question:"Ruthenium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:711
             }
         ]
     },
@@ -1588,6 +1620,10 @@ let data = [
             {
                 question:"Rhodium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^8"
+            },
+            {
+                question:"Rhodium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:720
             }
         ]
     },
@@ -1620,6 +1656,10 @@ let data = [
             {
                 question:"Palladium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 4d^10"
+            },
+            {
+                question:"Palladium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:805
             }
         ]
     },
@@ -1652,6 +1692,10 @@ let data = [
             {
                 question:"Silver's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10"
+            },
+            {
+                question:"Silver's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:731
             }
         ]
     },
@@ -1684,6 +1728,10 @@ let data = [
             {
                 question:"Cadmium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^2 4d^10"
+            },
+            {
+                question:"Cadmium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:868
             }
         ]
     },
@@ -1716,6 +1764,10 @@ let data = [
             {
                 question:"Indium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^1"
+            },
+            {
+                question:"Indium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:558
             }
         ]
     },
@@ -1748,6 +1800,10 @@ let data = [
             {
                 question:"Tin's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^2"
+            },
+            {
+                question:"Tin's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:709
             }
         ]
     },
@@ -1780,6 +1836,10 @@ let data = [
             {
                 question:"Antimony's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^3"
+            },
+            {
+                question:"Antimony's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:834
             }
         ]
     },
@@ -1812,6 +1872,10 @@ let data = [
             {
                 question:"Tellirum's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^4"
+            },
+            {
+                question:"Tellirum's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:869
             }
         ]
     },
@@ -1844,6 +1908,10 @@ let data = [
             {
                 question:"Iodine's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^5"
+            },
+            {
+                question:"Iodine's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:1008
             }
         ]
     },
@@ -1876,6 +1944,10 @@ let data = [
             {
                 question:"Xeneon's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6"
+            },
+            {
+                question:"Xeneon's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:1170
             }
         ]
     },
@@ -1908,6 +1980,10 @@ let data = [
             {
                 question:"Cesium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^1"
+            },
+            {
+                question:"Cesium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:376
             }
         ]
     },
@@ -1940,6 +2016,10 @@ let data = [
             {
                 question:"Barium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2"
+            },
+            {
+                question:"Barium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:503
             }
         ]
     },
@@ -1972,6 +2052,10 @@ let data = [
             {
                 question:"Lanthanum's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 5d^1"
+            },
+            {
+                question:"Lanthanum's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:538
             }
         ]
     },
@@ -2004,6 +2088,10 @@ let data = [
             {
                 question:"Cerium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 5d^1 4f^1"
+            },
+            {
+                question:"Cerium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:527
             }
         ]
     },
@@ -2036,6 +2124,10 @@ let data = [
             {
                 question:"Praseodymium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^3"
+            },
+            {
+                question:"Praseodymium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:523
             }
         ]
     },
@@ -2066,8 +2158,12 @@ let data = [
                 answer:+3
             },
             {
-                question:"'s Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                question:"Neodymium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^4"
+            },
+            {
+                question:"Neodymium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:530
             }
         ]
     },
@@ -2100,6 +2196,10 @@ let data = [
             {
                 question:"Promethium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^5"
+            },
+            {
+                question:"Promethium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:536
             }
         ]
     },
@@ -2132,6 +2232,10 @@ let data = [
             {
                 question:"Samarium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^6"
+            },
+            {
+                question:"Samarium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:543
             }
         ]
     },
@@ -2164,6 +2268,10 @@ let data = [
             {
                 question:"Europium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^7"
+            },
+            {
+                question:"Europium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:547
             }
         ]
     },
@@ -2196,6 +2304,10 @@ let data = [
             {
                 question:"Gadolinium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^75d^1"
+            },
+            {
+                question:"Gadolinium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:592
             }
         ]
     },
@@ -2228,6 +2340,10 @@ let data = [
             {
                 question:"Terbium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^9"
+            },
+            {
+                question:"Terbium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:565
             }
         ]
     },
@@ -2260,6 +2376,10 @@ let data = [
             {
                 question:"Dysprosium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^10"
+            },
+            {
+                question:"Dysprosium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:572
             }
         ]
     },
@@ -2292,6 +2412,10 @@ let data = [
             {
                 question:"Holmium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^11"
+            },
+            {
+                question:"Holmium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:581
             }
         ]
     },
@@ -2324,6 +2448,10 @@ let data = [
             {
                 question:"Erbium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^12"
+            },
+            {
+                question:"Erbium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:589
             }
         ]
     },
@@ -2356,6 +2484,10 @@ let data = [
             {
                 question:"Thulium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^13"
+            },
+            {
+                question:"Thulium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:597
             }
         ]
     },
@@ -2388,6 +2520,10 @@ let data = [
             {
                 question:"Ytterbium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14"
+            },
+            {
+                question:"Ytterbium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:603
             }
         ]
     },
@@ -2420,6 +2556,10 @@ let data = [
             {
                 question:"Lutetium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^1"
+            },
+            {
+                question:"Lutetium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:524
             }
         ]
     },
@@ -2452,6 +2592,10 @@ let data = [
             {
                 question:"Hafnium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^2"
+            },
+            {
+                question:"Hafnium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:642
             }
         ]
     },
@@ -2484,6 +2628,10 @@ let data = [
             {
                 question:"Tantalum's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^3"
+            },
+            {
+                question:"Tantalum's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:761
             }
         ]
     },
@@ -2516,6 +2664,10 @@ let data = [
             {
                 question:"Tungsten's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^4"
+            },
+            {
+                question:"Tungsten's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:770
             }
         ]
     },
@@ -2548,6 +2700,10 @@ let data = [
             {
                 question:"Rhenium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^5"
+            },
+            {
+                question:"Rhenium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:760
             }
         ]
     },
@@ -2580,6 +2736,10 @@ let data = [
             {
                 question:"Osmium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^6"
+            },
+            {
+                question:"Osmium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:840
             }
         ]
     },
@@ -2610,8 +2770,12 @@ let data = [
                 answer:+4
             },
             {
-                question:"Idium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
+                question:"Irdium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^7"
+            },
+            {
+                question:"Irdium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:880
             }
         ]
     },
@@ -2644,6 +2808,10 @@ let data = [
             {
                 question:"Platinum's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^9"
+            },
+            {
+                question:"Platinum's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:870
             }
         ]
     },
@@ -2676,6 +2844,10 @@ let data = [
             {
                 question:"Gold's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10"
+            },
+            {
+                question:"Gold's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:890
             }
         ]
     },
@@ -2708,6 +2880,10 @@ let data = [
             {
                 question:"Mercury's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10"
+            },
+            {
+                question:"Mercury's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:1007
             }
         ]
     },
@@ -2740,6 +2916,10 @@ let data = [
             {
                 question:"Thallium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1"
+            },
+            {
+                question:"Thallium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:589
             }
         ]
     },
@@ -2772,6 +2952,10 @@ let data = [
             {
                 question:"Lead's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^2"
+            },
+            {
+                question:"Lead's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:716
             }
         ]
     },
@@ -2804,6 +2988,10 @@ let data = [
             {
                 question:"Bismuth's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^3"
+            },
+            {
+                question:"Bismuth's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:703
             }
         ]
     },
@@ -2836,6 +3024,10 @@ let data = [
             {
                 question:"Polonium's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^4"
+            },
+            {
+                question:"Polonium's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:812
             }
         ]
     },
@@ -2868,6 +3060,10 @@ let data = [
             {
                 question:"Astatine's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^5"
+            },
+            {
+                question:"Astatine's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:930
             }
         ]
     },
@@ -2900,6 +3096,10 @@ let data = [
             {
                 question:"Radon's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE)",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^6"
+            },
+            {
+                question:"Radon's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:1040
             }
         ]
     },
