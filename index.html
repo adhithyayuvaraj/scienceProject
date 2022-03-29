@@ -16,13 +16,14 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title">🥳New Update! v 2.0🥳</h5>
+                <h5 class="modal-title">This Website is Dedicated To...</h5>
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
             </div>
             <div class="modal-body">
-              <p>Okay. So, I added lots of new questions to the game!
-                Now, instead of the regular three per element, their are eight questions
-                per element. Rules are the same though!
+              <p>This is now for Glen Rock Middle School. I, Adhithya Yuvaraj, made this
+                because I realized how the tedious the periodic table was, and decided
+                to make it more fun and intreseting!! I hope you enjoy it very much! And,
+                if you spot any mistakes, PLEASE LET ME KNOW!!!!
               </p>
             </div>
         </div>
@@ -61,32 +62,9 @@
       </div>
     </div>
   </div>
-  <div class="jumbotron">
-    <h1>The Periodic Table Game</h1>
-    <h3>By Adhithya Yuvaraj</h3>
-    Click "Show Rules" to see the rules!
-    <br/>
-    <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
-        Show Rules
-      </button>
-    <p class="lead">
-    <hr class="my-4">
-    <div id= "question"></div>
-        <div id = "showAndHide">
-            <input type="text" id = "input"/>
-            <br/>
-            <br/>
-        </div>
-        <div id="result">
-            <div class="alert alert-dark" role="alert">
-                <span ><b>Answer a question to see if you got it right.</b></span>
-                    <br/>
-                    <span id="points"><b>Look below to see what elements you uncovered!</b></span>
-            </div>
-        </div>
-            <button id="next" onclick = "nextQuestion()" class="btn btn-primary">Let the fun begin</button>
-        <br/>
-  </div>
+  <div>
+    <h1 style="text-align: center;">The Periodic Table Game</h1>
+   <!-- -->
 
     <div class="periodic">
         <div class="periodic-row">
@@ -1098,6 +1076,23 @@
         </div>
         <div style="clear: both;"></div>
       </div>
+    <br/>
+    <div id="interactive">
+      <div id="result"></div>
+      <div id= "question"></div>
+          <div id = "showAndHide">
+              <input type="text" id = "input"/>
+              <br/>
+              <br/>
+          </div>
+         
+              <button id="next" onclick = "nextQuestion()" class="btn btn-primary">Start!</button>
+              <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
+              Rules
+              </button>
+        <br/>
+    </div>
+  </div>
 
 
     <script src="js/confetti.js"></script>

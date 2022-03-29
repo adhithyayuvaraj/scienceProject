@@ -54,7 +54,19 @@ body {
 
   .question-mark {
       text-align: center;
-      padding: 40px;
+      padding: 10px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 1px;
+      right: 1px;
+      box-sizing: border-box;
+      box-shadow: 0px 0px 4px rgba(255, 255, 255, 0.5);
+      border: 1px solid rgba(0, 0, 0, 0.05);
+      text-align: center;
+      cursor: default;
+      pointer-events: none;
+    background-color: rgba(184, 184, 184, 0.6);
   }
 
   .cell:hover .element {
@@ -180,9 +192,19 @@ body {
       text-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
     }
   }
+  @media (min-width: 400px) {
+    .periodic {
+      height: 540px;
+      font-size:10px;
+    }
+    .symbol {
+      font-size: 20px;
+    }
+  }
   @media (min-width: 800px) {
     .periodic {
       height: 540px;
+      font-size:20px;
     }
     .symbol {
       font-size: 20px;
@@ -191,6 +213,7 @@ body {
   @media (min-width: 992px) {
     .periodic {
       height: 680px;
+      font-size:25px;
     }
     .at_num,
     .at_details {
@@ -203,6 +226,7 @@ body {
   @media (min-width: 1200px) {
     .periodic {
       height: 800px;
+      font-size:30px;
     }
     .at_num,
     .at_details {

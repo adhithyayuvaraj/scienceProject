@@ -7,6 +7,9 @@
 hr{
     width:100%;
 }
+#interactive{
+    text-align:center;
+}
 .periodic{
     font-size:20px;
     text-align:left;
