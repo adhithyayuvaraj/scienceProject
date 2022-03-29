@@ -12,18 +12,21 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 <body>
+  <!--make sure to add question thing at top.
+  push to adhscifair-->
 <div id="myModal" class="modal fade">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title">This Website is Dedicated To...</h5>
+                <h5 class="modal-title">Looking to have fun learning the perodic table?!</h5>
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
             </div>
             <div class="modal-body">
-              <p>This is now for Glen Rock Middle School. I, Adhithya Yuvaraj, made this
-                because I realized how the tedious the periodic table was, and decided
-                to make it more fun and intreseting!! I hope you enjoy it very much! And,
-                if you spot any mistakes, PLEASE LET ME KNOW!!!!
+              <p>Well, this site can help you! Dedicated to middle schoolers
+                and high schoolers, (and made by a middle schooler) this website
+                will help you learn the periodic table in a fun way! What are you waiting for? Exit out of the pop out, and 
+                start. (You start by clicking the START button, but I think you know
+                that already)
               </p>
             </div>
         </div>
@@ -32,6 +35,7 @@
   <!-- Button trigger modal -->
   
   <!-- Modal -->
+  
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -44,7 +48,8 @@
         <div class="modal-body">
             <p>
                 <p>&nbsp;&nbsp;&nbsp;&nbsp;
-                    To begin the game you need to click the “Let the fun begin” button.
+                  <strong>This game is pretty straightforward, but if your ever stuck on how to continue, this is the place!</strong>
+                    To begin the game you need to click the “Start” button.
                     First, you will answer the question above the input box. Next, you must click the “Continue” button.
                     Once the you click the continue button, an alert will pop up. If the alert is red, you answered the question wrong.
                      If the alert is green, you answered the question right. 
@@ -53,7 +58,7 @@
                      question is revealed on the periodic table. Your progress will be lost if 
                      you exit or reload the page (version two is on the way to fix this). 
                      The game can continue on until all the elements in the periodic table are 
-                     revealed!
+                     revealed!<strong>I hope you now know how to play!</strong>
                     
                 </p>
     
@@ -64,8 +69,23 @@
   </div>
   <div>
     <h1 style="text-align: center;">The Periodic Table Game</h1>
-   <!-- -->
-
+  <div id="interactive">
+      <div id="result"></div>
+      <div id="right">
+        <div id= "question"></div>
+            <div id = "showAndHide">
+                <input type="text" id = "input"/>
+                <br/>
+                <br/>
+            </div>
+          
+                <button id="next" onclick = "nextQuestion()" class="btn btn-primary">Start!</button>
+                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
+                Rules
+                </button>
+          <br/>
+      </div>
+    </div>
     <div class="periodic">
         <div class="periodic-row">
           <div class="cell">
@@ -76,22 +96,7 @@
               <br/><span id="el1a" class="question-mark visible-span">?</span>
             </div>
           </div>
-          <div class="cell"></div>
-          <div class="cell"></div>
-          <div class="cell"></div>
-          <div class="cell"></div>
-          <div class="cell"></div>
-          <div class="cell"></div>
-          <div class="cell"></div>
-          <div class="cell"></div>
-          <div class="cell"></div>
-          <div class="cell"></div>
-          <div class="cell"></div>
-          <div class="cell"></div>
-          <div class="cell"></div>
-          <div class="cell"></div>
-          <div class="cell"></div>
-          <div class="cell"></div>
+          <div class="specialcell"></div>
           <div class="cell">
             <div id="el2" class="element-no-transition hidden-element">
               <div class="at_num">2</div>
@@ -128,6 +133,7 @@
           <div class="cell"></div>
           <div class="cell"></div>
           <div class="cell"></div>
+          
           <div class="cell">
             <div id="el5" class="element-no-transition hidden-element">
               <div class="at_num">5</div>
@@ -1077,21 +1083,7 @@
         <div style="clear: both;"></div>
       </div>
     <br/>
-    <div id="interactive">
-      <div id="result"></div>
-      <div id= "question"></div>
-          <div id = "showAndHide">
-              <input type="text" id = "input"/>
-              <br/>
-              <br/>
-          </div>
-         
-              <button id="next" onclick = "nextQuestion()" class="btn btn-primary">Start!</button>
-              <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
-              Rules
-              </button>
-        <br/>
-    </div>
+    
   </div>
 
 

@@ -20,6 +20,14 @@ body {
     width: 5.55%;
     height: 100%;
   }
+  .specialcell{
+    float: left;
+    position: relative;
+    width: 88.75%;
+    height: 100%;
+    font-size: 12px;
+    
+  }
   .element {
     position: absolute;
     top: 0;

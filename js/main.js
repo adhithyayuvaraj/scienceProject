@@ -1,5 +1,4 @@
 //all the logic
-$("#question").text("Click 'next question' for your questions to start appearing");
 let functionRun = 0;
 let rand = Math.floor(Math.random() * data.length);
 let randQuestionAndPoints = data[rand].questionAndPoints;
@@ -13,11 +12,16 @@ $(document).ready(function(){
     $("#myModal").modal('show');
 });
 function wrongMessage (answer) {
-    let message = ` <div class="alert alert-danger" role="alert"> <b>You got the last question incorrect.<br/> The answer is: __ANSWER__ &#129300;</b></div>`;
+    answer = randQuestionAndPoints[questionNum].answer;
+    let message = ` <div class="alert alert-danger alert-dismissible fade show" role="alert"> <b>You got the last question incorrect.<br/> The answer is: __ANSWER__ &#129300;</b><button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="True">&times;</span>
+  </button></div>`;
     return message.replace("__ANSWER__", answer);
 }
 function rightMessage (points) {
-    let message = `<div class="alert alert-success" role="alert"><b> You got the last question correct!</b><br/><b> You have __POINTS__ point(s)! &#128077;</b></div>`;
+    let message = `<div class="alert alert-success alert-dismissible fade show" role="alert"><b> You got the last question correct!</b><br/><b> You have __POINTS__ point(s)! &#128077;</b><button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="True">&times;</span>
+  </button></div>`;
     return message.replace("__POINTS__", points);
 }
 
@@ -49,7 +53,9 @@ function nextQuestion () {
     $("#next").html("Continue");
     if(functionRun > 0){
         if($("#input").val() == ""){
-            $("#result").html(`<div class="alert alert-warning" role="alert">You did not answer the last question!<br/> The answer is: ${answer}  &#9888;&#65039;`);
+            $("#result").html(`<div class="alert alert-warning alert-dismissible fade show" role="alert">You did not answer the last question!<br/> The answer is: ${answer}  &#9888;&#65039;<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="True">&times;</span>
+          </button></div>`);
         } else{
             if(isNaN(answer)){
                 if (answer.toLowerCase() == $("#input").val().toLowerCase()) {
