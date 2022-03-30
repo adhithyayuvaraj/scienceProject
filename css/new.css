@@ -4,23 +4,23 @@ body {
     -ms-transform: translateZ(0);
     transform: translateZ(0);
   }
-  .periodic {
+.periodic {
     position: relative;
     height: 200px;
     margin-right: -1px;
     text-shadow: none;
   }
-  .periodic-row {
+.periodic-row {
     clear: both;
     height: 10%;
   }
-  .cell {
+.cell {
     float: left;
     position: relative;
     width: 5.55%;
     height: 100%;
   }
-  .specialcell{
+.specialcell{
     float: left;
     position: relative;
     width: 88.75%;
@@ -28,18 +28,18 @@ body {
     font-size: 12px;
     
   }
-  .big{
+.big{
     width:200px;
     height:100px;
     font-size:50px;
   }
-  #rules{
+#rules{
     float:right;
     background-color: rgb(8, 165, 68);
     height:50px;
     width:100px;
   }
-  .element {
+.element {
     position: absolute;
     top: 0;
     left: 0;
@@ -56,7 +56,7 @@ body {
     background-color: rgba(0, 128, 128, 0.6);
   }
 
-  .element-no-trans {
+.element-no-trans {
     position: absolute;
     top: 0;
     left: 0;
@@ -71,7 +71,7 @@ body {
     background-color: rgba(0, 128, 128, 0.6);
   }
 
-  .question-mark {
+.question-mark {
       text-align: center;
       padding: 10px;
       position: absolute;
@@ -88,7 +88,7 @@ body {
     background-color: rgba(184, 184, 184, 0.6);
   }
 
-  .cell:hover .element {
+.cell:hover .element {
     border-color: rgba(0, 0, 0, 0.1);
     -webkit-transform: scale(3, 3);
     -ms-transform: scale(3, 3);
@@ -96,18 +96,18 @@ body {
     z-index: 1;
     background-color: rgba(0, 128, 128, 0.9);
   }
-  .at_num,
-  .at_details {
+.at_num,
+.at_details {
     position: absolute;
     font-size: 4px;
     color: rgba(255, 255, 255, 0.5);
     opacity: 0;
   }
-  .at_num {
+.at_num {
     top: 4px;
     right: 5px;
   }
-  .symbol {
+.symbol {
     position: absolute;
     top: 50%;
     left: 0px;

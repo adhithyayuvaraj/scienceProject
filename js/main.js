@@ -27,24 +27,10 @@ function rightMessage (points) {
 
 function handleRightAnswer(questionNumber, points) {
     pop()
-    let idName = "#el" + (questionNumber+1)
-    let aidName = idName + "a"
-    $(idName).removeClass("hidden-element")
-    $(idName).removeClass("element-no-transition")
-    $(idName).addClass("element")
-    $(aidName).removeClass("visible-span")
-    $(aidName).addClass("hidden-element")
     $("#result").html(rightMessage(points))
 }
 
 function handleWrongAnswer(questionNumber, points) {
-    let idName = "#el" + (questionNumber+1)
-    let aidName = idName + "a"
-    $(idName).addClass("hidden-element")
-    $(idName).addClass("element-no-transition")
-    $(idName).removeClass("element")
-    $(aidName).removeClass("hidden-element")
-    $(aidName).addClass("visible-span")
     $("#result").html(wrongMessage(points))
 }
 
