@@ -76,10 +76,32 @@
     </div>
   </div>
   <div>
+    <div class="modal fade" id="questionModal" tabindex="-1" aria-labelledby="exampleModalLabel">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="questionModalLabel"></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div id = "modal" class="modal-body">
+               
+  
+      
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+
     <button id="rules" type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
       Rules
       </button>
-    <h1 style="text-align: center;">The Periodic Table Game</h1>
+    <h1 id = "header" style="text-align: center;">The Periodic Table Game</h1>
+    <input type="text" id="findElement" placeholder="Type number 1 to 118.">
+    <button id="findElementButton" onclick = "findElement()" class="btn btn-primary" data-toggle="modal" data-target="#questionModal">Find Element!</button>
   <div id="interactive">
       <div id="result"></div>
       <div id="right">
@@ -1098,5 +1120,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <script src="js/data.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/extra.js"></script>
 </body>
 </html>
