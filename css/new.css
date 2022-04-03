@@ -1,9 +1,15 @@
 body {
-    font-family: Arial;
+    font-family: 'Times New Roman', Times, serif;
     -webkit-transform: translateZ(0);
     -ms-transform: translateZ(0);
     transform: translateZ(0);
   }
+
+ 
+#interactive{
+  text-align:center;
+}
+
 .periodic {
     position: relative;
     height: 200px;
@@ -50,7 +56,7 @@ body {
     border: 1px solid rgba(0, 0, 0, 0.05);
     text-align: center;
     cursor: default;
-    pointer-events: none;
+    /*pointer-events: none;*/
     -webkit-transition: all 200ms ease;
     transition: all 200ms ease;
     background-color: rgba(0, 128, 128, 0.6);
@@ -99,13 +105,15 @@ body {
 .at_num,
 .at_details {
     position: absolute;
-    font-size: 4px;
+    font-size: 3px;
     color: rgba(255, 255, 255, 0.5);
     opacity: 0;
+    border:black solid 1px;
   }
 .at_num {
     top: 4px;
     right: 5px;
+    border:none;
   }
 .symbol {
     position: absolute;
@@ -113,7 +121,7 @@ body {
     left: 0px;
     right: 0px;
     margin-top: -4px;
-    font-size: 9px;
+    font-size: 10px;
     line-height: 1;
     height: 9px;
     color: rgba(255, 255, 255, 0.9);
@@ -200,6 +208,8 @@ body {
     .at_details {
       font-size: 4px;
       opacity: 1;
+      color:black;
+      
     }
     .symbol {
       margin-top: -17px;
@@ -207,7 +217,7 @@ body {
       font-weight: bold;
       line-height: 30px;
       height: 30px;
-      color: rgba(255, 255, 255, 0.75);
+      color: rgba(0, 0, 0, 0.75);
       text-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
     }
   }
@@ -216,23 +226,36 @@ body {
       height: 540px;
       font-size:10px;
     }
+    .elementbutton {
+      font-size:10px;
+      color:black;
+    }
     .symbol {
       font-size: 20px;
+      color:black;
     }
   }
   @media (min-width: 800px) {
     .periodic {
+      font-size:20px;
+    }
+    .elementbutton{
       height: 540px;
       font-size:20px;
+      color:black;
     }
     .symbol {
       font-size: 20px;
+      color:black;
     }
   }
   @media (min-width: 992px) {
     .periodic {
-      height: 680px;
       font-size:25px;
+    }
+    .elementbutton{
+      font-size:25px;
+      color:black;
     }
     .at_num,
     .at_details {
@@ -240,18 +263,23 @@ body {
     }
     .symbol {
       font-size: 24px;
+      color:black;
     }
   }
   @media (min-width: 1200px) {
     .periodic {
-      height: 800px;
       font-size:30px;
     }
     .at_num,
     .at_details {
       font-size: 6px;
     }
+    .elementbutton{
+      font-size:30px;
+      color:black;
+    }
     .symbol {
       font-size: 30px;
+      color:black;
     }
   }

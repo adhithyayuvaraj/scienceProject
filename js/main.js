@@ -8,9 +8,7 @@ let answer = randQuestionAndPoints[questionNum].answer;
 let inputElement = document.getElementById("showAndHide");
 inputElement.style.display =  "none";
 let points = 0
-$(document).ready(function(){
-    $("#myModal").modal('show');
-});
+
 function wrongMessage (answer) {
     answer = randQuestionAndPoints[questionNum].answer;
     let message = ` <div class="alert alert-danger alert-dismissible fade show" role="alert"> <b>You got the last question incorrect.<br/> The answer is: __ANSWER__ &#129300;</b><button type="button" class="close" data-dismiss="alert" aria-label="Close">
