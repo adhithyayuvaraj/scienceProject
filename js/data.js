@@ -1921,7 +1921,8 @@ let data = [
             {
                 question:"Number of electrons in Xenon",
                 answer:54
-            },{
+            },
+            {
                 question:"Xenon's State at room temperature",
                 answer:"Gas"
             },
