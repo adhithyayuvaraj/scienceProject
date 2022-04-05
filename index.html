@@ -64,26 +64,28 @@
     </div>
   </div>
   <div>
-    <div class="modal fade" id="questionModal" tabindex="-1" aria-labelledby="exampleModalLabel">
+    <div class="modal fade" data-backdrop="static" id="questionModal" tabindex="-1" aria-labelledby="exampleModalLabel">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="questionModalLabel"></h5>
             <button type="button" class="close" data-dismiss="modal2" aria-label="Close">
-              <span onclick="hideModal()" aria-hidden="true">&times;</span>
+              <span  aria-hidden="true">&times;</span>
             </button>
           </div>
-          <div class="modal-body" id="questionModalBody"> 
-            
-          </div>
-          <div class="modal-body" id="questionInputBody">
-            <input id="input">
-            <button onclick="evaluateAnswer()" id="submit" class="btn btn-primary">Submit</button>
+          <div class="modal-body" id="modalBody">
+            Please note that you will not be able to click out of this modal until you answer ALL the questions, otherwise, your progress will be lost. 
+            <div class="modal-body" id="questionModalBody"></div>
+            <div class="modal-body" id="questionInputBody">
+              <input id="input">
+              <button onclick="evaluateAnswer()" id="submit" class="btn btn-primary">Submit</button>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <div>
+  </div>
+<div>
 
     <button id="rules" type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
       Rules
