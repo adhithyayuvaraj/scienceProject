@@ -1,5 +1,4 @@
 function displayModal (clicked_id) {
-    //making title of modal
     let title = document.getElementById(clicked_id).innerHTML
     title = title.split(" ")
 
@@ -19,48 +18,49 @@ function displayModal (clicked_id) {
         $("#questionModal").modal('show');
     });
     //inital text
+    $("#modalBody").text("")
     $("#questionModalLabel").html(title[5])
     $("#questionModalBody").html(question)
+    console.log(questionNumber)
 }
 
 function evaluateAnswer(){
      //other variables
-     input = document.getElementById("input").value
-     answer = data[arrayNumber].questionAndPoints[questionNumber].answer
-     question = question
-    
-     if(answer == input){
+    input = document.getElementById("input").value
+    answer = data[arrayNumber].questionAndPoints[questionNumber].answer
+    question = question
+
+    if(answer == input){
         console.log("yay!!!")
         questionNumber--
-            if(questionNumber == 6){
-                validateAnswer(6)
-            }if(questionNumber == 5){
-                validateAnswer(5)
-                
-            }if(questionNumber == 4){
-                validateAnswer(4)
-                
-            }if(questionNumber == 3){
-                validateAnswer(3)
-                
-            }if(questionNumber == 2){
-                validateAnswer(2)
-            }if(questionNumber == 1){
-                validateAnswer(1)
-            }if(questionNumber == 0){
-                validateAnswer(0)
-                $("#modalBody").text("You answered all the questions correctly! Congratulations!!!!")
-                $("#questionModal").modal('hide')
-                questionNumber == 7
-            }
-     }else if(input == ""){
-         console.log("Hey idiot, u forgot to write something!")
-         $("#questionModalBody").html(question)
-     }else{
-         console.log("wrong!!!")
-         $("#questionModalBody").html(question)
-     }
-     question = question
+    $("#quickMessage").text("")
+    if(questionNumber == 6){
+        validateAnswer(6)
+    }if(questionNumber == 5){
+        validateAnswer(5)
+    }if(questionNumber == 4){
+        validateAnswer(4)
+    }if(questionNumber == 3){
+        validateAnswer(3)
+    }if(questionNumber == 2){
+        validateAnswer(2)
+    }if(questionNumber == 1){
+        validateAnswer(1)
+    }if(questionNumber == 0){
+        validateAnswer(0)
+        $("#modalBody").text("You answered all the questions correctly! Congratulations!!!!")
+        $("#questionModal").modal('hide')
+        questionNumber = 7 
+        console.log(questionNumber)
+    }
+    }else if(input == ""){
+        console.log("Hey idiot, u forgot to write something!")
+        $("#questionModalBody").html(question)
+    }else{
+        console.log("wrong!!!")
+        $("#questionModalBody").html(question)
+    }
+    question = question
 }
 
 function validateAnswer(questionNumber) {

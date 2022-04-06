@@ -64,17 +64,19 @@
     </div>
   </div>
   <div>
-    <div class="modal fade" data-backdrop="static" id="questionModal" tabindex="-1" aria-labelledby="exampleModalLabel">
+    <div class="modal fade" id="questionModal" tabindex="-1" aria-labelledby="exampleModalLabel">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="questionModalLabel"></h5>
-            <button type="button" class="close" data-dismiss="modal2" aria-label="Close">
-              <span  aria-hidden="true">&times;</span>
-            </button>
+            <button class="btn btn-secondary">Save and Exit</button>
           </div>
           <div class="modal-body" id="modalBody">
-            Please note that you will not be able to click out of this modal until you answer ALL the questions, otherwise, your progress will be lost. 
+            <div id="quickMessage">
+              Please note that you will not be able to click out 
+              of this modal until you answer ALL the questions, 
+              otherwise, your progress will be lost. 
+            </div>
             <div class="modal-body" id="questionModalBody"></div>
             <div class="modal-body" id="questionInputBody">
               <input id="input">
