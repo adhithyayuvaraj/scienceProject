@@ -81,6 +81,7 @@
             <div class="modal-body" id="questionInputBody">
               <input id="input">
               <button onclick="evaluateAnswer()" id="submit" class="btn btn-primary">Submit</button>
+              <button onclick="congrats()" id="congratMessage"></button>
             </div>
           </div>
         </div>
@@ -101,7 +102,7 @@
             <div class="element" data-toggle="modal2" data-target="#questionModal">
               <span class="at_num">1</span><br/>
               <span class="symbol">H</span><br/>
-              <span onclick="displayModal(this.id)" id = "el1" class="at_details">Click to answer questions about <strong>Hydrogen<strong></span>
+              <span onclick="displayModal(this.id)" id = "el1" class="at_details">Click to answer questions about Hydrogen </span>
             </div>
           </div>
           <div class="specialcell"></div>
@@ -109,7 +110,7 @@
             <div class="element" data-toggle="modal2" data-target="#questionModal">
               <div class="at_num">2</div>
               <div class="symbol">He</div>
-              <span onclick="displayModal(this.id)" id = "el2" class="at_details">Click to answer questions about <strong>Helium<strong></span>
+              <span onclick="displayModal(this.id)" id = "el2" class="at_details">Click to answer questions about Helium</span>
             </div>
           </div>
         </div>
@@ -1093,12 +1094,10 @@
     
   </div>
 
-
+  <script src="js/data.js"></script>
+    <script src="js/extra.js"></script>
     <script src="js/confetti.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    <script src="js/data.js"></script>
-
-    <script src="js/extra.js"></script>
 </body>
 </html>
