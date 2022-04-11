@@ -44,7 +44,8 @@ let data = [
             {
                 question:"Number of electrons in Helium",
                 answer:2
-            },{
+            },
+            {
                 question:" Helium's State at room temperature",
                 answer:"Gas"
             },

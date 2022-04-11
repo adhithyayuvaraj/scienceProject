@@ -1,3 +1,9 @@
+let choices = ["Answering questions","Answering questions"]
+let question;
+let questionNumber;
+let arrayNumber;
+let questionsAnswered=0;
+
 function displayModal (clicked_id) {
     let title = document.getElementById(clicked_id).innerHTML
     title = title.split(" ")
@@ -8,7 +14,7 @@ function displayModal (clicked_id) {
     arrayNumber--
 
     //questionNumber
-    questionNumber = 7
+    questionNumber = 2
 
     //question and answer varibles
     question = data[arrayNumber].questionAndPoints[questionNumber].question
@@ -18,17 +24,21 @@ function displayModal (clicked_id) {
         $("#questionModal").modal('show');
     });
     //inital text
-    $("#questionModalLabel").text(title[5])
-    $("#questionModalBody").text(question)
-    console.log(questionNumber)
-    console.log(arrayNumber)
+    console.log(`At the beggining of ${title[5]} the ${questionNumber} is when it should be 7`)
+    //console.log(arrayNumber)
+    //console.log(title[5])
+    //console.log(question)
+    document.getElementById("questionModalLabel").innerHTML = title[5]
+    $("#questionBody").text(question)
 }
 
 function evaluateAnswer(){
-    if(questionNumber == -1){
-        $("#modalBody").html("Congratulations! You have viewed all the questions!")
-        questionNumber = 7
+    if(questionNumber == -1 || choices[arrayNumber] == "Finished answering"){
+        document.getElementById("modalBody").innerHTML = `You have answered ${questionsAnswered}/8 questions! Good job!`
         console.log(questionNumber)
+        question = ""
+        console.log(question)
+        console.log("After answering all the questions in Hydrogen is answered, the question number is" + questionNumber)
     }else{
         input = document.getElementById("input").value
         answer = data[arrayNumber].questionAndPoints[questionNumber].answer
@@ -36,31 +46,43 @@ function evaluateAnswer(){
         if(answer == input){
             console.log("yay!!!")
             questionNumber--
+            questionsAnswered++;
         $("#quickMessage").text("good job")
         if(questionNumber == 7){
             validateAnswer(7)
+            questionsAnswered++;
         }if(questionNumber == 6){
             validateAnswer(6)
+
+            questionsAnswered++;
         }if(questionNumber == 5){
             validateAnswer(5)
+            questionsAnswered++;
         }if(questionNumber == 4){
             validateAnswer(4)
+            questionsAnswered++;
         }if(questionNumber == 3){
             validateAnswer(3)
+            questionsAnswered++;
         }if(questionNumber == 2){
             validateAnswer(2)
+            questionsAnswered++;
         }if(questionNumber == 1){
             validateAnswer(1)
-
+            questionsAnswered++;
         }if(questionNumber == 0){
             validateAnswer(0)
+            questionsAnswered++;
         }
         }else if(input == ""){
             console.log("Hey idiot, u forgot to write something!")
-            $("#questionModalBody").html(question)
+            $("#questionBody").html(question)
         }else{
-            console.log("wrong!!!")
-            $("#questionModalBody").html(question)
+            input == ""
+            console.log(questionNumber)
+            question = data[arrayNumber].questionAndPoints[questionNumber].question
+            console.log(questionNumber)
+            questionNumber--
         }
         question = question
     }
@@ -78,15 +100,17 @@ function validateAnswer(questionNumber) {
         }else if(questionNumber == 0){
             console.log("hey")
         }
-        $("#questionModalBody").html(question)
+        $("#questionBody").html(question)
     }else if(input == ""){
         input == ""
         console.log("Hey idiot, u forgot to write something!")
-        $("#questionModalBody").html(question)
+        $("#questionBody").html(question)
     }else{
         input == ""
-        console.log("wrong!!!")
-        $("#questionModalBody").html(question)
+        console.log(questionNumber)
+        question = data[arrayNumber].questionAndPoints[questionNumber].question
+        console.log(questionNumber)
+        questionNumber--
     }
 }
 function nextQuestion2() {
@@ -98,7 +122,7 @@ function nextQuestion2() {
     }
 }
 function congrats() {
-    $("#questionModalBody").text("Congradulations, you answered all the questions!")
+    $("#questionBody").text("Congradulations, you answered all the questions!")
 }
 //  $(document).ready(function(){
 //     $("#myModal").modal('show');
