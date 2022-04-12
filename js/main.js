@@ -1,13 +1,17 @@
-let choices = ["Answering questions","Answering questions"]
-let question;
-let questionNumber;
-let arrayNumber;
-let questionsAnswered=0;
+//makinglots of VARIBLES. NUM NUM NUM
+let questionsAnsweredArray = []
+let questionsAnsweredTempObj = {}
+let question
+let questionNumber
+let arrayNumber
+let questionsAnswered=0
+let objectNumber = 1
+console.log(questionsAnsweredArray)
 
 function displayModal (clicked_id) {
-    $("#congratMessage").hide();
+    $("#congratMessage").hide()
     //setting up the arrayNumber it should call in data.js using the id.
-    arrayNumber = clicked_id.slice(2);
+    arrayNumber = clicked_id.slice(2)
     arrayNumber = parseInt(arrayNumber)
     arrayNumber--
 
@@ -21,25 +25,33 @@ function displayModal (clicked_id) {
 
     //making the modal show up
     $(document).ready(function(){
-        $("#questionModal").modal('show');
-    });
+        $("#questionModal").modal('show')
+    })
     //inital text
     $("#quickMessage").show()
     $("#questionInputBody").show()
-    questionsAnswered = 0;
+    questionsAnswered = 0
     document.getElementById("questionModalLabel").innerHTML = title
     document.getElementById("questionBody").innerHTML = question
+    questionsAnsweredTempObj["name"] = title;
 }
 
 function evaluateAnswer(){
     if(questionNumber == -1){
         document.getElementById("questionBody").innerHTML = `You have answered ${questionsAnswered}/8 questions!!`
         question = ""
-        questionsAnswered = 0;
+        questionsAnswered = 0
         console.log(`Their are now ${questionsAnswered} answered correctly`)
         $("#quickMessage").hide()
         $("#quickMessage").text("")
         $("#questionInputBody").hide()
+        questionsAnsweredTempObj[`score`] = `${questionsAnswered}/8`
+        questionsAnsweredArray.push(questionsAnsweredTempObj)
+        console.log(questionsAnsweredArray)
+        makeData()
+        questionsAnsweredTempObj = {}
+        objectNumber = 1;
+
 
     }else{
         input = document.getElementById("input").value
@@ -51,7 +63,15 @@ function evaluateAnswer(){
             $("#quickMessage").text("Good Job! You got the last question correct!")
             validateAnswer(questionNumber)
             questionsAnswered++
+            answer = document.getElementById("input").value
+            console.log(answer)
+            questionsAnsweredTempObj[`question ${objectNumber}`] = question
+            questionsAnsweredTempObj[`answer ${objectNumber}`] = answer
+            questionsAnsweredTempObj[`correct ${objectNumber}`] = true
             $("#input").val("")
+            objectNumber++
+
+        
         }else if(input == ""){
             $("#quickMessage").text("Please answer to proceed.")
             $("#questionBody").html(question)
@@ -61,6 +81,10 @@ function evaluateAnswer(){
             answer = data[arrayNumber].questionAndPoints[questionNumber].answer
             $("#quickMessage").text(`You got the last question incorrect! The answer was ${answer}`)
             $("#questionBody").html(question)
+            questionsAnsweredTempObj[`question ${objectNumber}`] = question
+            questionsAnsweredTempObj[`answer ${objectNumber}`] = document.getElementById("input").value
+            questionsAnsweredTempObj[`correct ${objectNumber}`] = false
+            objectNumber++
             questionNumber--
             question = data[arrayNumber].questionAndPoints[questionNumber].question
             $("#questionBody").text(question)
@@ -79,7 +103,6 @@ function validateAnswer(questionNumber) {
             input == ""
             question = data[arrayNumber].questionAndPoints[questionNumber].question
             questionNumber--
-            $("#input").val("")
         }
         $("#questionBody").html(question)
     }else if(input == ""){
@@ -92,6 +115,18 @@ function validateAnswer(questionNumber) {
         questionNumber--
         $("#input").val("")
     }
+}
+
+function makeData() {
+    $("#arrayText").append(`
+    <div class="card bg-light mb-3" style="max-width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">${questionsAnsweredTempObj.name}</h5>
+      <p class="card-text">The score you got was${questionsAnsweredTempObj.score}</p>
+    </div>
+    </div>
+    `)
+
 }
 
 function congrats() {
