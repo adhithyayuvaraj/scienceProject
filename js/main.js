@@ -5,13 +5,13 @@ let arrayNumber;
 let questionsAnswered=0;
 
 function displayModal (clicked_id) {
-    let title = document.getElementById(clicked_id).innerHTML
-    title = title.split(" ")
     $("#congratMessage").hide();
     //setting up the arrayNumber it should call in data.js using the id.
     arrayNumber = clicked_id.slice(2);
     arrayNumber = parseInt(arrayNumber)
     arrayNumber--
+
+    let title = data[arrayNumber].elementName
 
     //questionNumber
     questionNumber = 7
@@ -24,65 +24,49 @@ function displayModal (clicked_id) {
         $("#questionModal").modal('show');
     });
     //inital text
-    console.log(`At the beggining of ${title[5]} the ${questionNumber} is when it should be 7`)
-    //console.log(arrayNumber)
-    //console.log(title[5])
-    //console.log(question)
-    document.getElementById("questionModalLabel").innerHTML = title[5]
-    $("#questionBody").text(question)
+    $("#quickMessage").show()
+    $("#questionInputBody").show()
+    questionsAnswered = 0;
+    document.getElementById("questionModalLabel").innerHTML = title
+    document.getElementById("questionBody").innerHTML = question
 }
 
 function evaluateAnswer(){
-    if(questionNumber == -1 || choices[arrayNumber] == "Finished answering"){
-        document.getElementById("modalBody").innerHTML = `You have answered ${questionsAnswered}/8 questions! Good job!`
-        console.log(questionNumber)
+    if(questionNumber == -1){
+        document.getElementById("questionBody").innerHTML = `You have answered ${questionsAnswered}/8 questions!!`
         question = ""
-        console.log(question)
-        console.log("After answering all the questions in Hydrogen is answered, the question number is" + questionNumber)
+        questionsAnswered = 0;
+        console.log(`Their are now ${questionsAnswered} answered correctly`)
+        $("#quickMessage").hide()
+        $("#quickMessage").text("")
+        $("#questionInputBody").hide()
+
     }else{
         input = document.getElementById("input").value
         answer = data[arrayNumber].questionAndPoints[questionNumber].answer
 
         if(answer == input){
-            console.log("yay!!!")
+            
             questionNumber--
-            questionsAnswered++;
-        $("#quickMessage").text("good job")
-        if(questionNumber == 7){
-            validateAnswer(7)
-            questionsAnswered++;
-        }if(questionNumber == 6){
-            validateAnswer(6)
-
-            questionsAnswered++;
-        }if(questionNumber == 5){
-            validateAnswer(5)
-            questionsAnswered++;
-        }if(questionNumber == 4){
-            validateAnswer(4)
-            questionsAnswered++;
-        }if(questionNumber == 3){
-            validateAnswer(3)
-            questionsAnswered++;
-        }if(questionNumber == 2){
-            validateAnswer(2)
-            questionsAnswered++;
-        }if(questionNumber == 1){
-            validateAnswer(1)
-            questionsAnswered++;
-        }if(questionNumber == 0){
-            validateAnswer(0)
-            questionsAnswered++;
-        }
+            $("#quickMessage").text("Good Job! You got the last question correct!")
+            validateAnswer(questionNumber)
+            questionsAnswered++
+            $("#input").val("")
         }else if(input == ""){
-            console.log("Hey idiot, u forgot to write something!")
+            $("#quickMessage").text("Please answer to proceed.")
             $("#questionBody").html(question)
         }else{
             input == ""
-            console.log(questionNumber)
             question = data[arrayNumber].questionAndPoints[questionNumber].question
-            console.log(questionNumber)
+            answer = data[arrayNumber].questionAndPoints[questionNumber].answer
+            $("#quickMessage").text(`You got the last question incorrect! The answer was ${answer}`)
+            $("#questionBody").html(question)
             questionNumber--
+            question = data[arrayNumber].questionAndPoints[questionNumber].question
+            $("#questionBody").text(question)
+            $("#input").val("")
+            
+            
         }
         question = question
     }
@@ -93,38 +77,27 @@ function validateAnswer(questionNumber) {
      if(answer == input){
         if(questionNumber >= 0){
             input == ""
-            console.log(questionNumber)
             question = data[arrayNumber].questionAndPoints[questionNumber].question
-            console.log(questionNumber)
             questionNumber--
-        }else if(questionNumber == 0){
-            console.log("hey")
+            $("#input").val("")
         }
         $("#questionBody").html(question)
     }else if(input == ""){
         input == ""
-        console.log("Hey idiot, u forgot to write something!")
         $("#questionBody").html(question)
     }else{
         input == ""
-        console.log(questionNumber)
         question = data[arrayNumber].questionAndPoints[questionNumber].question
-        console.log(questionNumber)
+        $("#questionBody").html(question)
         questionNumber--
+        $("#input").val("")
     }
 }
-function nextQuestion2() {
-    let val = $("#findElement").val()
-    if($("#answer").value = data[val-1].questionAndPoints[7].answer){
-        console.log("yay!")
-    }else{
-       
-    }
-}
+
 function congrats() {
     $("#questionBody").text("Congradulations, you answered all the questions!")
 }
-//  $(document).ready(function(){
-//     $("#myModal").modal('show');
-// });
+
+
+
 

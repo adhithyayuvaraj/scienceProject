@@ -3,7 +3,7 @@
 let data = [
 
     {
-        points:0,
+        elementName: "Hydrogen",
         questionAndPoints: [
             {
                 question:"Number of electrons in Hydrogen",
@@ -39,7 +39,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Helium",
         questionAndPoints: [
             {
                 question:"Number of electrons in Helium",
@@ -78,7 +78,7 @@ let data = [
     },
 
     {
-        points:0,
+        elementName: "Lithium",
         questionAndPoints: [
             {
                 question:"Number of electrons in Lithium",
@@ -115,7 +115,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Beryllium",
         questionAndPoints: [
             {
                 question:"Number of electrons in Beryllium",
@@ -152,7 +152,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Boron",
         questionAndPoints: [
             {
                 question:"Number of electrons in Boron",
@@ -189,7 +189,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Carbon",
         questionAndPoints: [
             {
                 question:"Number of electrons in Carbon",
@@ -226,7 +226,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Nitrogen",
         questionAndPoints: [
             {
                 question:"Number of electrons in Nitrogen",
@@ -263,7 +263,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Oxygen",
         questionAndPoints: [
             {
                 question:"Number of protons in Oxygen",
@@ -299,7 +299,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Fluorine",
         questionAndPoints: [
             {
                 question:"Number of protons in Fluorine",
@@ -335,7 +335,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Neon",
         questionAndPoints: [
             {
                 question:"Number of protons in Neon",
@@ -372,7 +372,7 @@ let data = [
     },
 
     {
-        points:0,
+        elementName: "Sodium",
         questionAndPoints: [
             {
                 question:"Number of protons in Sodium",
@@ -408,7 +408,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Magnesium",
         questionAndPoints: [
             {
                 question:"Number of protons in Magnesium",
@@ -445,7 +445,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Aluminum",
         questionAndPoints: [
             {
                 question:"Number of protons in Aluminum",
@@ -481,7 +481,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Silicon",
         questionAndPoints: [
             {
                 question:"Number of protons in Silicon          ",
@@ -517,7 +517,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Phosphorus",
         questionAndPoints: [
             {
                 question:"Number of protons in Phosphorus  ",
@@ -549,7 +549,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Sulfur",
         questionAndPoints: [
             {
                 question:"Number of protons in Sulfur  ",
@@ -585,7 +585,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Chlorine",
         questionAndPoints: [
             {
                 question:"Number of protons in Chlorine  ",
@@ -621,7 +621,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Argon",
         questionAndPoints: [
             {
                 question:"Number of protons in Argon  ",
@@ -657,7 +657,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Potassium",
         questionAndPoints: [
             {
                 question:"Number of protons in Potassium ",
@@ -693,7 +693,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Calcium",
         questionAndPoints: [
             {
                 question:"Number of protons in Calcium ",
@@ -729,7 +729,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Scandium",
         questionAndPoints: [
             {
                 question:"Number of protons in Scandium",
@@ -765,7 +765,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Titanium",
         questionAndPoints: [
             {
                 question:"Number of protons in Titanium",
@@ -801,7 +801,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Vanadium",
         questionAndPoints: [
             {
                 question:"Number of protons in Vanadium",
@@ -837,7 +837,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Chromium",
         questionAndPoints: [
             {
                 question:"Number of protons in Chromium",
@@ -873,7 +873,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Manganese",
         questionAndPoints: [
             {
                 question:"Number of protons in Manganese",
@@ -909,7 +909,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Iron",
         questionAndPoints: [
             {
                 question:"Number of electrons in Iron",
@@ -945,7 +945,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Cobalt",
         questionAndPoints: [
             {
                 question:"Number of electrons in Cobalt",
@@ -981,7 +981,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Nickel",
         questionAndPoints: [
             {
                 question:"Number of electrons in Nickel",
@@ -1017,7 +1017,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Copper",
         questionAndPoints: [
             {
                 question:"Number of electrons in Copper",
@@ -1053,7 +1053,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Zinc",
         questionAndPoints: [
             {
                 question:"Number of electrons in Zinc",
@@ -1089,7 +1089,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Gallium",
         questionAndPoints: [
             {
                 question:"Number of electrons in Gallium",
@@ -1125,7 +1125,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Germanium",
         questionAndPoints: [
             {
                 question:"Number of electrons in Germanium",
@@ -1161,7 +1161,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Arsenic",
         questionAndPoints: [
             {
                 question:"Number of electrons in Arsenic",
@@ -1197,7 +1197,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Selenium",
         questionAndPoints: [
             {
                 question:"Number of electrons in Selenium",
@@ -1233,7 +1233,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Bromine",
         questionAndPoints: [
             {
                 question:"Number of electrons in Bromine",
@@ -1269,7 +1269,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Krypton",
         questionAndPoints: [
             {
                 question:"Number of electrons in Krypton",
@@ -1305,7 +1305,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Rubidum",
         questionAndPoints: [
             {
                 question:"Number of electrons in Rubidium",
@@ -1341,7 +1341,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Strontium",
         questionAndPoints: [
             {
                 question:"Number of protons in Strontium",
@@ -1377,7 +1377,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Yttrium",
         questionAndPoints: [
             {
                 question:"Number of protons in Yttrium",
@@ -1413,7 +1413,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Zirconium",
         questionAndPoints: [
             {
                 question:"Number of protons in Zirconium",
@@ -1449,7 +1449,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Niobium",
         questionAndPoints: [
             {
                 question:"Number of protons in Niobium",
@@ -1485,7 +1485,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Molybdenum",
         questionAndPoints: [
             {
                 question:"Number of protons in Molybdenum",
@@ -1521,7 +1521,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Technetium",
         questionAndPoints: [
             {
                 question:"Number of protons in Technetium",
@@ -1557,7 +1557,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Ruthenium",
         questionAndPoints: [
             {
                 question:"Number of protons in Ruthenium",
@@ -1593,7 +1593,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Rhodium",
         questionAndPoints: [
             {
                 question:"Number of protons in Rhodium",
@@ -1629,7 +1629,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Palladium",
         questionAndPoints: [
             {
                 question:"Number of protons in Palladium",
@@ -1665,7 +1665,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Silver",
         questionAndPoints: [
             {
                 question:"Number of protons in Silver",
@@ -1701,7 +1701,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Cadmium",
         questionAndPoints: [
             {
                 question:"Number of protons in Cadmium",
@@ -1737,7 +1737,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Indium",
         questionAndPoints: [
             {
                 question:"Number of protons in Indium",
@@ -1773,7 +1773,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Tin",
         questionAndPoints: [
             {
                 question:"Number of protons in Tin",
@@ -1809,7 +1809,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Antimony",
         questionAndPoints: [
             {
                 question:"Number of electrons in Antimony",
@@ -1845,7 +1845,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Tellurium",
         questionAndPoints: [
             {
                 question:"Number of electrons in Tellurium",
@@ -1881,7 +1881,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Iodine",
         questionAndPoints: [
             {
                 question:"Number of electrons in Iodine",
@@ -1914,10 +1914,11 @@ let data = [
                 question:"Iodine's Ionization Energy in kilojoules per mole (kJ/mol)",
                 answer:1008
             }
+            
         ]
     },
     {
-        points:0,
+        elementName: "Xenon",
         questionAndPoints: [
             {
                 question:"Number of electrons in Xenon",
@@ -1954,7 +1955,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Cesium",
         questionAndPoints: [
             {
                 question:"Number of electrons in Cesium",
@@ -1990,7 +1991,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Barium",
         questionAndPoints: [
             {
                 question:"Number of electrons in Barium",
@@ -2026,7 +2027,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Lanthanum",
         questionAndPoints: [
             {
                 question:"Number of electrons in Lanthanum",
@@ -2062,7 +2063,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Cerium",
         questionAndPoints: [
             {
                 question:"Number of electrons in Cerium",
@@ -2098,7 +2099,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Praseodymium",
         questionAndPoints: [
             {
                 question:"Number of electrons in Praseodymium",
@@ -2134,7 +2135,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Neodymium",
         questionAndPoints: [
             {
                 question:"Number of electrons in Neodymium",
@@ -2170,7 +2171,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Promethium",
         questionAndPoints: [
             {
                 question:"Number of electrons in Promethium",
@@ -2206,7 +2207,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Samarium",
         questionAndPoints: [
             {
                 question:"Number of electrons in Samarium",
@@ -2242,7 +2243,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Europium",
         questionAndPoints: [
             {
                 question:"Number of electrons in Europium",
@@ -2278,7 +2279,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Gadolinium",
         questionAndPoints: [
             {
                 question:"Number of electrons in Gadolinium",
@@ -2314,7 +2315,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Terbium",
         questionAndPoints: [
             {
                 question:"Number of electrons in Terbium",
@@ -2350,7 +2351,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Dysprosium",
         questionAndPoints: [
             {
                 question:"Number of electrons in Dysprosium",
@@ -2386,7 +2387,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Holmium",
         questionAndPoints: [
             {
                 question:"Number of protons in Holmium",
@@ -2422,7 +2423,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Erbium",
         questionAndPoints: [
             {
                 question:"Number of protons in Erbium",
@@ -2458,7 +2459,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Thulium",
         questionAndPoints: [
             {
                 question:"Number of protons in Thulium",
@@ -2494,7 +2495,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Ytterbium",
         questionAndPoints: [
             {
                 question:"Number of protons in Ytterbium",
@@ -2530,7 +2531,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Lutetium",
         questionAndPoints: [
             {
                 question:"Number of protons in Lutetium",
@@ -2566,7 +2567,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Hafnium",
         questionAndPoints: [
             {
                 question:"Number of protons in Hafnium",
@@ -2602,7 +2603,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Tantalum",
         questionAndPoints: [
             {
                 question:"Number of protons in Tantalum",
@@ -2638,7 +2639,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Tungsten",
         questionAndPoints: [
             {
                 question:"Number of protons in Tungsten",
@@ -2674,7 +2675,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Rhenium",
         questionAndPoints: [
             {
                 question:"Number of protons in Rhenium",
@@ -2710,7 +2711,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Osmium",
         questionAndPoints: [
             {
                 question:"Number of protons in Osmium",
@@ -2746,7 +2747,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Iridium",
         questionAndPoints: [
             {
                 question:"Number of protons in Iridium",
@@ -2782,7 +2783,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Platinum",
         questionAndPoints: [
             {
                 question:"Number of protons in Platinum",
@@ -2818,7 +2819,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Gold",
         questionAndPoints: [
             {
                 question:"Number of protons in Gold",
@@ -2854,7 +2855,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Mercury",
         questionAndPoints: [
             {
                 question:"Number of protons in Mercury",
@@ -2890,7 +2891,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Thallium",
         questionAndPoints: [
             {
                 question:"Number of protons in Thallium",
@@ -2926,7 +2927,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Lead",
         questionAndPoints: [
             {
                 question:"Number of protons in Lead",
@@ -2962,7 +2963,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Bismuth",
         questionAndPoints: [
             {
                 question:"Number of protons in Bismuth",
@@ -2998,7 +2999,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Polonium",
         questionAndPoints: [
             {
                 question:"Number of protons in Polonium",
@@ -3034,7 +3035,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Astatine",
         questionAndPoints: [
             {
                 question:"Number of protons in Astatine",
@@ -3070,7 +3071,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Radon",
         questionAndPoints: [
             {
                 question:"Number of protons in Radon",
@@ -3106,7 +3107,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Francium",
         questionAndPoints: [
             {
                 question:"Number of protons in Francium",
@@ -3142,7 +3143,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Radium",
         questionAndPoints: [
             {
                 question:"Number of protons in Radium",
@@ -3178,7 +3179,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Actinium",
         questionAndPoints: [
             {
                 question:"Number of protons in Actinium",
@@ -3214,7 +3215,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Thorium",
         questionAndPoints: [
             {
                 question:"Number of protons in Thorium",
@@ -3250,7 +3251,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Protactinium",
         questionAndPoints: [
             {
                 question:"Number of protons in Protactinium",
@@ -3286,7 +3287,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Uranium",
         questionAndPoints: [
             {
                 question:"Number of protons in Uranium",
@@ -3322,7 +3323,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Neptunium",
         questionAndPoints: [
             {
                 question:"Number of protons in Neptunium ",
@@ -3358,7 +3359,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Plutonium",
         questionAndPoints: [
             {
                 question:"Number of protons in Plutonium ",
@@ -3394,7 +3395,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Americium",
         questionAndPoints: [
             {
                 question:"Number of protons in Americium",
@@ -3430,7 +3431,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Curium",
         questionAndPoints: [
             {
                 question:"Number of protons in Curium",
@@ -3466,7 +3467,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Berkelium",
         questionAndPoints: [
             {
                 question:"Number of protons in Berkelium",
@@ -3502,7 +3503,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Californium",
         questionAndPoints: [
             {
                 question:"Number of protons in Californium",
@@ -3538,7 +3539,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Einstenium",
         questionAndPoints: [
             {
                 question:"Number of protons in Einsteinium",
@@ -3574,7 +3575,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Fermium",
         questionAndPoints: [
             {
                 question:"Number of protons in Fermium",
@@ -3610,7 +3611,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Mendelevium",
         questionAndPoints: [
             {
                 question:"Number of protons in Mendelevium",
@@ -3646,7 +3647,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Nobelium",
         questionAndPoints: [
             {
                 question:"Number of protons in Nobelium",
@@ -3682,7 +3683,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName:"Lawrencium",
         questionAndPoints: [
             {
                 question:"Number of protons in Lawrencium",
@@ -3718,7 +3719,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Rutherfordium",
         questionAndPoints: [
             {
                 question:"Number of protons in Rutherfordium",
@@ -3754,7 +3755,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Dubnium",
         questionAndPoints: [
             {
                 question:"Number of protons in Dubnium",
@@ -3790,7 +3791,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Seaborgium",
         questionAndPoints: [
             {
                 question:"Number of protons in Seaborgium",
@@ -3826,7 +3827,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Bohrium",
         questionAndPoints: [
             {
                 question:"Number of protons in Bohrium",
@@ -3862,7 +3863,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Hassium",
         questionAndPoints: [
             {
                 question:"Number of protons in Hassium",
@@ -3898,7 +3899,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Meitnerium",
         questionAndPoints: [
             {
                 question:"Number of protons in Meitnerium",
@@ -3934,7 +3935,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Darmstadtium",
         questionAndPoints: [
             {
                 question:"Number of protons in Darmstadtium",
@@ -3970,7 +3971,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Roentgenium",
         questionAndPoints: [
             {
                 question:"Number of protons in Roentgenium",
@@ -4006,7 +4007,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Copernicium",
         questionAndPoints: [
             {
                 question:"Number of protons in Copernicium",
@@ -4042,7 +4043,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Nihonium",
         questionAndPoints: [
             {
                 question:"Number of protons in Nihonium",
@@ -4079,7 +4080,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Flerovium",
         questionAndPoints: [
             {
                 question:"Number of protons in Flerovium",
@@ -4115,7 +4116,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Moscovium",
         questionAndPoints: [
             {
                 question:"Number of protons in Moscovium",
@@ -4151,7 +4152,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Livermorium",
         questionAndPoints: [
             {
                 question:"Number of protons in Livermorium",
@@ -4187,7 +4188,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Tennessine",
         questionAndPoints: [
             {
                 question:"Number of protons in Tennessine",
@@ -4223,7 +4224,7 @@ let data = [
         ]
     },
     {
-        points:0,
+        elementName: "Oganesson",
         questionAndPoints: [
             {
                 question:"Number of protons in Oganesson",
