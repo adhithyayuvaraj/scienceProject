@@ -37,31 +37,26 @@ function displayModal (clicked_id) {
 }
 
 function evaluateAnswer(){
-    if(questionNumber == -1){
-        document.getElementById("questionBody").innerHTML = `You have answered ${questionsAnswered}/8 questions!!`
-        question = ""
-        questionsAnswered = 0
-        console.log(`Their are now ${questionsAnswered} answered correctly`)
-        $("#quickMessage").hide()
-        $("#quickMessage").text("")
-        $("#questionInputBody").hide()
-        questionsAnsweredTempObj[`score`] = `${questionsAnswered}/8`
-        questionsAnsweredArray.push(questionsAnsweredTempObj)
-        console.log(questionsAnsweredArray)
-        makeData()
-        questionsAnsweredTempObj = {}
-        objectNumber = 1;
+        
 
-
-    }else{
+    if(questionNumber >= 0){
+        console.log(questionNumber)
         input = document.getElementById("input").value
         answer = data[arrayNumber].questionAndPoints[questionNumber].answer
-
-        if(answer == input){
-            
+        if(questionNumber == 1){
+            console.log("hi")
+            if(answer == input.toLowerCase() || answer == input){
+                questionNumber--
+            $("#quickMessage").html(
+                `<div class="alert alert-success" role="alert">
+                    Great job! You got the last question correct!
+                </div>`
+            )
+            pop()
+            input == ""
+            question = data[arrayNumber].questionAndPoints[questionNumber].question
             questionNumber--
-            $("#quickMessage").text("Good Job! You got the last question correct!")
-            validateAnswer(questionNumber)
+            $("#questionBody").html(question)
             questionsAnswered++
             answer = document.getElementById("input").value
             console.log(answer)
@@ -70,61 +65,114 @@ function evaluateAnswer(){
             questionsAnsweredTempObj[`correct ${objectNumber}`] = true
             $("#input").val("")
             objectNumber++
-
+            console.log(questionNumber)
+            }else if(input == ""){
+                $("#quickMessage").html(`
+                <div class="alert alert-warning" role="alert">
+                    Please answer the question to proceed. 
+                </div>
+              
+                `)
+                $("#questionBody").html(question)
+            }else{
+                console.log(questionNumber)
+                input == ""
+                question = data[arrayNumber].questionAndPoints[questionNumber].question
+                answer = data[arrayNumber].questionAndPoints[questionNumber].answer
+                $("#quickMessage").html(`
+                <div class="alert alert-danger" role="alert">
+                You got the last question incorrect. The answer was ${answer}.
+                <br/> Their is always next time!
+                </div>
+                `)
+                $("#questionBody").html(question)
+                questionsAnsweredTempObj[`question ${objectNumber}`] = question
+                questionsAnsweredTempObj[`answer ${objectNumber}`] = document.getElementById("input").value
+                questionsAnsweredTempObj[`correct ${objectNumber}`] = false
+                objectNumber++
+                questionNumber--
+                question = data[arrayNumber].questionAndPoints[questionNumber].question
+                $("#questionBody").text(question)
+                $("#input").val("")
+                console.log(questionNumber)
+                
+            }
+        }else if(answer == input){
+            console.log(questionNumber)
+            questionNumber--
+            $("#quickMessage").html(
+                `<div class="alert alert-success" role="alert">
+                    Amazing! You got the last question correct
+                </div>`
+            )
+            pop()
+            input == ""
+            question = data[arrayNumber].questionAndPoints[questionNumber].question
+            $("#questionBody").html(question)
+            questionsAnswered++
+            answer = document.getElementById("input").value
+            console.log(answer)
+            questionsAnsweredTempObj[`question ${objectNumber}`] = question
+            questionsAnsweredTempObj[`answer ${objectNumber}`] = answer
+            questionsAnsweredTempObj[`correct ${objectNumber}`] = true
+            $("#input").val("")
+            objectNumber++
+            console.log(questionNumber)
         
         }else if(input == ""){
-            $("#quickMessage").text("Please answer to proceed.")
+            $("#quickMessage").html(`
+            <div class="alert alert-warning" role="alert">
+                Please answer the question to proceed. 
+            </div>
+          
+            `)
             $("#questionBody").html(question)
         }else{
+            console.log(questionNumber)
             input == ""
             question = data[arrayNumber].questionAndPoints[questionNumber].question
             answer = data[arrayNumber].questionAndPoints[questionNumber].answer
-            $("#quickMessage").text(`You got the last question incorrect! The answer was ${answer}`)
+            $("#quickMessage").html(`
+            <div class="alert alert-danger" role="alert">
+            You got the last question incorrect. The answer was ${answer}.
+            <br/> Their is always next time!
+            </div>
+            `)
             $("#questionBody").html(question)
             questionsAnsweredTempObj[`question ${objectNumber}`] = question
             questionsAnsweredTempObj[`answer ${objectNumber}`] = document.getElementById("input").value
             questionsAnsweredTempObj[`correct ${objectNumber}`] = false
             objectNumber++
-            questionNumber--
             question = data[arrayNumber].questionAndPoints[questionNumber].question
             $("#questionBody").text(question)
             $("#input").val("")
-            
+            console.log(questionNumber)
+            questionNumber--
             
         }
         question = question
-    }
-}
-
-function validateAnswer(questionNumber) {
-    
-     if(answer == input){
-        if(questionNumber >= 0){
-            input == ""
-            question = data[arrayNumber].questionAndPoints[questionNumber].question
-            questionNumber--
-        }
-        $("#questionBody").html(question)
-    }else if(input == ""){
-        input == ""
-        $("#questionBody").html(question)
     }else{
-        input == ""
-        question = data[arrayNumber].questionAndPoints[questionNumber].question
-        $("#questionBody").html(question)
-        questionNumber--
-        $("#input").val("")
+        console.log(questionNumber)
+        document.getElementById("questionBody").innerHTML = `You have answered ${questionsAnswered}/8 questions correctly!!`
+        question = ""
+        $("#quickMessage").hide()
+        $("#quickMessage").text("")
+        $("#questionInputBody").hide()
+        questionsAnsweredTempObj[`score`] = `${questionsAnswered}`
+        questionsAnsweredArray.push(questionsAnsweredTempObj)
+        console.log(questionsAnsweredArray)
+        makeData()
+        questionsAnsweredTempObj = {}
+        objectNumber = 1;
+        $("#quickNote").hide()
+        questionsAnswered = 0
     }
 }
 
 function makeData() {
     $("#arrayText").append(`
-    <div class="card bg-light mb-3" style="max-width: 18rem;">
-    <div class="card-body">
-      <h5 class="card-title">${questionsAnsweredTempObj.name}</h5>
-      <p class="card-text">The score you got was${questionsAnsweredTempObj.score}</p>
-    </div>
-    </div>
+    <li class="list-group-item">For ${questionsAnsweredTempObj.name}, 
+    your score was ${questionsAnsweredTempObj.score}/8</li>
     `)
 
 }

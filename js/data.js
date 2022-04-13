@@ -10,7 +10,7 @@ let data = [
                 answer:1
             },{
                 question:" Hydrogen's State at room temperature",
-                answer:"Gas"
+                answer:"gas"
             },
             {
                 question:"Hydrogen's abbreviation",
@@ -47,7 +47,7 @@ let data = [
             },
             {
                 question:" Helium's State at room temperature",
-                answer:"Gas"
+                answer:"gas"
             },
             {
                 question:"Helium's abbreviation",
@@ -85,7 +85,7 @@ let data = [
                 answer:3
             },{
                 question:"Lithium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Lithium's abbreviation",
@@ -122,7 +122,7 @@ let data = [
                 answer:4
             },{
                 question:"Beryllium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Beryllium's abbreviation",
@@ -159,7 +159,7 @@ let data = [
                 answer:5
             },{
                 question:"Boron's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Boron's abbreviation",
@@ -196,7 +196,7 @@ let data = [
                 answer:6
             },{
                 question:"Carbon's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Carbon's abbreviation",
@@ -233,7 +233,7 @@ let data = [
                 answer:7
             },{
                 question:"Nitrogen's State at room temperature",
-                answer:"Gas"
+                answer:"gas"
             },
             {
                 question:"Nitrogen's abbreviation",
@@ -270,7 +270,7 @@ let data = [
                 answer:8
             },{
                 question:"Oxygen's State at room temperature",
-                answer:"Gas"
+                answer:"gas"
             },
             {
                 question:"Oxygen's abbreviation",
@@ -306,7 +306,7 @@ let data = [
                 answer:9
             },{
                 question:"Fluorine's State at room temperature",
-                answer:"Gas"
+                answer:"gas"
             },
             {
                 question:"Fluorine's abbreviation",
@@ -342,7 +342,7 @@ let data = [
                 answer:10
             },{
                 question:"Neon's State at room temperature",
-                answer:"Gas"
+                answer:"gas"
             },
             {
                 question:"Neon's abbreviation",
@@ -379,7 +379,7 @@ let data = [
                 answer:11
             },{
                 question:"Sodium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Sodium's abbreviation",
@@ -416,7 +416,7 @@ let data = [
             },
             {
                 question:"Magnesium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Magnesium's abbreviation",
@@ -452,7 +452,7 @@ let data = [
                 answer:13
             },{
                 question:"Aluminum 's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Aluminum 's abbreviation",
@@ -488,7 +488,7 @@ let data = [
                 answer:14
             },{
                 question:"Silicon 's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Silicon 's abbreviation",
@@ -524,7 +524,7 @@ let data = [
                 answer:15
             },{
                 question:"Phosphorus 's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Phosphorus 's abbreviation",
@@ -556,7 +556,7 @@ let data = [
                 answer:16
             },{
                 question:"Sulfur 's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Sulfur's abbreviation",
@@ -592,7 +592,7 @@ let data = [
                 answer:17
             },{
                 question:"Chlorine 's State at room temperature",
-                answer:"Gas"
+                answer:"gas"
             },
             {
                 question:"Chlorine's abbreviation",
@@ -628,7 +628,7 @@ let data = [
                 answer:18
             },{
                 question:"Argon's State at room temperature",
-                answer:"Gas"
+                answer:"gas"
             },
             {
                 question:"Argon's abbreviation",
@@ -664,7 +664,7 @@ let data = [
                 answer:19
             },{
                 question:"Potassium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Potassium's abbreviation",
@@ -700,7 +700,7 @@ let data = [
                 answer:20
             },{
                 question:"Calcium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Calcium's abbreviation",
@@ -736,7 +736,7 @@ let data = [
                 answer:21
             },{
                 question:"Scandium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Scandium's abbreviation",
@@ -772,7 +772,7 @@ let data = [
                 answer:22
             },{
                 question:"Titanium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Titanium's abbreviation",
@@ -808,7 +808,7 @@ let data = [
                 answer:23
             },{
                 question:"Vanadium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Vanadium's abbreviation",
@@ -844,7 +844,7 @@ let data = [
                 answer:24
             },{
                 question:"Chromium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Chromium's abbreviation",
@@ -880,7 +880,7 @@ let data = [
                 answer:25
             },{
                 question:"Manganese's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Manganese's abbreviation",
@@ -916,7 +916,7 @@ let data = [
                 answer:26
             },{
                 question:"Iron's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Iron's abbreviation",
@@ -952,7 +952,7 @@ let data = [
                 answer:27
             },{
                 question:"Cobalt's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Cobalt's abbreviation",
@@ -988,7 +988,7 @@ let data = [
                 answer:28
             },{
                 question:"Nickel's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Nickel's abbreviation",
@@ -1024,7 +1024,7 @@ let data = [
                 answer:29
             },{
                 question:"Copper's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Copper's abbreviation",
@@ -1060,7 +1060,7 @@ let data = [
                 answer:30
             },{
                 question:"Zinc's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Zinc's abbreviation",
@@ -1096,7 +1096,7 @@ let data = [
                 answer:31
             },{
                 question:"Gallium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Gallium's abbreviation",
@@ -1132,7 +1132,7 @@ let data = [
                 answer:32
             },{
                 question:"Germanium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Germanium's abbreviation",
@@ -1168,7 +1168,7 @@ let data = [
                 answer:33
             },{
                 question:"Arsenic's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Arsenic's abbreviation",
@@ -1204,7 +1204,7 @@ let data = [
                 answer:34
             },{
                 question:"Selenium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Selenium's abbreviation",
@@ -1240,7 +1240,7 @@ let data = [
                 answer:35
             },{
                 question:"Bromine's State at room temperature",
-                answer:"Liquid"
+                answer:"liquid"
             },
             {
                 question:"Bromine's abbreviation",
@@ -1276,7 +1276,7 @@ let data = [
                 answer:36
             },{
                 question:"Krypton's State at room temperature",
-                answer:"Liquid"
+                answer:"liquid"
             },
             {
                 question:"Krypton's abbreviation",
@@ -1312,7 +1312,7 @@ let data = [
                 answer:37
             },{
                 question:"Rubidium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Rubidium's abbreviation",
@@ -1348,7 +1348,7 @@ let data = [
                 answer:37
             },{
                 question:"Strontium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Strontium's abbreviation",
@@ -1384,7 +1384,7 @@ let data = [
                 answer:39
             },{
                 question:"Yttrium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Yttrium's abbreviation",
@@ -1420,7 +1420,7 @@ let data = [
                 answer:40
             },{
                 question:"Zirconium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Zirconium's abbreviation",
@@ -1456,7 +1456,7 @@ let data = [
                 answer:41
             },{
                 question:"Niobium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Niobium's abbreviation",
@@ -1492,7 +1492,7 @@ let data = [
                 answer:42
             },{
                 question:"Molybdenum's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Molybdenum's abbreviation",
@@ -1528,7 +1528,7 @@ let data = [
                 answer:43
             },{
                 question:"Technetium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Technetium's abbreviation",
@@ -1564,7 +1564,7 @@ let data = [
                 answer:44
             },{
                 question:"Ruthenium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Ruthenium's abbreviation",
@@ -1600,7 +1600,7 @@ let data = [
                 answer:45
             },{
                 question:"Rhodium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Rhodium's abbreviation",
@@ -1636,7 +1636,7 @@ let data = [
                 answer:46
             },{
                 question:"Palladium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Palladium's abbreviation",
@@ -1672,7 +1672,7 @@ let data = [
                 answer:47
             },{
                 question:"Silver's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Silver's abbreviation",
@@ -1708,7 +1708,7 @@ let data = [
                 answer:48
             },{
                 question:"Cadmium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Cadmium's abbreviation",
@@ -1744,7 +1744,7 @@ let data = [
                 answer:49
             },{
                 question:"Indium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Indium's abbreviation",
@@ -1780,7 +1780,7 @@ let data = [
                 answer:50
             },{
                 question:"Tin's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Tin's abbreviation",
@@ -1816,7 +1816,7 @@ let data = [
                 answer:51
             },{
                 question:"Antimony's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Antimony's abbreviation",
@@ -1852,7 +1852,7 @@ let data = [
                 answer:52
             },{
                 question:"Tellurium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Tellurium's abbreviation",
@@ -1888,7 +1888,7 @@ let data = [
                 answer:53
             },{
                 question:"Iodine's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Iodine's abbreviation",
@@ -1926,7 +1926,7 @@ let data = [
             },
             {
                 question:"Xenon's State at room temperature",
-                answer:"Gas"
+                answer:"gas"
             },
             {
                 question:"Xenon's abbreviation",
@@ -1962,7 +1962,7 @@ let data = [
                 answer:55
             },{
                 question:"Cesium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Cesium's abbreviation",
@@ -1998,7 +1998,7 @@ let data = [
                 answer:56
             },{
                 question:"Barium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Barium's abbreviation",
@@ -2034,7 +2034,7 @@ let data = [
                 answer:57
             },{
                 question:"Lanthanum's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Lanthanum's abbreviation",
@@ -2070,7 +2070,7 @@ let data = [
                 answer:58
             },{
                 question:"Cerium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Cerium's abbreviation",
@@ -2106,7 +2106,7 @@ let data = [
                 answer:59
             },{
                 question:"Praseodymium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Praseodymium's abbreviation",
@@ -2142,7 +2142,7 @@ let data = [
                 answer:60
             },{
                 question:"Neodymium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Neodymium's abbreviation",
@@ -2178,7 +2178,7 @@ let data = [
                 answer:61
             },{
                 question:"Promethium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Promethium's abbreviation",
@@ -2214,7 +2214,7 @@ let data = [
                 answer:62
             },{
                 question:"Samarium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Samarium's abbreviation",
@@ -2250,7 +2250,7 @@ let data = [
                 answer:63
             },{
                 question:"Europium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Europium's abbreviation",
@@ -2286,7 +2286,7 @@ let data = [
                 answer:64
             },{
                 question:"Gadolinium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Gadolinium's abbreviation",
@@ -2322,7 +2322,7 @@ let data = [
                 answer:65
             },{
                 question:"Terbium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Terbium's abbreviation",
@@ -2358,7 +2358,7 @@ let data = [
                 answer:66
             },{
                 question:"Dysprosium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Dysprosium's abbreviation",
@@ -2394,7 +2394,7 @@ let data = [
                 answer:67
             },{
                 question:"Holmium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Holmium's abbreviation",
@@ -2430,7 +2430,7 @@ let data = [
                 answer:68
             },{
                 question:"Erbium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Erbium's abbreviation",
@@ -2466,7 +2466,7 @@ let data = [
                 answer:69
             },{
                 question:"Thulium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Thulium's abbreviation",
@@ -2502,7 +2502,7 @@ let data = [
                 answer:70
             },{
                 question:"Ytterbium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Ytterbium's abbreviation",
@@ -2538,7 +2538,7 @@ let data = [
                 answer:71
             },{
                 question:"Lutetium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Lutetium's abbreviation",
@@ -2574,7 +2574,7 @@ let data = [
                 answer:72
             },{
                 question:"Hafnium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Hafnium's abbreviation",
@@ -2610,7 +2610,7 @@ let data = [
                 answer:73
             },{
                 question:"Tantalum's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Tantalum's abbreviation",
@@ -2646,7 +2646,7 @@ let data = [
                 answer:74
             },{
                 question:"Tungsten's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Tungsten's abbreviation",
@@ -2682,7 +2682,7 @@ let data = [
                 answer:75
             },{
                 question:"Rhenium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Rhenium's abbreviation",
@@ -2718,7 +2718,7 @@ let data = [
                 answer:76
             },{
                 question:"Osmium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Osmium's abbreviation",
@@ -2754,7 +2754,7 @@ let data = [
                 answer:77
             },{
                 question:"Iridium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Iridium's abbreviation",
@@ -2790,7 +2790,7 @@ let data = [
                 answer:77
             },{
                 question:"Platinum's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Platinum's abbreviation",
@@ -2826,7 +2826,7 @@ let data = [
                 answer:79
             },{
                 question:"Gold's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Gold's abbreviation",
@@ -2862,7 +2862,7 @@ let data = [
                 answer:80
             },{
                 question:"Mercury's State at room temperature",
-                answer:"Liquid"
+                answer:"liquid"
             },
             {
                 question:"Mercury's abbreviation",
@@ -2898,7 +2898,7 @@ let data = [
                 answer:81
             },{
                 question:"Thallium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Thallium's abbreviation",
@@ -2934,7 +2934,7 @@ let data = [
                 answer:82
             },{
                 question:"Lead's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Lead's abbreviation",
@@ -2970,7 +2970,7 @@ let data = [
                 answer:83
             },{
                 question:"Bismuth's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Bismuth's abbreviation",
@@ -3006,7 +3006,7 @@ let data = [
                 answer:84
             },{
                 question:"Polonium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Polonium's abbreviation",
@@ -3042,7 +3042,7 @@ let data = [
                 answer:85
             },{
                 question:"Astatine's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Astatine's abbreviation",
@@ -3078,7 +3078,7 @@ let data = [
                 answer:86
             },{
                 question:"Radon's State at room temperature",
-                answer:"Gas"
+                answer:"gas"
             },
             {
                 question:"Radon's abbreviation",
@@ -3114,7 +3114,7 @@ let data = [
                 answer:87
             },{
                 question:"Francium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Francium's abbreviation",
@@ -3150,7 +3150,7 @@ let data = [
                 answer:88
             },{
                 question:"Radium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Radium's abbreviation",
@@ -3186,7 +3186,7 @@ let data = [
                 answer:89
             },{
                 question:"Actinium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Actinium's abbreviation",
@@ -3222,7 +3222,7 @@ let data = [
                 answer:90
             },{
                 question:"Thorium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Thorium's abbreviation",
@@ -3258,7 +3258,7 @@ let data = [
                 answer:91
             },{
                 question:"Protactinium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Protactinium's abbreviation",
@@ -3294,7 +3294,7 @@ let data = [
                 answer:92
             },{
                 question:"Uranium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Uranium's abbreviation",
@@ -3330,7 +3330,7 @@ let data = [
                 answer:93
             },{
                 question:"Neptunium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Neptunium's abbreviation",
@@ -3366,7 +3366,7 @@ let data = [
                 answer:94
             },{
                 question:"Plutonium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Plutonium's abbreviation",
@@ -3402,7 +3402,7 @@ let data = [
                 answer:95
             },{
                 question:"Americium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Americium's abbreviation",
@@ -3438,7 +3438,7 @@ let data = [
                 answer:96
             },{
                 question:"Curium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Curium's abbreviation",
@@ -3474,7 +3474,7 @@ let data = [
                 answer:97
             },{
                 question:"Berkelium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Berkelium's abbreviation",
@@ -3510,7 +3510,7 @@ let data = [
                 answer:98
             },{
                 question:"Californium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Californium's abbreviation",
@@ -3546,7 +3546,7 @@ let data = [
                 answer:99
             },{
                 question:"Einsteinium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Einsteinium's abbreviation",
@@ -3582,7 +3582,7 @@ let data = [
                 answer:100
             },{
                 question:"Fermium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Fermium's abbreviation",
@@ -3618,7 +3618,7 @@ let data = [
                 answer:101
             },{
                 question:"Mendelevium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Mendelevium's abbreviation",
@@ -3654,7 +3654,7 @@ let data = [
                 answer:102
             },{
                 question:"Nobelium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Nobelium's abbreviation",
@@ -3690,7 +3690,7 @@ let data = [
                 answer:103
             },{
                 question:"Lawrencium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Lawrencium's abbreviation",
@@ -3726,7 +3726,7 @@ let data = [
                 answer:104
             },{
                 question:"Rutherfordium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Rutherfordium's abbreviation",
@@ -3762,7 +3762,7 @@ let data = [
                 answer:105
             },{
                 question:"Dubnium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Dubnium's abbreviation",
@@ -3798,7 +3798,7 @@ let data = [
                 answer:106
             },{
                 question:"Seaborgium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Seaborgium's abbreviation",
@@ -3834,7 +3834,7 @@ let data = [
                 answer:107
             },{
                 question:"Bohrium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Bohrium's abbreviation",
@@ -3870,7 +3870,7 @@ let data = [
                 answer:108
             },{
                 question:"Hassium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Hassium's abbreviation",
@@ -3906,7 +3906,7 @@ let data = [
                 answer:109
             },{
                 question:"Meitnerium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Meitnerium's abbreviation",
@@ -3942,7 +3942,7 @@ let data = [
                 answer:110
             },{
                 question:"Darmstadtium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Darmstadtium's abbreviation",
@@ -3978,7 +3978,7 @@ let data = [
                 answer:111
             },{
                 question:"Roentgenium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Roentgenium's abbreviation",
@@ -4014,7 +4014,7 @@ let data = [
                 answer:112
             },{
                 question:"Copernicium's State at room temperature",
-                answer:"Liquid"
+                answer:"liquid"
             },
             {
                 question:"Copernicium's abbreviation",
@@ -4051,7 +4051,7 @@ let data = [
             },
             {
                 question:"Nihonium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Nihonium's abbreviation",
@@ -4087,7 +4087,7 @@ let data = [
                 answer:114
             },{
                 question:"Flerovium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Flerovium's abbreviation",
@@ -4123,7 +4123,7 @@ let data = [
                 answer:115
             },{
                 question:"Moscovium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Moscovium's abbreviation",
@@ -4159,7 +4159,7 @@ let data = [
                 answer:116
             },{
                 question:"Livermorium's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Livermorium's abbreviation",
@@ -4195,7 +4195,7 @@ let data = [
                 answer:117
             },{
                 question:"Tennessine's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Tennessine's abbreviation",
@@ -4231,7 +4231,7 @@ let data = [
                 answer:118
             },{
                 question:"Oganesson's State at room temperature",
-                answer:"Solid"
+                answer:"solid"
             },
             {
                 question:"Oganesson's abbreviation",
