@@ -58,7 +58,7 @@ let data = [
                 answer:0
             },
             {
-                question:"Number of valence electrons in Hyrdogen (including the d-subshell and s-subshell for the d-block and f-block elements!)",
+                question:"Number of valence electrons in Helium (including the d-subshell and s-subshell for the d-block and f-block elements!)",
                 answer:2
             },
             {

@@ -52,7 +52,6 @@ function evaluateAnswer(){
                     Great job! You got the last question correct!
                 </div>`
             )
-            pop()
             input == ""
             question = data[arrayNumber].questionAndPoints[questionNumber].question
             questionNumber--
@@ -105,7 +104,6 @@ function evaluateAnswer(){
                     Amazing! You got the last question correct
                 </div>`
             )
-            pop()
             input == ""
             question = data[arrayNumber].questionAndPoints[questionNumber].question
             $("#questionBody").html(question)
@@ -166,6 +164,7 @@ function evaluateAnswer(){
         objectNumber = 1;
         $("#quickNote").hide()
         questionsAnswered = 0
+        pop()
     }
 }
 
