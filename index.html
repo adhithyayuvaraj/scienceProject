@@ -11,27 +11,10 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 <body>
-  <div class="d-flex justify-content-center">
-  </div>
-<div id="myModal" class="modal fade">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">Looking to have fun learning the perodic table?!</h5>
-                <button id="#rulesButton" type="button" class="close" data-dismiss="modal">&times;</button>
-          </div>
-            <div class="modal-body">
-              <p>Well, this site can help you! Dedicated to middle schoolers
-                and high schoolers, (and made by a middle schooler) this website
-                will help you learn the periodic table in a fun way! What are you waiting for? Exit out of the pop out, and 
-                start. (You start by clicking the START button, but I think you know
-                that already)
-              </p>
-            </div>
-        </div>
-    </div>
-</div>
 
+  <!--
+    Instructions Modal
+  -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -41,85 +24,69 @@
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div class="modal-body">
-              <img src="pictures/begin.png" alt="the start button">
-              Alright! First you click the "start" button. [Look above]
-              <img src="pictures/typeAnswer.png" alt="typing the answer in">
-              <br/><br/>
-              Then, you type in your answer![Look above]
-              <br/><br/><br/>
-              <img src="pictures/submit.png" alt="clicking 'continue'">
-              <br/><br/>
-              And, of course. You submit it, clicking the "submit button".[Look above]
-              <br/><br/>
-              <img src="pictures/alerts.png" alt="examples of different alerts" width="400px;">
-              <br/><br/>
-              After that, you will get three alerts. If it is GREEN, that 
-              means it is correct! If it's red, that means it is incorrect,
-              and if it is yellow - well you forgot to answer the question![Look above]
-              <br/><br/>
-              <strong>Now your all set! Have fun</strong>
-              <br/><br/>
-              <i>FYI: You lose your progress when you RELOAD or EXIT the page.</i>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div>
-    <div class="modal fade" id="questionModal" tabindex="-1" aria-labelledby="exampleModalLabel">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="questionModalLabel"></h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body" id="modalBody">
-            <div id="quickMessage">
-              Please note that you will not be able to click out 
-              of this modal until you answer ALL the questions, 
-              otherwise, your progress will be lost. 
-            </div>
-            <div class="modal-body" id="questionBody"></div>
-            <div class="modal-body" id="questionInputBody">
-              <input autocomplete="off" id="input">
-              <button onclick="evaluateAnswer()" id="submit" class="btn btn-primary">Submit</button>
-              <button onclick="congrats()" id="congratMessage"></button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-<div>
-  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#arrayModal">
-    PROGRESS
-  </button>
-  <div class="modal fade" tabindex="-1" id="arrayModal">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title">Progress</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body" id="arrayText">
-          <p id="quickNote">Answer a question to see your data!</p>
-            <div class="card" style="width: 18rem;">
-              <ul class="list-group list-group-flush" id="arrayText"></ul>
-            </div>
-        </div>
+        <div class="modal-body"></div>
       </div>
     </div>
   </div>
 
-    <button id="rules" type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
-      Rules
-      </button>
-    <h1 id = "header" style="text-align: center;">The Periodic Table Game</h1>
-    
+  <!--
+    Question Panel / Modal
+  -->
+  <div class="modal fade" id="questionModal" tabindex="-1" aria-labelledby="exampleModalLabel">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="questionModalLabel"></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <br/>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <a class="nav-link active" id="questions-tab" data-toggle="tab" href="#questions" role="tab" aria-controls="questions" aria-selected="true">Questions</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" id="progress-tab" data-toggle="tab" href="#progress" role="tab" aria-controls="progress" aria-selected="false">Progress</a>
+          </li>
+        </ul>
+
+        <div class="tab-content" id="myTabContent">
+
+          <div class="tab-pane fade show active" id="questions" role="tabpanel" aria-labelledby="questions-tab">
+            <div class="modal-body" id="modalBody">
+              <div id="quickMessage">
+                Please note that you will not be able to click out 
+                of this modal until you answer ALL the questions, 
+                otherwise, your progress will be lost. 
+              </div>
+              <div class="modal-body" id="questionBody"></div>
+              <div class="modal-body" id="questionInputBody">
+                <input autocomplete="off" id="input">
+                <button onclick="evaluateAnswer()" id="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="progress" role="tabpanel" aria-labelledby="progress-tab">
+            <div class="modal-body">
+              <p id="quickNote">Answer a question to see your progress!</p>
+                <div  class="card" style="width: 18rem;">
+                  <ul class="list-group list-group-flush" id="arrayText"></ul>
+                </div>
+            </div>
+          </div>
+
+        </div> <!-- end of tab content-->
+
+      </div> <!-- end of modal content-->
+    </div> <!-- end of modal dialogue-->
+  </div>
+  
+
+  <button style="float:right;" class="btn-primary btn" href="#" id="rules" data-toggle="modal" data-target="#exampleModal" >Rules</button>
+  <h1 id = "header" style="text-align: center;">The Periodic Table Game</h1>
+
  
     <div class="periodic">
         <div class="periodic-row">
