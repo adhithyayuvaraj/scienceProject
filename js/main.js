@@ -1,31 +1,3 @@
-/******************** 
- *  fix question and answer stroage for ALL CONDITIONALS
- *   
-{
-    name; "Hydrogen", 
-    QA: [
-        {
-            question: "Valence Electrons",
-            answer: "2",
-            isCorrect: true
-        }, 
-        {
-            question: "Valence Electrons",
-            answer: "2",
-            isCorrect: true
-        }, 
-        {
-            question: "Valence Electrons",
-            answer: "2",
-            isCorrect: true
-        }
-    ],
-    score: 4
-}
-
-***************************/
-
-
 //making lots of VARIBLES. NUM NUM NUM
 let questionsAnsweredArray = {}
 let question
@@ -39,6 +11,7 @@ function checkAndInitializeQAarray(elementName) {
             'score': 0
         }
         questionsAnsweredArray[elementName] = object
+        
     } 
 }
 
@@ -53,6 +26,9 @@ function storeQA(elementName, question, answer, isCorrect) {
         let curScore = questionsAnsweredArray[elementName]['score'] + 1
         questionsAnsweredArray[elementName]['score'] = curScore
     }
+    localStorage.setItem("progress", JSON.stringify(questionsAnsweredArray))
+    console.log(JSON.parse(localStorage.getItem("progress")))
+    $("#arrayText").append(JSON.stringify(questionsAnsweredArray))
 }
 
 
@@ -142,7 +118,16 @@ function displayProgress(elementName) {
 
 
 function displayModal (clicked_id) {
-
+    if(localStorage.getItem("progress") === null) {
+        localStorage.setItem("progress", "")
+    }else{
+        console.log("testing, testing")
+        $("#test").html(localStorage.getItem("progress"))
+        for(let i = 0; i < JSON.parse(localStorage.getItem("progress")).length; i++){
+            console.log(JSON.parse(localStorage.getItem("progress")))
+        }
+    }
+      
     resetForNextElement()
 
     $("#congratMessage").hide()
