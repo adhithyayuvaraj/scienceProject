@@ -545,6 +545,10 @@ let data = [
             {
                 question:"Phosphorus's Electron Configuration. (Powers displayed as '^', so 2^3 = 8 and after each exponent, their is a SPACE))",
                 answer:"1s^2 2s^2 2p^6 3s^2 3p^3"
+            },
+            {
+                question:"Phosphorus's Ionization Energy in kilojoules per mole (kJ/mol)",
+                answer:1012
             }
         ]
     },

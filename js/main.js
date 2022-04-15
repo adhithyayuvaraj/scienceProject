@@ -3,6 +3,16 @@ let questionsAnsweredArray = {}
 let question
 let questionNumber = 7
 
+
+function onLoad() {
+    if(localStorage.getItem("progress") === null) {
+        localStorage.setItem("progress", "")
+    }else{
+        let savedProgress  = JSON.parse(localStorage.getItem("progress"))
+        questionsAnsweredArray = savedProgress
+    }
+}
+
 function checkAndInitializeQAarray(elementName) {
     if(!questionsAnsweredArray[elementName]) {
         let object = {
@@ -118,15 +128,6 @@ function displayProgress(elementName) {
 
 
 function displayModal (clicked_id) {
-    if(localStorage.getItem("progress") === null) {
-        localStorage.setItem("progress", "")
-    }else{
-        console.log("testing, testing")
-        $("#test").html(localStorage.getItem("progress"))
-        for(let i = 0; i < JSON.parse(localStorage.getItem("progress")).length; i++){
-            console.log(JSON.parse(localStorage.getItem("progress")))
-        }
-    }
       
     resetForNextElement()
 

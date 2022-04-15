@@ -10,7 +10,7 @@
     <link rel="shortcut icon" type="image/jpg" href="./pictures/logo.png"/>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
-<body>
+<body onload="onLoad()">
 
   <!--
     Instructions Modal
@@ -24,7 +24,42 @@
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div class="modal-body"></div>
+        <div class="modal-body">
+          Welcome to the Periodic Table Game! Not sure where to start?
+          Well, this is how you use the website to the best of your ability!
+          <br/><br/>
+          First hover and click on an elemenet that you would like to answer
+          questions about! (As shown below)
+          <br/><br/>
+          <img src="pictures/begin.png" alt="Clicking on Hydrogen" width="25%"/>
+          <br/>
+          Then a modal should pop up. Enter the answer into the input box, and 
+          click submit. (As shown below)
+          <br/><br/>
+          <img src="pictures/answerQuestion.png" alt="Clicking on Hydrogen" width="100%"/>
+          <br/>
+          The alerts on top would tell you wether you got it right, wrong, or
+          just left it blank. (As shown below)
+          <br/><br/>
+          <img src="pictures/alerts.png" alt="Clicking on Hydrogen" width="100%"/>
+          <br/>
+          After you answered all the questions for one elemenet, a congradulatory 
+          message would've poped up! (As shown below)
+          <br/><br/>
+          <img src="pictures/completedElement.png" alt="Clicking on Hydrogen" width="100%"/>
+          <br/>
+          If you clicked the "progress" tab, you would be able to see what you
+          got right, wrong and what your score is. (As shown below)
+          <br/><br/>
+          <img src="pictures/progressTab.png" alt="Clicking on Hydrogen" width="50%"/>
+          <br/>
+          Close the pop-up, and then you can keep clicking on different elements and answering different
+          questions about them.
+          <br/>
+
+          <br/>
+          <h4>That's all! Hope you have fun playing this game!</h4>
+        </div>
       </div>
     </div>
   </div>
@@ -230,7 +265,7 @@
             <div onclick="displayModal(this.id)" id="el15" class="element" data-toggle="modal2" data-target="#questionModal">
               <div class="at_num">15</div>
               <div class="symbol">P</div>
-              <div id = "el15-title" class="at_details">UNDER CONSTRUCTION</div>
+              <div id = "el15-title" class="at_details">Phosphorus</div>
               <br/>
             </div>
           </div>
