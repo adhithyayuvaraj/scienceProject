@@ -39,10 +39,17 @@ body {
   height: 100%;
   font-size: 12px;
 }
+.nav-item {
+  margin-left: 100px;
+}
 .big {
   width: 200px;
   height: 100px;
   font-size: 50px;
+}
+
+#questionModal {
+  width: 100%;
 }
 
 .element {
@@ -281,4 +288,17 @@ body {
     font-size: 30px;
     color: black;
   }
+}
+
+tr,
+td {
+  border: 1px solid black;
+  padding: 5px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+}
+
+td {
+  margin: 10px;
+  border-radius: 10px;
 }
