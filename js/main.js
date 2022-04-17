@@ -4,6 +4,7 @@ let question
 let questionNumber = 7
 let icon;
 
+
 function onLoad() {
     if(localStorage.getItem("progress") === null) {
         localStorage.setItem("progress", "")
@@ -11,6 +12,7 @@ function onLoad() {
         let savedProgress  = JSON.parse(localStorage.getItem("progress"))
         questionsAnsweredArray = savedProgress
     }
+    $("#exampleModal").modal("show");
 }
 
 function checkAndInitializeQAarray(elementName) {
@@ -56,9 +58,10 @@ function resetForNextQuestion() {
 }
 
 function checkAnswer(answerInputed, correctAnswer) {
-    
-    if(questionNumber == 1) {
-        answerInputed = answerInputed.toLowerCase()
+    console.log(answerInputed, answerInputed.toLowerCase(), correctAnswer)
+    if(questionNumber == 1 || questionNumber == 7 || questionNumber == 3 || arrayNumber == 119) {
+        answerInputed = answerInputed
+        console.log("afsdjkl;")
     }
     return answerInputed == correctAnswer
 }
@@ -176,8 +179,8 @@ function displayModal (clicked_id) {
     document.getElementById("questionModalLabel").innerHTML = title
     $("#quickMessage").show()
     $("#questionInputBody").show()
-
     question = data[arrayNumber].questionAndPoints[questionNumber].question
+
     document.getElementById("questionBody").innerHTML = question
 
     displayProgress(title)
