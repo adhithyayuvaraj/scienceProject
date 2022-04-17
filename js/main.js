@@ -4,13 +4,14 @@ let question
 let questionNumber = 7
 let icon;
 
-
 function onLoad() {
     if(localStorage.getItem("progress") === null) {
         localStorage.setItem("progress", "")
     }else{
-        let savedProgress  = JSON.parse(localStorage.getItem("progress"))
-        questionsAnsweredArray = savedProgress
+        if(localStorage.getItem("progress") != ""){
+            let savedProgress  = JSON.parse(localStorage.getItem("progress"))
+            questionsAnsweredArray = savedProgress
+        }
     }
     $("#exampleModal").modal("show");
 }
@@ -39,7 +40,6 @@ function storeQA(elementName, question, answer, isCorrect) {
         questionsAnsweredArray[elementName]['score'] = curScore
     }
     localStorage.setItem("progress", JSON.stringify(questionsAnsweredArray))
-    console.log(JSON.parse(localStorage.getItem("progress")))
     $("#arrayText").append(JSON.stringify(questionsAnsweredArray))
 }
 
@@ -58,10 +58,11 @@ function resetForNextQuestion() {
 }
 
 function checkAnswer(answerInputed, correctAnswer) {
-    console.log(answerInputed, answerInputed.toLowerCase(), correctAnswer)
-    if(questionNumber == 1 || questionNumber == 7 || questionNumber == 3 || arrayNumber == 119) {
-        answerInputed = answerInputed
-        console.log("afsdjkl;")
+    if(questionNumber == 1) {
+        answerInputed = answerInputed.toLowerCase();
+    }else if( questionNumber == 7 || questionNumber == 3 || arrayNumber == 118){
+        answerInputed = answerInputed.toLowerCase()
+        correctAnswer = correctAnswer.toLowerCase()
     }
     return answerInputed == correctAnswer
 }
@@ -123,35 +124,26 @@ function displayProgress(elementName) {
             if(qaArray[i]['isCorrect']){
                 icon = `<img src="./pictures/correct.png" alt="Correct!" width = "40px">`
             }else{
-                console.log("hello")
                 icon = `<img src="./pictures/incorrect.png" alt="Incorrect!" width = "40px">`
             }
             let curText = `<br/> <h5>Question: ${qaArray[i]['question']} </h5>`
             curText += `<h6>Your answer: ${qaArray[i]['answer']} ${icon}</h6>`
             if(i == 0){
                 tableRow1 += `<td>${curText}</td>`
-                console.log(`Called in the if loop, and i is ${i}`)
             }else if(i==1) {
                 tableRow2 += `<td>${curText}</td>`
-                console.log()
             }else if(i==2){
                 tableRow3 += `<td>${curText}</td>`
-                console.log(`Called in the else loop, and i is ${i}`)
             }else if(i==3){
                 tableRow4 += `<td>${curText}</td>`
-                console.log(`Called in the else loop, and i is ${i}`)
             }else if(i==4){
                 tableRow1 += `<td>${curText}</td>`
-                console.log(`Called in the else loop, and i is ${i}`)
             }else if(i==5){
                 tableRow2 += `<td>${curText}</td>`
-                console.log(`Called in the else loop, and i is ${i}`)
             }else if(i==6){
                 tableRow3 += `<td>${curText}</td>`
-                console.log(`Called in the else loop, and i is ${i}`)
             }else if(i==7){
                 tableRow4 += `<td>${curText}</td>`
-                console.log(`Called in the else loop, and i is ${i}`)
             }
         }
         let arrayTextHtml = `<tr><th>Questions<th/><th></th><tbody>${tableRow1}${tableRow2}${tableRow3}${tableRow4}</tbody></tr>`

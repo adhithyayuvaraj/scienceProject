@@ -16,8 +16,8 @@ let data = [
 					"answer":"H"
 			},
 			{
-				"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Hydrogen or Arsenic?",
-				"answer":"Hydrogen"
+					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Hydrogen or Arsenic?",
+					"answer":"Hydrogen"
 			},
 			{
 					"question":"Hydrogen's oxidation state that makes the outer shell of itself 'full' when combined with another element",
