@@ -4,7 +4,7 @@ let data = [
 		"elementName":"Hydrogen",
 		"questionAndPoints":[
 			{
-					"question":"Number of electrons in Hydrogen",
+					"question":"Number of protons in Hydrogen",
 					"answer":1
 			},
 			{
@@ -21,7 +21,7 @@ let data = [
 			},
 			{
 					"question":"Hydrogen's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":1
+					"answer":"+1"
 			},
 			{
 					"question":"Number of valence electrons in Hydrogen",
@@ -41,7 +41,7 @@ let data = [
 		"elementName":"Helium",
 		"questionAndPoints":[
 			{
-					"question":"Number of electrons in Helium",
+					"question":"Number of protons in Helium",
 					"answer":2
 			},
 			{
@@ -51,10 +51,6 @@ let data = [
 			{
 					"question":"Helium's abbreviation",
 					"answer":"He"
-			},
-			{
-				"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Helium or Gallium?",
-				"answer":"unknown"
 			},
 			{
 					"question":"Helium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
@@ -78,7 +74,7 @@ let data = [
 		"elementName":"Lithium",
 		"questionAndPoints":[
 			{
-					"question":"Number of electrons in Lithium",
+					"question":"Number of protons in Lithium",
 					"answer":3
 			},
 			{
@@ -90,12 +86,12 @@ let data = [
 					"answer":"Li"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Lithium or Xenon?",
-					"answer":"unknown"
+					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Lithium or Hydrogen?",
+					"answer":"Hydrogen"
 			},
 			{
 					"question":"Lithium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":1
+					"answer":"+1"
 			},
 			{
 					"question":"Number of valence electrons in Lithium",
@@ -115,7 +111,7 @@ let data = [
 		"elementName":"Beryllium",
 		"questionAndPoints":[
 			{
-					"question":"Number of electrons in Beryllium",
+					"question":"Number of protons in Beryllium",
 					"answer":4
 			},
 			{
@@ -132,7 +128,7 @@ let data = [
 			},
 			{
 					"question":"Beryllium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":2
+					"answer":"+2"
 			},
 			{
 					"question":"Number of valence electrons in Beryllium",
@@ -152,7 +148,7 @@ let data = [
 		"elementName":"Boron",
 		"questionAndPoints":[
 			{
-					"question":"Number of electrons in Boron",
+					"question":"Number of protons in Boron",
 					"answer":5
 			},
 			{
@@ -169,7 +165,7 @@ let data = [
 			},
 			{
 					"question":"Boron's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":3
+					"answer":"+3"
 			},
 			{
 					"question":"Number of valence electrons in Boron",
@@ -189,7 +185,7 @@ let data = [
 		"elementName":"Carbon",
 		"questionAndPoints":[
 			{
-					"question":"Number of electrons in Carbon",
+					"question":"Number of protons in Carbon",
 					"answer":6
 			},
 			{
@@ -206,7 +202,7 @@ let data = [
 			},
 			{
 					"question":"Carbon's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":4
+					"answer":"+4"
 			},
 			{
 					"question":"Number of valence electrons in Carbon",
@@ -226,7 +222,7 @@ let data = [
 		"elementName":"Nitrogen",
 		"questionAndPoints":[
 			{
-					"question":"Number of electrons in Nitrogen",
+					"question":"Number of protons in Nitrogen",
 					"answer":7
 			},
 			{
@@ -243,7 +239,7 @@ let data = [
 			},
 			{
 					"question":"Nitrogen's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":-3
+					"answer":"-3"
 			},
 			{
 					"question":"Number of valence electrons in Nitrogen",
@@ -280,7 +276,7 @@ let data = [
 			},
 			{
 					"question":"Oxygen's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":-2
+					"answer":"-2"
 			},
 			{
 					"question":"Number of valence electrons in Oxygen",
@@ -317,7 +313,7 @@ let data = [
 			},
 			{
 					"question":"Fluorine's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":-1
+					"answer":"-1"
 			},
 			{
 					"question":"Number of valence electrons in Fluorine",
@@ -349,12 +345,8 @@ let data = [
 					"answer":"Ne"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Neon or Selenium?",
-					"answer":"unknown"
-			},
-			{
 					"question":"Neon's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":0
+					"answer":"0"
 			},
 			{
 					"question":"Number of valence electrons in Neon",
@@ -386,12 +378,12 @@ let data = [
 					"answer":"Na"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Sodium or Copernicium?",
-					"answer":"unknown"
+					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Sodium or Lithium?",
+					"answer":"Sodium"
 			},
 			{
 					"question":"Number of valence electrons in Sodium",
-					"answer":1
+					"answer":"+1"
 			},
 			{
 					"question":"Sodium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
@@ -428,7 +420,7 @@ let data = [
 			},
 			{
 					"question":"Number of valence electrons in Magnesium",
-					"answer":2
+					"answer":"+2"
 			},
 			{
 					"question":"Magnesium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
@@ -465,7 +457,7 @@ let data = [
 			},
 			{
 					"question":"Number of valence electrons in Aluminum",
-					"answer":3
+					"answer":"+3"
 			},
 			{
 					"question":"Aluminum's oxidation state that makes the outer shell of itself 'full' when combined with another element",
@@ -497,12 +489,12 @@ let data = [
 					"answer":"Si"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Silicon or Neon?",
-					"answer":"unknown"
+					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Silicon or Nitrogen?",
+					"answer":"Nitrogen"
 			},
 			{
 					"question":"Number of valence electrons in Silicon",
-					"answer":4
+					"answer":"+4"
 			},
 			{
 					"question":"Silicon's oxidation state that makes the outer shell of itself 'full' when combined with another element.",
@@ -543,7 +535,7 @@ let data = [
 			},
 			{
 					"question":"Phosphorus's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":-3
+					"answer":"-3"
 			},
 			{
 					"question":"Phosphorus's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1))",
@@ -580,7 +572,7 @@ let data = [
 			},
 			{
 					"question":"Sulfur's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":"Sul"
+					"answer":"+4"
 			},
 			{
 					"question":"Sulfur's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1))",
@@ -617,7 +609,7 @@ let data = [
 			},
 			{
 					"question":"Chlorine's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":-1
+					"answer":"-1"
 			},
 			{
 					"question":"Chlorine's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1))",
@@ -645,16 +637,12 @@ let data = [
 					"answer":"Ar"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Argon or Plutonium?",
-					"answer":"unknown"
-			},
-			{
 					"question":"Number of valence electrons in Argon",
 					"answer":8
 			},
 			{
 					"question":"Argon's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":0
+					"answer":"0"
 			},
 			{
 					"question":"Argon's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1))",
@@ -691,7 +679,7 @@ let data = [
 			},
 			{
 					"question":"Potassium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":1
+					"answer":"+1"
 			},
 			{
 					"question":"Potassium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1))",
@@ -728,7 +716,7 @@ let data = [
 			},
 			{
 					"question":"Calcium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":2
+					"answer":"+2"
 			},
 			{
 					"question":"Calcium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1))",
@@ -765,7 +753,7 @@ let data = [
 			},
 			{
 					"question":"Scandium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":3
+					"answer":"+3"
 			},
 			{
 					"question":"Scandium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1))",
@@ -802,7 +790,7 @@ let data = [
 			},
 			{
 					"question":"Titanium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":4
+					"answer":"+4"
 			},
 			{
 					"question":"Titanium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1))",
@@ -839,7 +827,7 @@ let data = [
 			},
 			{
 					"question":"Vanadium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":5
+					"answer":"+5"
 			},
 			{
 					"question":"Vanadium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1))",
@@ -904,8 +892,8 @@ let data = [
 					"answer":"Mn"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Manganese or Meitnerium?",
-					"answer":"unknown"
+					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Manganese or Chromium?",
+					"answer":"Chromium"
 			},
 			{
 					"question":"Number of valence electrons in Manganese",
@@ -913,7 +901,7 @@ let data = [
 			},
 			{
 					"question":"Maganese's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":7
+					"answer":"+7"
 			},
 			{
 					"question":"Maganese's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -929,7 +917,7 @@ let data = [
 		"elementName":"Iron",
 		"questionAndPoints":[
 			{
-					"question":"Number of electrons in Iron",
+					"question":"Number of protons in Iron",
 					"answer":26
 			},
 			{
@@ -950,15 +938,15 @@ let data = [
 			},
 			{
 					"question":"Iron's oxidation state that makes the outer shell of itself 'full' when combined with another element.",
-					"answer":2
+					"answer":"+2"
 			},
 			{
 					"question":"Iron's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^6"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Hassium or Iron?",
-					"answer":"unknown"
+					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Fluorine or Iron?",
+					"answer":"Fluorine"
 			}
 		]
 	},
@@ -966,7 +954,7 @@ let data = [
 		"elementName":"Cobalt",
 		"questionAndPoints":[
 			{
-					"question":"Number of electrons in Cobalt",
+					"question":"Number of protons in Cobalt",
 					"answer":27
 			},
 			{
@@ -987,7 +975,7 @@ let data = [
 			},
 			{
 					"question":"Cobalt's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":3
+					"answer":"+3"
 			},
 			{
 					"question":"Cobalt's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -1003,7 +991,7 @@ let data = [
 		"elementName":"Nickel",
 		"questionAndPoints":[
 			{
-					"question":"Number of electrons in Nickel",
+					"question":"Number of protons in Nickel",
 					"answer":28
 			},
 			{
@@ -1024,7 +1012,7 @@ let data = [
 			},
 			{
 					"question":"Nickel's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":2
+					"answer":"+2"
 			},
 			{
 					"question":"Nickel's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -1040,7 +1028,7 @@ let data = [
 		"elementName":"Copper",
 		"questionAndPoints":[
 			{
-					"question":"Number of electrons in Copper",
+					"question":"Number of protons in Copper",
 					"answer":29
 			},
 			{
@@ -1061,7 +1049,7 @@ let data = [
 			},
 			{
 					"question":"Copper's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":2
+					"answer":"+2"
 			},
 			{
 					"question":"Copper's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -1077,7 +1065,7 @@ let data = [
 		"elementName":"Zinc",
 		"questionAndPoints":[
 			{
-					"question":"Number of electrons in Zinc",
+					"question":"Number of protons in Zinc",
 					"answer":30
 			},
 			{
@@ -1089,8 +1077,8 @@ let data = [
 					"answer":"Zn"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Zinc or Meitnerium?",
-					"answer":"unknown"
+					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Zinc or Chlorine?",
+					"answer":"Chlorine"
 			},
 			{
 					"question":"Number of valence electrons in Zinc",
@@ -1098,7 +1086,7 @@ let data = [
 			},
 			{
 					"question":"Zinc's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":2
+					"answer":"+2"
 			},
 			{
 					"question":"Zinc's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -1114,7 +1102,7 @@ let data = [
 		"elementName":"Gallium",
 		"questionAndPoints":[
 			{
-					"question":"Number of electrons in Gallium",
+					"question":"Number of protons in Gallium",
 					"answer":31
 			},
 			{
@@ -1135,7 +1123,7 @@ let data = [
 			},
 			{
 					"question":"Gallium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":3
+					"answer":"+3"
 			},
 			{
 					"question":"Gallium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -1151,7 +1139,7 @@ let data = [
 		"elementName":"Germanium",
 		"questionAndPoints":[
 			{
-					"question":"Number of electrons in Germanium",
+					"question":"Number of protons in Germanium",
 					"answer":32
 			},
 			{
@@ -1164,7 +1152,7 @@ let data = [
 			},
 			{
 					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Germanium or Krypton?",
-					"Answer":"unknown"
+					"Answer":3
 			},
 			{
 					"question":"Number of valence electrons in Germanium",
@@ -1172,7 +1160,7 @@ let data = [
 			},
 			{
 					"question":"Germanium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":4
+					"answer":"+4"
 			},
 			{
 					"question":"Germanium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -1188,7 +1176,7 @@ let data = [
 		"elementName":"Arsenic",
 		"questionAndPoints":[
 			{
-					"question":"Number of electrons in Arsenic",
+					"question":"Number of protons in Arsenic",
 					"answer":33
 			},
 			{
@@ -1200,8 +1188,8 @@ let data = [
 					"answer":"As"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Arsenic or Dubnium?",
-					"answer":"unknown"
+					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Arsenic or Germanium?",
+					"answer":"Arsenic"
 			},
 			{
 					"question":"Number of valence electrons in Arsenic",
@@ -1209,7 +1197,7 @@ let data = [
 			},
 			{
 					"question":"Arsenic's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":-3
+					"answer":"-3"
 			},
 			{
 					"question":"Arsenic's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -1225,7 +1213,7 @@ let data = [
 		"elementName":"Selenium",
 		"questionAndPoints":[
 			{
-					"question":"Number of electrons in Selenium",
+					"question":"Number of protons in Selenium",
 					"answer":34
 			},
 			{
@@ -1246,7 +1234,7 @@ let data = [
 			},
 			{
 					"question":"Selenium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":-2
+					"answer":"-2"
 			},
 			{
 					"question":"Selenium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -1262,7 +1250,7 @@ let data = [
 		"elementName":"Bromine",
 		"questionAndPoints":[
 			{
-					"question":"Number of electrons in Bromine",
+					"question":"Number of protons in Bromine",
 					"answer":35
 			},
 			{
@@ -1283,7 +1271,7 @@ let data = [
 			},
 			{
 					"question":"Bromine's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":-1
+					"answer":"-1"
 			},
 			{
 					"question":"Bromine's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -1299,7 +1287,7 @@ let data = [
 		"elementName":"Krypton",
 		"questionAndPoints":[
 			{
-					"question":"Number of electrons in Krypton",
+					"question":"Number of protons in Krypton",
 					"answer":36
 			},
 			{
@@ -1320,7 +1308,7 @@ let data = [
 			},
 			{
 					"question":"Krypton's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":0
+					"answer":"0"
 			},
 			{
 					"question":"Krypton's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -1336,7 +1324,7 @@ let data = [
 		"elementName":"Rubidium",
 		"questionAndPoints":[
 			{
-					"question":"Number of electrons in Rubidium",
+					"question":"Number of protons in Rubidium",
 					"answer":37
 			},
 			{
@@ -1348,8 +1336,8 @@ let data = [
 					"answer":"Rb"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Rubidium or Helium?",
-					"answer":"unknown"
+					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Rubidium or Nickel?",
+					"answer":"Nickel"
 			},
 			{
 					"question":"Number of valence electrons in Rubidium.",
@@ -1357,7 +1345,7 @@ let data = [
 			},
 			{
 					"question":"Rubidium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":1
+					"answer":"+1"
 			},
 			{
 					"question":"Rubidium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -1394,7 +1382,7 @@ let data = [
 			},
 			{
 					"question":"Strontium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":2
+					"answer":"+2"
 			},
 			{
 					"question":"Strontium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -1431,7 +1419,7 @@ let data = [
 			},
 			{
 					"question":"Yttrium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":3
+					"answer":"+3"
 			},
 			{
 					"question":"Yttrium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -1468,7 +1456,7 @@ let data = [
 			},
 			{
 					"question":"Zirocnium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":4
+					"answer":"+4"
 			},
 			{
 					"question":"Zirocnium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -1505,7 +1493,7 @@ let data = [
 			},
 			{
 					"question":"Niobium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":5
+					"answer":"+5"
 			},
 			{
 					"question":"Niobium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -1542,15 +1530,15 @@ let data = [
 			},
 			{
 					"question":"Molybdenum's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":6
+					"answer":"+6"
 			},
 			{
 					"question":"Molybdenum's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^5"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Moscovium or Molybdenum?",
-					"answer":"unknown"
+					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Xenon or Molybdenum?",
+					"answer":"Xenon"
 			}
 		]
 	},
@@ -1570,8 +1558,8 @@ let data = [
 					"answer":"Tc"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Technetium or Oganesson?",
-					"answer":"unknown"
+					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Technetium or Hydrogen?",
+					"answer":"Technetium"
 			},
 			{
 					"question":"Number of valence electrons in Technetium.",
@@ -1579,7 +1567,7 @@ let data = [
 			},
 			{
 					"question":"Technetium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":7
+					"answer":"+7"
 			},
 			{
 					"question":"Technetium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -1616,7 +1604,7 @@ let data = [
 			},
 			{
 					"question":"Ruthenium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":3
+					"answer":"+3"
 			},
 			{
 					"question":"Ruthenium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -1644,8 +1632,8 @@ let data = [
 					"answer":"Rh"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Rhodium or Nihonium?",
-					"answer":"unknown"
+					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Rhodium or Palladium?",
+					"answer":"Palladium"
 			},
 			{
 					"question":"Number of valence electrons in Rhodium.",
@@ -1653,7 +1641,7 @@ let data = [
 			},
 			{
 					"question":"Rhodium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":4
+					"answer":"+4"
 			},
 			{
 					"question":"Rhodium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -1690,7 +1678,7 @@ let data = [
 			},
 			{
 					"question":"Palladium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":2
+					"answer":"+2"
 			},
 			{
 					"question":"Palladium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -1727,15 +1715,15 @@ let data = [
 			},
 			{
 					"question":"Silver's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":1
+					"answer":"+1"
 			},
 			{
 					"question":"Silver's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Tennessine or Silver?",
-					"answer":"unknown"
+					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'): Helium or Silver?",
+					"answer":"Helium"
 			}
 		]
 	},
@@ -1755,8 +1743,8 @@ let data = [
 					"answer":"Cd"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Cadmium or Livermorium?",
-					"answer":"unknown"
+					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Cadmium or Cerium?",
+					"answer":"Cadmium"
 			},
 			{
 					"question":"Number of valence electrons in Cadmium.",
@@ -1764,7 +1752,7 @@ let data = [
 			},
 			{
 					"question":"Cadmium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":2
+					"answer":"+2"
 			},
 			{
 					"question":"Cadmium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -1792,8 +1780,8 @@ let data = [
 					"answer":"In"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Indium or Hassium?",
-					"answer":"unknown"
+					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Indium or Tin?",
+					"answer":"Tin"
 			},
 			{
 					"question":"Number of valence electrons in Indium.",
@@ -1801,15 +1789,15 @@ let data = [
 			},
 			{
 					"question":"Indium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":3
+					"answer":"+3"
 			},
 			{
 					"question":"Indium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^1"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Moscovium or Indium?",
-					"answer":"unknown"
+					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Fluorine or Indium?",
+					"answer":"Fluorine"
 			}
 		]
 	},
@@ -1838,7 +1826,7 @@ let data = [
 			},
 			{
 					"question":"Tin's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":4
+					"answer":"+4"
 			},
 			{
 					"question":"Tin's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -1854,7 +1842,7 @@ let data = [
 		"elementName":"Antimony",
 		"questionAndPoints":[
 			{
-					"question":"Number of electrons in Antimony",
+					"question":"Number of protons in Antimony",
 					"answer":51
 			},
 			{
@@ -1866,8 +1854,8 @@ let data = [
 					"answer":"Sb"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Antimony or Bohrium?",
-					"answer":"unknown"
+					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Antimony or Cesium?",
+					"answer":"Antimony"
 			},
 			{
 					"question":"Number of valence electrons in Antimony.",
@@ -1875,7 +1863,7 @@ let data = [
 			},
 			{
 					"question":"Antimony's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":-3
+					"answer":"-3"
 			},
 			{
 					"question":"Antimony's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -1891,7 +1879,7 @@ let data = [
 		"elementName":"Tellurium",
 		"questionAndPoints":[
 			{
-					"question":"Number of electrons in Tellurium",
+					"question":"Number of protons in Tellurium",
 					"answer":52
 			},
 			{
@@ -1912,7 +1900,7 @@ let data = [
 			},
 			{
 					"question":"Tellirum's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":-2
+					"answer":"-2"
 			},
 			{
 					"question":"Tellirum's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -1928,7 +1916,7 @@ let data = [
 		"elementName":"Iodine",
 		"questionAndPoints":[
 			{
-					"question":"Number of electrons in Iodine",
+					"question":"Number of protons in Iodine",
 					"answer":53
 			},
 			{
@@ -1949,7 +1937,7 @@ let data = [
 			},
 			{
 					"question":"Iodine's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":-1
+					"answer":"-1"
 			},
 			{
 					"question":"Iodine's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -1965,7 +1953,7 @@ let data = [
 		"elementName":"Xenon",
 		"questionAndPoints":[
 			{
-					"question":"Number of electrons in Xenon",
+					"question":"Number of protons in Xenon",
 					"answer":54
 			},
 			{
@@ -1993,8 +1981,8 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Hassium or Xenon?",
-					"answer":"unknown"
+					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Hydrogen or Xenon?",
+					"answer":"Hydrogen"
 			}
 		]
 	},
@@ -2002,7 +1990,7 @@ let data = [
 		"elementName":"Cesium",
 		"questionAndPoints":[
 			{
-					"question":"Number of electrons in Cesium",
+					"question":"Number of protons in Cesium",
 					"answer":55
 			},
 			{
@@ -2023,15 +2011,15 @@ let data = [
 			},
 			{
 					"question":"Cesium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":1
+					"answer":"+1"
 			},
 			{
 					"question":"Cesium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^1"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Tennessine or Cesium?",
-					"answer":"unknown"
+					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Zinc or Cesium?",
+					"answer":"Zinc"
 			}
 		]
 	},
@@ -2039,7 +2027,7 @@ let data = [
 		"elementName":"Barium",
 		"questionAndPoints":[
 			{
-					"question":"Number of electrons in Barium",
+					"question":"Number of protons in Barium",
 					"answer":56
 			},
 			{
@@ -2060,7 +2048,7 @@ let data = [
 			},
 			{
 					"question":"Barium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":2
+					"answer":"+2"
 			},
 			{
 					"question":"Barium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -2076,7 +2064,7 @@ let data = [
 		"elementName":"Lanthanum",
 		"questionAndPoints":[
 			{
-					"question":"Number of electrons in Lanthanum",
+					"question":"Number of protons in Lanthanum",
 					"answer":57
 			},
 			{
@@ -2097,7 +2085,7 @@ let data = [
 			},
 			{
 					"question":"Lanthanum's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":3
+					"answer":"+3"
 			},
 			{
 					"question":"Lanthanum's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -2113,7 +2101,7 @@ let data = [
 		"elementName":"Cerium",
 		"questionAndPoints":[
 			{
-					"question":"Number of electrons in Cerium",
+					"question":"Number of protons in Cerium",
 					"answer":58
 			},
 			{
@@ -2134,7 +2122,7 @@ let data = [
 			},
 			{
 					"question":"Cerium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":3
+					"answer":"+3"
 			},
 			{
 					"question":"Cerium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -2150,7 +2138,7 @@ let data = [
 		"elementName":"Praseodymium",
 		"questionAndPoints":[
 			{
-					"question":"Number of electrons in Praseodymium",
+					"question":"Number of protons in Praseodymium",
 					"answer":59
 			},
 			{
@@ -2171,15 +2159,15 @@ let data = [
 			},
 			{
 					"question":"Praseodymium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":3
+					"answer":"+3"
 			},
 			{
 					"question":"Praseodymium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^3"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Rutherfordium or Praseodymium?",
-					"answer":"unknown"
+					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Lutetium or Praseodymium?",
+					"answer":"Praseodymium"
 			}
 		]
 	},
@@ -2187,7 +2175,7 @@ let data = [
 		"elementName":"Neodymium",
 		"questionAndPoints":[
 			{
-					"question":"Number of electrons in Neodymium",
+					"question":"Number of protons in Neodymium",
 					"answer":60
 			},
 			{
@@ -2208,7 +2196,7 @@ let data = [
 			},
 			{
 					"question":"Neodymium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":3
+					"answer":"+3"
 			},
 			{
 					"question":"Neodymium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -2224,7 +2212,7 @@ let data = [
 		"elementName":"Promethium",
 		"questionAndPoints":[
 			{
-					"question":"Number of electrons in Promethium",
+					"question":"Number of protons in Promethium",
 					"answer":61
 			},
 			{
@@ -2245,7 +2233,7 @@ let data = [
 			},
 			{
 					"question":"Promethium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":3
+					"answer":"+3"
 			},
 			{
 					"question":"Promethium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -2261,7 +2249,7 @@ let data = [
 		"elementName":"Samarium",
 		"questionAndPoints":[
 			{
-					"question":"Number of electrons in Samarium",
+					"question":"Number of protons in Samarium",
 					"answer":62
 			},
 			{
@@ -2282,7 +2270,7 @@ let data = [
 			},
 			{
 					"question":"Samarium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":3
+					"answer":"+3"
 			},
 			{
 					"question":"Samarium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -2298,7 +2286,7 @@ let data = [
 		"elementName":"Europium",
 		"questionAndPoints":[
 			{
-					"question":"Number of electrons in Europium",
+					"question":"Number of protons in Europium",
 					"answer":63
 			},
 			{
@@ -2319,7 +2307,7 @@ let data = [
 			},
 			{
 					"question":"Europium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":3
+					"answer":"+3"
 			},
 			{
 					"question":"Europium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -2335,7 +2323,7 @@ let data = [
 		"elementName":"Gadolinium",
 		"questionAndPoints":[
 			{
-					"question":"Number of electrons in Gadolinium",
+					"question":"Number of protons in Gadolinium",
 					"answer":64
 			},
 			{
@@ -2347,8 +2335,8 @@ let data = [
 					"answer":"Gd"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Gadolinium or Oganesson?",
-					"answer":"unknown"
+					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Gadolinium or Neodymium?",
+					"answer":"Gadolinium"
 			},
 			{
 					"question":"Number of valence electrons in Gadolinium.",
@@ -2356,7 +2344,7 @@ let data = [
 			},
 			{
 					"question":"Gadolinium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":3
+					"answer":"+3"
 			},
 			{
 					"question":"Gadolinium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -2372,7 +2360,7 @@ let data = [
 		"elementName":"Terbium",
 		"questionAndPoints":[
 			{
-					"question":"Number of electrons in Terbium",
+					"question":"Number of protons in Terbium",
 					"answer":65
 			},
 			{
@@ -2393,15 +2381,15 @@ let data = [
 			},
 			{
 					"question":"Terbium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":3
+					"answer":"+3"
 			},
 			{
 					"question":"Terbium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^9"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Copernicium or Terbium?",
-					"answer":"unknown"
+					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'): Indium or Terbium?",
+					"answer":"Terbium"
 			}
 		]
 	},
@@ -2409,7 +2397,7 @@ let data = [
 		"elementName":"Dysprosium",
 		"questionAndPoints":[
 			{
-					"question":"Number of electrons in Dysprosium",
+					"question":"Number of protons in Dysprosium",
 					"answer":66
 			},
 			{
@@ -2421,8 +2409,8 @@ let data = [
 					"answer":"Dy"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Dysprosium or Livermorium?",
-					"answer":"unknown"
+					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Dysprosium or Ytterbium?",
+					"answer":"Ytterbium"
 			},
 			{
 					"question":"Number of valence electrons in Dysprosium.",
@@ -2430,7 +2418,7 @@ let data = [
 			},
 			{
 					"question":"Dysprosium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":3
+					"answer":"+3"
 			},
 			{
 					"question":"Dysprosium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -2467,15 +2455,15 @@ let data = [
 			},
 			{
 					"question":"Holmium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":3
+					"answer":"+3"
 			},
 			{
 					"question":"Holmium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^11"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Hassium or Holmium?",
-					"answer":"unknown"
+					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Irdium or Holmium?",
+					"answer":"Iridium"
 			}
 		]
 	},
@@ -2504,7 +2492,7 @@ let data = [
 			},
 			{
 					"question":"Erbium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":3
+					"answer":"+3"
 			},
 			{
 					"question":"Erbium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -2541,15 +2529,15 @@ let data = [
 			},
 			{
 					"question":"Thulium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":3
+					"answer":"+3"
 			},
 			{
 					"question":"Thulium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^13"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Rutherfordium or Thulium?",
-					"answer":"unknown"
+					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Uranium or Thulium?",
+					"answer":"Uranium"
 			}
 		]
 	},
@@ -2569,8 +2557,8 @@ let data = [
 					"answer":"Yb"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Ytterbium or Moscovium?",
-					"answer":"unknown"
+					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Ytterbium or Tungsten?",
+					"answer":"Ytterbium"
 			},
 			{
 					"question":"Number of valence electrons in Ytterbium.",
@@ -2578,7 +2566,7 @@ let data = [
 			},
 			{
 					"question":"Ytterbium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":3
+					"answer":"+3"
 			},
 			{
 					"question":"Ytterbium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -2615,7 +2603,7 @@ let data = [
 			},
 			{
 					"question":"Lutetium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":3
+					"answer":"+3"
 			},
 			{
 					"question":"Lutetium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -2643,8 +2631,8 @@ let data = [
 					"answer":"Hf"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Hafnium or Hassium?",
-					"answer":"unknown"
+					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Hafnium or Thulium?",
+					"answer":"Hafnium"
 			},
 			{
 					"question":"Number of valence electrons in Hafnium.",
@@ -2652,7 +2640,7 @@ let data = [
 			},
 			{
 					"question":"Hafnium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":4
+					"answer":"+3"
 			},
 			{
 					"question":"Hafnium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -2689,15 +2677,15 @@ let data = [
 			},
 			{
 					"question":"Tantalum's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":5
+					"answer":"+5"
 			},
 			{
 					"question":"Tantalum's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^3"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Dubnium or Tantalum?",
-					"answer":"unknown"
+					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'): Platnium  or Tantalum?",
+					"answer":"Platinum"
 			}
 		]
 	},
@@ -2726,7 +2714,7 @@ let data = [
 			},
 			{
 					"question":"Tungsten's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":6
+					"answer":"+6"
 			},
 			{
 					"question":"Tungsten's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -2763,7 +2751,7 @@ let data = [
 			},
 			{
 					"question":"Rhenium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":7
+					"answer":"+7"
 			},
 			{
 					"question":"Rhenium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -2800,15 +2788,15 @@ let data = [
 			},
 			{
 					"question":"Osmium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":4
+					"answer":"+4"
 			},
 			{
 					"question":"Osmium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^6"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Oganesson or Osmium?",
-					"answer":"unknown"
+					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Iridium or Osmium?",
+					"answer":"Iridium"
 			}
 		]
 	},
@@ -2837,7 +2825,7 @@ let data = [
 			},
 			{
 					"question":"Irdium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":4
+					"answer":"+4"
 			},
 			{
 					"question":"Irdium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -2874,15 +2862,15 @@ let data = [
 			},
 			{
 					"question":"Platinum's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":4
+					"answer":"+4"
 			},
 			{
 					"question":"Platinum's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^9"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Iridium or Platinum?",
-					"answer":"Iridium"
+					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Cadmium or Platinum?",
+					"answer":"Cadmium"
 			}
 		]
 	},
@@ -2911,15 +2899,15 @@ let data = [
 			},
 			{
 					"question":"Gold's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":3
+					"answer":"+3"
 			},
 			{
 					"question":"Gold's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Bohrium or Gold?",
-					"answer":"unknown"
+					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Cobalt or Gold?",
+					"answer":"Gold"
 			}
 		]
 	},
@@ -2948,7 +2936,7 @@ let data = [
 			},
 			{
 					"question":"Mercury's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":2
+					"answer":"+2"
 			},
 			{
 					"question":"Mercury's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -2985,15 +2973,15 @@ let data = [
 			},
 			{
 					"question":"Thallium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":3
+					"answer":"+3"
 			},
 			{
 					"question":"Thallium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'):  Tennessine or Thallium?",
-					"answer":"unknown"
+					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'): Erbium or Thallium?",
+					"answer":"Erbium"
 			}
 		]
 	},
@@ -3013,8 +3001,8 @@ let data = [
 					"answer":"Pb"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Lead or Oganesson?",
-					"answer":"unknown"
+					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Lead or Bismuth?",
+					"answer":"Lead"
 			},
 			{
 					"question":"Number of valence electrons in Lead.",
@@ -3022,7 +3010,7 @@ let data = [
 			},
 			{
 					"question":"Lead's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":4
+					"answer":"+4"
 			},
 			{
 					"question":"Lead's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -3050,8 +3038,8 @@ let data = [
 					"answer":"Bi"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Bismuth or Darmstadtium?",
-					"answer":"unknown"
+					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Bismuth or Fancium?",
+					"answer":"Bismuth"
 			},
 			{
 					"question":"Number of valence electrons in Bismuth.",
@@ -3059,7 +3047,7 @@ let data = [
 			},
 			{
 					"question":"Bismuth's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":-3
+					"answer":"-3"
 			},
 			{
 					"question":"Bismuth's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -3087,8 +3075,8 @@ let data = [
 					"answer":"Po"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Polonium or Argon?",
-					"answer":"unknown"
+					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Polonium or Thorium?",
+					"answer":"Polonium"
 			},
 			{
 					"question":"Number of valence electrons in Polonium.",
@@ -3096,7 +3084,7 @@ let data = [
 			},
 			{
 					"question":"Polonium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":-2
+					"answer":"-2"
 			},
 			{
 					"question":"Polonium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -3133,7 +3121,7 @@ let data = [
 			},
 			{
 					"question":"Astatine's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":-1
+					"answer":"-1"
 			},
 			{
 					"question":"Astatine's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -3159,10 +3147,6 @@ let data = [
 			{
 					"question":"Radon's abbreviation",
 					"answer":"Rn"
-			},
-			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Radon or Zirconium?",
-					"answer":"unknown"
 			},
 			{
 					"question":"Number of valence electrons in Radon.",
@@ -3207,15 +3191,15 @@ let data = [
 			},
 			{
 					"question":"Francium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":1
+					"answer":"+1"
 			},
 			{
 					"question":"Francium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^6 7s^1"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Nihonium or Francium?",
-					"answer":"unknown"
+					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'): Helium or Francium?",
+					"answer":"Helium"
 			}
 		]
 	},
@@ -3244,15 +3228,15 @@ let data = [
 			},
 			{
 					"question":"Radium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":2
+					"answer":"+2"
 			},
 			{
 					"question":"Radium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^6 7s^2"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Seaborgium or Radium?",
-					"answer":"unknown"
+					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Lithium or Radium?",
+					"answer":"Lithium"
 			}
 		]
 	},
@@ -3281,7 +3265,7 @@ let data = [
 			},
 			{
 					"question":"Actinium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":3
+					"answer":"+3"
 			},
 			{
 					"question":"Actinium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -3318,15 +3302,15 @@ let data = [
 			},
 			{
 					"question":"Thorium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":4
+					"answer":"+4"
 			},
 			{
 					"question":"Thorium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^6 7s^2 6d^2"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Seaborgium or Thorium?",
-					"answer":"unknown"
+					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'): Fermium or Thorium?",
+					"answer":"Fermium"
 			}
 		]
 	},
@@ -3346,8 +3330,8 @@ let data = [
 					"answer":"Pa"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Protactinium or Tennessine?",
-					"answer":"unknown"
+					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Protactinium or Uranium?",
+					"answer":"Protactinium"
 			},
 			{
 					"question":"Number of valence electrons in Protactinium.",
@@ -3355,7 +3339,7 @@ let data = [
 			},
 			{
 					"question":"Protactinium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":3
+					"answer":"+3"
 			},
 			{
 					"question":"Protactinium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -3392,7 +3376,7 @@ let data = [
 			},
 			{
 					"question":"Uranium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":3
+					"answer":"+3"
 			},
 			{
 					"question":"Uranium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -3429,7 +3413,7 @@ let data = [
 			},
 			{
 					"question":"Neptunium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":3
+					"answer":"+3"
 			},
 			{
 					"question":"Neptunium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -3457,8 +3441,8 @@ let data = [
 					"answer":"Pu"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Plutonium or Argon?",
-					"answer":"unknown"
+					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Plutonium or Sulfur?",
+					"answer":"Sulfur"
 			},
 			{
 					"question":"Number of valence electrons in Plutonium.",
@@ -3466,15 +3450,15 @@ let data = [
 			},
 			{
 					"question":"Plutonium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":3
+					"answer":"+3"
 			},
 			{
 					"question":"Plutonium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^6"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Tennessine or Plutonium?",
-					"answer":"unknown"
+					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'): Erbium or Plutonium?",
+					"answer":"Erbium"
 			}
 		]
 	},
@@ -3503,15 +3487,15 @@ let data = [
 			},
 			{
 					"question":"Americium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":3
+					"answer":"+3"
 			},
 			{
 					"question":"Americium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^7"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Rutherfordium or Americium?",
-					"answer":"unknown"
+					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'): Aluminum or Americium?",
+					"answer":"Aluminum"
 			}
 		]
 	},
@@ -3531,8 +3515,8 @@ let data = [
 					"answer":"Cm"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Curium or Hassium?",
-					"answer":"unknown"
+					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Curium or Astatine?",
+					"answer":"Astatine"
 			},
 			{
 					"question":"Number of valence electrons in Curium.",
@@ -3540,15 +3524,15 @@ let data = [
 			},
 			{
 					"question":"Curium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":3
+					"answer":"+3"
 			},
 			{
 					"question":"Curium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^7 6d^1"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Tennessine or Curium?",
-					"answer":"unknown"
+					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'): Gallium or Curium?",
+					"answer":"Gallium"
 			}
 		]
 	},
@@ -3577,15 +3561,15 @@ let data = [
 			},
 			{
 					"question":"Berkelium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":3
+					"answer":"+3"
 			},
 			{
 					"question":"Berkelium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^9"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'):  Flerovium or Berkelium?",
-					"answer":"unknown"
+					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'): Uranium or Berkelium?",
+					"answer":"Berkelium"
 			}
 		]
 	},
@@ -3614,15 +3598,15 @@ let data = [
 			},
 			{
 					"question":"Californium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":3
+					"answer":"+3"
 			},
 			{
 					"question":"Californium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^10"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'):  Darmstadtium or Californium?",
-					"answer":"unknown"
+					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'):  Neptunium or Californium?",
+					"answer":"Neptunium"
 			}
 		]
 	},
@@ -3651,7 +3635,7 @@ let data = [
 			},
 			{
 					"question":"Ensteinium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":3
+					"answer":"+3"
 			},
 			{
 					"question":"Enstenium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -3688,7 +3672,7 @@ let data = [
 			},
 			{
 					"question":"Fermium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":3
+					"answer":"+3"
 			},
 			{
 					"question":"Fermium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -3725,7 +3709,7 @@ let data = [
 			},
 			{
 					"question":"Mendelevium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":3
+					"answer":"+3"
 			},
 			{
 					"question":"Mendelevium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -3762,7 +3746,7 @@ let data = [
 			},
 			{
 					"question":"Nobelium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":3
+					"answer":"+3"
 			},
 			{
 					"question":"Nobelium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -3790,24 +3774,20 @@ let data = [
 					"answer":"Lr"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Lawrencium or Nickel?",
-					"answer":"unknown"
-			},
-			{
 					"question":"Number of valence electrons in Lawrencium.",
 					"answer":3
 			},
 			{
 					"question":"Lawrencium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":3
+					"answer":"+3"
 			},
 			{
 					"question":"Lawrencium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^14 7p^1"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'):  Darmstadtium or Lawrencium?",
-					"answer":"unknown"
+					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'): Potassium or Lawrencium?",
+					"answer":"Lawerncium"
 			}
 		]
 	},
@@ -3836,7 +3816,7 @@ let data = [
 			},
 			{
 					"question":"Rutherfordium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":4
+					"answer":"+4"
 			},
 			{
 					"question":"Rutherfordium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -3873,7 +3853,7 @@ let data = [
 			},
 			{
 					"question":"Dubnium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":5
+					"answer":"+5"
 			},
 			{
 					"question":"Dubnium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -3910,7 +3890,7 @@ let data = [
 			},
 			{
 					"question":"Seaborgium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":6
+					"answer":"+6"
 			},
 			{
 					"question":"Seaborgium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -3947,7 +3927,7 @@ let data = [
 			},
 			{
 					"question":"Bohrium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":7
+					"answer":"+7"
 			},
 			{
 					"question":"Bohrium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -3984,7 +3964,7 @@ let data = [
 			},
 			{
 					"question":"Hassium's oxidation state that makes the outer shell of itself 'full' when combined with another element",
-					"answer":8
+					"answer":"+8"
 			},
 			{
 					"question":"Hassium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -4020,10 +4000,6 @@ let data = [
 					"answer":9
 			},
 			{
-					"question":"Meitnerium's oxidation state that makes the outer shell of itself 'full' when combined with another element (if unknown, type 'unknown')",
-					"answer":"unknown"
-			},
-			{
 					"question":"Meitnerium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^14 6d^7"
 			},
@@ -4055,10 +4031,6 @@ let data = [
 			{
 					"question":"Number of valence electrons in Darmstadtium.",
 					"answer":10
-			},
-			{
-					"question":"Darmstadtium's oxidation state that makes the outer shell of itself 'full' when combined with another element (if unknown, type 'unknown')",
-					"answer":"unknown"
 			},
 			{
 					"question":"Darmstadtium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -4094,10 +4066,6 @@ let data = [
 					"answer":11
 			},
 			{
-					"question":"Roentgenium's oxidation state that makes the outer shell of itself 'full' when combined with another element (if unknown, type 'unknown')",
-					"answer":"unknown"
-			},
-			{
 					"question":"Roentgenium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^14 6d^9"
 			},
@@ -4129,10 +4097,6 @@ let data = [
 			{
 					"question":"Number of valence electrons in Copernicium.",
 					"answer":12
-			},
-			{
-					"question":"Copernicium's oxidation state that makes the outer shell of itself 'full' when combined with another element (if unknown, type 'unknown')",
-					"answer":2
 			},
 			{
 					"question":"Copernicium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -4168,10 +4132,6 @@ let data = [
 					"answer":3
 			},
 			{
-					"question":"Nihonium's oxidation state that makes the outer shell of itself 'full' when combined with another element (if unknown, type 'unknown')",
-					"answer":"unknown"
-			},
-			{
 					"question":"Nihonium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^14 6d^10 7p^1"
 			},
@@ -4203,10 +4163,6 @@ let data = [
 			{
 					"question":"Number of valence electrons in Flerovium.",
 					"answer":4
-			},
-			{
-					"question":"Flerovium's oxidation state that makes the outer shell of itself 'full' when combined with another element (if unknown, type 'unknown')",
-					"answer":"unknown"
 			},
 			{
 					"question":"Flerovium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -4242,10 +4198,6 @@ let data = [
 					"answer":5
 			},
 			{
-					"question":"Moscovium's oxidation state that makes the outer shell of itself 'full' when combined with another element (if unknown, type 'unknown')",
-					"answer":"unknown"
-			},
-			{
 					"question":"Moscovium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^14 6d^10 7p^3"
 			},
@@ -4277,10 +4229,6 @@ let data = [
 			{
 					"question":"Number of valence electrons in Livermorium.",
 					"answer":6
-			},
-			{
-					"question":"Livermorium's oxidation state that makes the outer shell of itself 'full' when combined with another element (if unknown, type 'unknown')",
-					"answer":"unknown"
 			},
 			{
 					"question":"Livermorium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
@@ -4316,10 +4264,6 @@ let data = [
 					"answer":7
 			},
 			{
-					"question":"Tennessine's oxidation state that makes the outer shell of itself 'full' when combined with another element (if unknown, type 'unknown')",
-					"answer":"unknown"
-			},
-			{
 					"question":"Tennessine's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^14 6d^10 7p^5"
 			},
@@ -4351,10 +4295,6 @@ let data = [
 			{
 					"question":"Number of valence electrons in Oganesson.",
 					"answer":8
-			},
-			{
-					"question":"Oganesson's oxidation state that makes the outer shell of itself 'full' when combined with another element (if unknown, type 'unknown')",
-					"answer":"unknown"
 			},
 			{
 					"question":"Oganesson's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
