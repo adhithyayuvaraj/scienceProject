@@ -16,7 +16,7 @@ let data = [
 					"answer":"H"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Hydrogen or Arsenic?",
+					"question":"Which element has a higher Electronegativity:  Hydrogen or Arsenic?",
 					"answer":"Hydrogen"
 			},
 			{
@@ -32,7 +32,7 @@ let data = [
 					"answer":"1s^1"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'): Hydrogen or Oxygen?",
+					"question":"Which element has a higher ionization energy: Hydrogen or Oxygen?",
 					"answer":"Hydrogen"
 			}
 		]
@@ -65,7 +65,7 @@ let data = [
 					"answer":"1s^2"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'): Helium or Radon?",
+					"question":"Which element has a higher ionization energy: Helium or Radon?",
 					"answer":"Helium"
 			}
 		]
@@ -86,7 +86,7 @@ let data = [
 					"answer":"Li"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Lithium or Hydrogen?",
+					"question":"Which element has a higher Electronegativity:  Lithium or Hydrogen?",
 					"answer":"Hydrogen"
 			},
 			{
@@ -102,7 +102,7 @@ let data = [
 					"answer":"1s^2 2s^1"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'): Lithium or Lutetium",
+					"question":"Which element has a higher ionization energy: Lithium or Lutetium",
 					"answer":"Lutetium"
 			}
 		]
@@ -123,7 +123,7 @@ let data = [
 					"answer":"Be"
 			},
 			{
-				"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Beryllium or Promethium?",
+				"question":"Which element has a higher Electronegativity:  Beryllium or Promethium?",
 				"answer":"Beryllium"
 			},
 			{
@@ -139,7 +139,7 @@ let data = [
 					"answer":"1s^2 2s^2"
 			},
 			{
-					"question":" Which element has a higher ionization energy (if one element's is unknown, type 'unknown'): Beryllium or Zinc ",
+					"question":" Which element has a higher ionization energy: Beryllium or Zinc ",
 					"answer":"Zinc"
 			}
 		]
@@ -160,7 +160,7 @@ let data = [
 					"answer":"B"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Boron or Ruthenium?",
+					"question":"Which element has a higher Electronegativity:  Boron or Ruthenium?",
 					"answer":"Ruthenium"
 			},
 			{
@@ -176,7 +176,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^1"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'): Boron or Silicon",
+					"question":"Which element has a higher ionization energy: Boron or Silicon",
 					"answer":"Boron"
 			}
 		]
@@ -197,7 +197,7 @@ let data = [
 					"answer":"C"
 			},
 			{
-				"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Carbon or Beryllium?",
+				"question":"Which element has a higher Electronegativity:  Carbon or Beryllium?",
 				"answer":"Carbon"
 			},
 			{
@@ -213,7 +213,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^2"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'): Carbon or Nitrogen",
+					"question":"Which element has a higher ionization energy: Carbon or Nitrogen",
 					"answer":"Nitrogen"
 			}
 		]
@@ -234,7 +234,7 @@ let data = [
 					"answer":"N"
 			},
 			{
-				"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Nitrogen or Cesium?",
+				"question":"Which element has a higher Electronegativity:  Nitrogen or Cesium?",
 				"answer":"Nitrogen"
 			},
 			{
@@ -250,7 +250,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^3"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'): Nitrogen or Krypton",
+					"question":"Which element has a higher ionization energy: Nitrogen or Krypton",
 					"answer":"Nitrogen"
 			}
 		]
@@ -271,7 +271,7 @@ let data = [
 					"answer":"O"
 			},
 			{
-				"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Oxygen or Astatine?",
+				"question":"Which element has a higher Electronegativity:  Oxygen or Astatine?",
 				"answer":"Oxygen"
 			},
 			{
@@ -287,7 +287,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^4"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'): Oxygen or Argon",
+					"question":"Which element has a higher ionization energy: Oxygen or Argon",
 					"answer":"Argon"
 			}
 		]
@@ -308,7 +308,7 @@ let data = [
 					"answer":"F"
 			},
 			{
-				"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Fluorine or Bismuth?",
+				"question":"Which element has a higher Electronegativity:  Fluorine or Bismuth?",
 				"answer":"Fluorine"
 			},
 			{
@@ -324,7 +324,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^5"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'): Fluorine or Helium",
+					"question":"Which element has a higher ionization energy: Fluorine or Helium",
 					"answer":"Helium"
 			}
 		]
@@ -357,7 +357,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'): Neon or Iodine",
+					"question":"Which element has a higher ionization energy: Neon or Iodine",
 					"answer":"Neon"
 			}
 		]
@@ -378,7 +378,7 @@ let data = [
 					"answer":"Na"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Sodium or Lithium?",
+					"question":"Which element has a higher Electronegativity:  Sodium or Lithium?",
 					"answer":"Sodium"
 			},
 			{
@@ -394,7 +394,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^1"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'): Sodium or Lawrencium",
+					"question":"Which element has a higher ionization energy: Sodium or Lawrencium",
 					"answer":"Sodium"
 			}
 		]
@@ -415,7 +415,7 @@ let data = [
 					"answer":"Mg"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Magnesium or Rhodium?",
+					"question":"Which element has a higher Electronegativity:  Magnesium or Rhodium?",
 					"answer":"Rhodium"
 			},
 			{
@@ -431,7 +431,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'): Magnesium or Copper",
+					"question":"Which element has a higher ionization energy: Magnesium or Copper",
 					"answer":"Copper"
 			}
 		]
@@ -452,7 +452,7 @@ let data = [
 					"answer":"Al"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Aluminum or Erbium?",
+					"question":"Which element has a higher Electronegativity:  Aluminum or Erbium?",
 					"answer":"Aluminum"
 			},
 			{
@@ -468,7 +468,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^1"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'): Aluminum or Americium",
+					"question":"Which element has a higher ionization energy: Aluminum or Americium",
 					"answer":"Aluminum"
 			}
 		]
@@ -489,7 +489,7 @@ let data = [
 					"answer":"Si"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Silicon or Nitrogen?",
+					"question":"Which element has a higher Electronegativity:  Silicon or Nitrogen?",
 					"answer":"Nitrogen"
 			},
 			{
@@ -505,7 +505,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^2"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'): Silicon or Palladium",
+					"question":"Which element has a higher ionization energy: Silicon or Palladium",
 					"answer":"Palladium"
 			}
 		]
@@ -526,7 +526,7 @@ let data = [
 					"answer":"P"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Phosphorus or Mendelevium?",
+					"question":"Which element has a higher Electronegativity:  Phosphorus or Mendelevium?",
 					"answer":"Phosphorus"
 			},
 			{
@@ -542,7 +542,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^3"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'): Phosphorus or Iodine",
+					"question":"Which element has a higher ionization energy: Phosphorus or Iodine",
 					"answer":"Phosphorus"
 			}
 		]
@@ -563,7 +563,7 @@ let data = [
 					"answer":"S"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Sulfur or Ytterbium?",
+					"question":"Which element has a higher Electronegativity:  Sulfur or Ytterbium?",
 					"answer":"Sulfur"
 			},
 			{
@@ -579,7 +579,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^4"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'): Sulfur or Zinc",
+					"question":"Which element has a higher ionization energy: Sulfur or Zinc",
 					"answer":"Sulfur"
 			}
 		]
@@ -600,7 +600,7 @@ let data = [
 					"answer":"Cl"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Chlorine or Molybdenum?",
+					"question":"Which element has a higher Electronegativity:  Chlorine or Molybdenum?",
 					"answer":"Chlorine"
 			},
 			{
@@ -616,7 +616,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^5"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'): Chlorine or Xenon",
+					"question":"Which element has a higher ionization energy: Chlorine or Xenon",
 					"answer":"Chlorine"
 			}
 		]
@@ -649,7 +649,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'): Argon or Fluorine",
+					"question":"Which element has a higher ionization energy: Argon or Fluorine",
 					"answer":"Fluorine"
 			}
 		]
@@ -670,7 +670,7 @@ let data = [
 					"answer":"K"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Potassium or Calcium?",
+					"question":"Which element has a higher Electronegativity:  Potassium or Calcium?",
 					"answer":"Calcium"
 			},
 			{
@@ -686,7 +686,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^1"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'): Potassium or Francium",
+					"question":"Which element has a higher ionization energy: Potassium or Francium",
 					"answer":"Potassium"
 			}
 		]
@@ -707,7 +707,7 @@ let data = [
 					"answer":"Ca"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Calcium or Scandium?",
+					"question":"Which element has a higher Electronegativity:  Calcium or Scandium?",
 					"answer":"Scandium"
 			},
 			{
@@ -723,7 +723,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'): Calcium or Gadolinium",
+					"question":"Which element has a higher ionization energy: Calcium or Gadolinium",
 					"answer":"Gadolinium"
 			}
 		]
@@ -744,7 +744,7 @@ let data = [
 					"answer":"Sc"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Scandium or Osmium?",
+					"question":"Which element has a higher Electronegativity:  Scandium or Osmium?",
 					"answer":"Osmium"
 			},
 			{
@@ -760,7 +760,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^1"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'): Scandium or Fermium",
+					"question":"Which element has a higher ionization energy: Scandium or Fermium",
 					"answer":"Scandium"
 			}
 		]
@@ -781,7 +781,7 @@ let data = [
 					"answer":"Ti"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Titanium or Sodium?",
+					"question":"Which element has a higher Electronegativity:  Titanium or Sodium?",
 					"answer":"Titanium"
 			},
 			{
@@ -797,7 +797,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^2"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'): Titanium or Hafnium",
+					"question":"Which element has a higher ionization energy: Titanium or Hafnium",
 					"answer":"Titanium"
 			}
 		]
@@ -818,7 +818,7 @@ let data = [
 					"answer":"V"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Vanadium or Calcium?",
+					"question":"Which element has a higher Electronegativity:  Vanadium or Calcium?",
 					"answer":"Vanadium"
 			},
 			{
@@ -834,7 +834,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^3"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'): Vanadium or Nobelium",
+					"question":"Which element has a higher ionization energy: Vanadium or Nobelium",
 					"answer":"Vanadium"
 			}
 		]
@@ -855,7 +855,7 @@ let data = [
 					"answer":"Cr"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Chromium or Cobalt?",
+					"question":"Which element has a higher Electronegativity:  Chromium or Cobalt?",
 					"answer":"Cobalt"
 			},
 			{
@@ -871,7 +871,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^5"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'): Ruthenium or Chromium",
+					"question":"Which element has a higher ionization energy: Ruthenium or Chromium",
 					"answer":"Ruthenium"
 			}
 		]
@@ -892,7 +892,7 @@ let data = [
 					"answer":"Mn"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Manganese or Chromium?",
+					"question":"Which element has a higher Electronegativity:  Manganese or Chromium?",
 					"answer":"Chromium"
 			},
 			{
@@ -908,7 +908,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^5"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Thorium or Manganese",
+					"question":"Which element has a higher ionization energy:  Thorium or Manganese",
 					"answer":"Manganese"
 			}
 		]
@@ -929,7 +929,7 @@ let data = [
 					"answer":"Fe"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Iron or Rubidium?",
+					"question":"Which element has a higher Electronegativity:  Iron or Rubidium?",
 					"answer":"Iron"
 			},
 			{
@@ -945,7 +945,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^6"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Fluorine or Iron?",
+					"question":"Which element has a higher ionization energy:  Fluorine or Iron?",
 					"answer":"Fluorine"
 			}
 		]
@@ -966,7 +966,7 @@ let data = [
 					"answer":"Co"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Cobalt or Gallium?",
+					"question":"Which element has a higher Electronegativity:  Cobalt or Gallium?",
 					"answer":"Cobalt"
 			},
 			{
@@ -982,7 +982,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^7"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Thallium or Cobalt",
+					"question":"Which element has a higher ionization energy:  Thallium or Cobalt",
 					"answer":"Cobalt"
 			}
 		]
@@ -1003,7 +1003,7 @@ let data = [
 					"answer":"Ni"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Nickel or Iron?",
+					"question":"Which element has a higher Electronegativity:  Nickel or Iron?",
 					"answer":"Nickel"
 			},
 			{
@@ -1019,7 +1019,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^8"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Einsteinium or Nickel?",
+					"question":"Which element has a higher ionization energy:  Einsteinium or Nickel?",
 					"answer":"Nickel"
 			}
 		]
@@ -1040,7 +1040,7 @@ let data = [
 					"answer":"Cu"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Copper or Calcium?",
+					"question":"Which element has a higher Electronegativity:  Copper or Calcium?",
 					"answer":"Copper"
 			},
 			{
@@ -1056,7 +1056,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Germanium or Copper?",
+					"question":"Which element has a higher ionization energy:  Germanium or Copper?",
 					"answer":"Germanium"
 			}
 		]
@@ -1077,7 +1077,7 @@ let data = [
 					"answer":"Zn"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Zinc or Chlorine?",
+					"question":"Which element has a higher Electronegativity:  Zinc or Chlorine?",
 					"answer":"Chlorine"
 			},
 			{
@@ -1093,7 +1093,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Nobelium or Zinc?",
+					"question":"Which element has a higher ionization energy:  Nobelium or Zinc?",
 					"answer":"Zinc"
 			}
 		]
@@ -1114,7 +1114,7 @@ let data = [
 					"answer":"Ga"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Gallium or Zirconium?",
+					"question":"Which element has a higher Electronegativity:  Gallium or Zirconium?",
 					"answer":"Gallium"
 			},
 			{
@@ -1130,7 +1130,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^2"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Iridium or Gallium?",
+					"question":"Which element has a higher ionization energy:  Iridium or Gallium?",
 					"answer":"Iridium"
 			}
 		]
@@ -1151,7 +1151,7 @@ let data = [
 					"answer":"Ge"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Germanium or Krypton?",
+					"question":"Which element has a higher Electronegativity:  Germanium or Krypton?",
 					"Answer":3
 			},
 			{
@@ -1167,7 +1167,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^3"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Lawrencium or Germanium?",
+					"question":"Which element has a higher ionization energy:  Lawrencium or Germanium?",
 					"answer":"Germanium"
 			}
 		]
@@ -1188,7 +1188,7 @@ let data = [
 					"answer":"As"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Arsenic or Germanium?",
+					"question":"Which element has a higher Electronegativity:  Arsenic or Germanium?",
 					"answer":"Arsenic"
 			},
 			{
@@ -1204,7 +1204,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^3"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'): Hafnium or Arsenic?",
+					"question":"Which element has a higher ionization energy: Hafnium or Arsenic?",
 					"answer":"Arsenic"
 			}
 		]
@@ -1225,7 +1225,7 @@ let data = [
 					"answer":"Se"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Selenium or Ruthenium?",
+					"question":"Which element has a higher Electronegativity:  Selenium or Ruthenium?",
 					"answer":"Selenium"
 			},
 			{
@@ -1241,7 +1241,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^4"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Fermium or Selenium?",
+					"question":"Which element has a higher ionization energy:  Fermium or Selenium?",
 					"answer":"Selenium"
 			}
 		]
@@ -1262,7 +1262,7 @@ let data = [
 					"answer":"Br"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Bromine or Chromium?",
+					"question":"Which element has a higher Electronegativity:  Bromine or Chromium?",
 					"answer":"Bromine"
 			},
 			{
@@ -1278,7 +1278,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^5"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Tungsten or Bromine?",
+					"question":"Which element has a higher ionization energy:  Tungsten or Bromine?",
 					"answer":"Bromine"
 			}
 		]
@@ -1299,7 +1299,7 @@ let data = [
 					"answer":"Kr"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Krypton or Lutetium?",
+					"question":"Which element has a higher Electronegativity:  Krypton or Lutetium?",
 					"answer": "Krypton"
 			},
 			{
@@ -1315,7 +1315,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Iodine or Krypton?",
+					"question":"Which element has a higher ionization energy:  Iodine or Krypton?",
 					"answer":"Krypton"
 			}
 		]
@@ -1336,7 +1336,7 @@ let data = [
 					"answer":"Rb"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Rubidium or Nickel?",
+					"question":"Which element has a higher Electronegativity:  Rubidium or Nickel?",
 					"answer":"Nickel"
 			},
 			{
@@ -1352,7 +1352,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Niobium or Rubidium?",
+					"question":"Which element has a higher ionization energy:  Niobium or Rubidium?",
 					"answer":"Niobium"
 			}
 		]
@@ -1373,7 +1373,7 @@ let data = [
 					"answer":"Sr"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Strontium or Fermium?",
+					"question":"Which element has a higher Electronegativity:  Strontium or Fermium?",
 					"answer":"Fermium"
 			},
 			{
@@ -1389,7 +1389,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^2"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Actinium or Strontium?",
+					"question":"Which element has a higher ionization energy:  Actinium or Strontium?",
 					"answer":"Strontium"
 			}
 		]
@@ -1410,7 +1410,7 @@ let data = [
 					"answer":"Y"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Yttrium or Strontium?",
+					"question":"Which element has a higher Electronegativity:  Yttrium or Strontium?",
 					"answer":"Yttrium"
 			},
 			{
@@ -1426,7 +1426,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^1"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Fermium or Yttrium?",
+					"question":"Which element has a higher ionization energy:  Fermium or Yttrium?",
 					"answer":"Fermium"
 			}
 		]
@@ -1447,7 +1447,7 @@ let data = [
 					"answer":"Zr"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Zirconium or Germanium?",
+					"question":"Which element has a higher Electronegativity:  Zirconium or Germanium?",
 					"answer":"Germanium"
 			},
 			{
@@ -1463,7 +1463,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^2"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Fermium or Zirconium?",
+					"question":"Which element has a higher ionization energy:  Fermium or Zirconium?",
 					"answer":"Zirconium"
 			}
 		]
@@ -1484,7 +1484,7 @@ let data = [
 					"answer":"Nb"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Niobium or Scandium?",
+					"question":"Which element has a higher Electronegativity:  Niobium or Scandium?",
 					"answer":"Niobium"
 			},
 			{
@@ -1500,7 +1500,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^4"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Plutonium or Niobium?",
+					"question":"Which element has a higher ionization energy:  Plutonium or Niobium?",
 					"answer":"Niobium"
 			}
 		]
@@ -1521,7 +1521,7 @@ let data = [
 					"answer":"Mo"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Molybdenum or Krypton?",
+					"question":"Which element has a higher Electronegativity:  Molybdenum or Krypton?",
 					"answer":"Krypton"
 			},
 			{
@@ -1537,7 +1537,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^5"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Xenon or Molybdenum?",
+					"question":"Which element has a higher ionization energy:  Xenon or Molybdenum?",
 					"answer":"Xenon"
 			}
 		]
@@ -1558,7 +1558,7 @@ let data = [
 					"answer":"Tc"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Technetium or Hydrogen?",
+					"question":"Which element has a higher Electronegativity:  Technetium or Hydrogen?",
 					"answer":"Technetium"
 			},
 			{
@@ -1574,7 +1574,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^2 4d^5"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Polonium or Technetium?",
+					"question":"Which element has a higher ionization energy:  Polonium or Technetium?",
 					"answer":"Polonium"
 			}
 		]
@@ -1595,7 +1595,7 @@ let data = [
 					"answer":"Ru"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Ruthenium or Antimony?",
+					"question":"Which element has a higher Electronegativity:  Ruthenium or Antimony?",
 					"answer":"Ruthenium"
 			},
 			{
@@ -1611,7 +1611,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^7"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Polonium or Technetium?",
+					"question":"Which element has a higher ionization energy:  Polonium or Technetium?",
 					"answer":"Ruthenium"
 			}
 		]
@@ -1632,7 +1632,7 @@ let data = [
 					"answer":"Rh"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Rhodium or Palladium?",
+					"question":"Which element has a higher Electronegativity:  Rhodium or Palladium?",
 					"answer":"Palladium"
 			},
 			{
@@ -1648,7 +1648,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^8"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Mendelevium or Rhodium?",
+					"question":"Which element has a higher ionization energy:  Mendelevium or Rhodium?",
 					"answer":"Rhodium"
 			}
 		]
@@ -1669,7 +1669,7 @@ let data = [
 					"answer":"Pd"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Palladium or Selenium?",
+					"question":"Which element has a higher Electronegativity:  Palladium or Selenium?",
 					"answer":"Selenium"
 			},
 			{
@@ -1685,7 +1685,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 4d^10"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Californium or Palladium?",
+					"question":"Which element has a higher ionization energy:  Californium or Palladium?",
 					"answer":"Palladium"
 			}
 		]
@@ -1706,7 +1706,7 @@ let data = [
 					"answer":"Ag"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Silver or Osmium?",
+					"question":"Which element has a higher Electronegativity:  Silver or Osmium?",
 					"answer":"Osmium"
 			},
 			{
@@ -1722,7 +1722,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'): Helium or Silver?",
+					"question":"Which element has a higher ionization energy: Helium or Silver?",
 					"answer":"Helium"
 			}
 		]
@@ -1743,7 +1743,7 @@ let data = [
 					"answer":"Cd"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Cadmium or Cerium?",
+					"question":"Which element has a higher Electronegativity:  Cadmium or Cerium?",
 					"answer":"Cadmium"
 			},
 			{
@@ -1759,7 +1759,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^2 4d^10"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Radon or Cadmium?",
+					"question":"Which element has a higher ionization energy:  Radon or Cadmium?",
 					"answer":"Radon"
 			}
 		]
@@ -1780,7 +1780,7 @@ let data = [
 					"answer":"In"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Indium or Tin?",
+					"question":"Which element has a higher Electronegativity:  Indium or Tin?",
 					"answer":"Tin"
 			},
 			{
@@ -1796,7 +1796,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^1"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Fluorine or Indium?",
+					"question":"Which element has a higher ionization energy:  Fluorine or Indium?",
 					"answer":"Fluorine"
 			}
 		]
@@ -1817,7 +1817,7 @@ let data = [
 					"answer":"Sn"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Tin or Cerium?",
+					"question":"Which element has a higher Electronegativity:  Tin or Cerium?",
 					"answer":"Tin"
 			},
 			{
@@ -1833,7 +1833,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^2"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Platinum or Tin?",
+					"question":"Which element has a higher ionization energy:  Platinum or Tin?",
 					"answer":"Platinum"
 			}
 		]
@@ -1854,7 +1854,7 @@ let data = [
 					"answer":"Sb"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Antimony or Cesium?",
+					"question":"Which element has a higher Electronegativity:  Antimony or Cesium?",
 					"answer":"Antimony"
 			},
 			{
@@ -1870,7 +1870,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^3"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Californium or Antimony?",
+					"question":"Which element has a higher ionization energy:  Californium or Antimony?",
 					"answer":"Antimony"
 			}
 		]
@@ -1891,7 +1891,7 @@ let data = [
 					"answer":"Te"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Tellurium or Sodium?",
+					"question":"Which element has a higher Electronegativity:  Tellurium or Sodium?",
 					"answer":"Tellurium"
 			},
 			{
@@ -1907,7 +1907,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^4"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Astatine or Tellurium?",
+					"question":"Which element has a higher ionization energy:  Astatine or Tellurium?",
 					"answer":"Astatine"
 			}
 		]
@@ -1928,7 +1928,7 @@ let data = [
 					"answer":"I"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Iodine or Platinum?",
+					"question":"Which element has a higher Electronegativity:  Iodine or Platinum?",
 					"answer":"Iodine"
 			},
 			{
@@ -1944,7 +1944,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^5"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Thorium or Iodine?",
+					"question":"Which element has a higher ionization energy:  Thorium or Iodine?",
 					"answer":"Iodine"
 			}
 		]
@@ -1965,7 +1965,7 @@ let data = [
 					"answer":"Xe"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Xenon or Sulfur?",
+					"question":"Which element has a higher Electronegativity:  Xenon or Sulfur?",
 					"answer":"Xenon"
 			},
 			{
@@ -1981,7 +1981,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Hydrogen or Xenon?",
+					"question":"Which element has a higher ionization energy:  Hydrogen or Xenon?",
 					"answer":"Hydrogen"
 			}
 		]
@@ -2002,7 +2002,7 @@ let data = [
 					"answer":"Cs"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Cesium or Hafnium?",
+					"question":"Which element has a higher Electronegativity:  Cesium or Hafnium?",
 					"answer":"Hafnium"
 			},
 			{
@@ -2018,7 +2018,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^1"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Zinc or Cesium?",
+					"question":"Which element has a higher ionization energy:  Zinc or Cesium?",
 					"answer":"Zinc"
 			}
 		]
@@ -2039,7 +2039,7 @@ let data = [
 					"answer":"Ba"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Barium or Californium?",
+					"question":"Which element has a higher Electronegativity:  Barium or Californium?",
 					"answer":"Californium"
 			},
 			{
@@ -2055,7 +2055,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Mercury or Barium?",
+					"question":"Which element has a higher ionization energy:  Mercury or Barium?",
 					"answer":"Mercury"
 			}
 		]
@@ -2076,7 +2076,7 @@ let data = [
 					"answer":"La"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Lanthanum or Rhodium?",
+					"question":"Which element has a higher Electronegativity:  Lanthanum or Rhodium?",
 					"answer":"Rhodium"
 			},
 			{
@@ -2092,7 +2092,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 5d^1"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Gold or Lanthanum?",
+					"question":"Which element has a higher ionization energy:  Gold or Lanthanum?",
 					"answer":"Gold"
 			}
 		]
@@ -2113,7 +2113,7 @@ let data = [
 					"answer":"Ce"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Cerium or Iridium?",
+					"question":"Which element has a higher Electronegativity:  Cerium or Iridium?",
 					"answer":"Iridium"
 			},
 			{
@@ -2129,7 +2129,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 5d^1 4f^1"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Terbium or Cerium?",
+					"question":"Which element has a higher ionization energy:  Terbium or Cerium?",
 					"answer":"Terbium"
 			}
 		]
@@ -2150,7 +2150,7 @@ let data = [
 					"answer":"Pr"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Praseodymium or Copper?",
+					"question":"Which element has a higher Electronegativity:  Praseodymium or Copper?",
 					"answer":"Copper"
 			},
 			{
@@ -2166,7 +2166,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^3"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Lutetium or Praseodymium?",
+					"question":"Which element has a higher ionization energy:  Lutetium or Praseodymium?",
 					"answer":"Praseodymium"
 			}
 		]
@@ -2187,7 +2187,7 @@ let data = [
 					"answer":"Nd"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Neodymium or Xenon?",
+					"question":"Which element has a higher Electronegativity:  Neodymium or Xenon?",
 					"answer":"Xenon"
 			},
 			{
@@ -2203,7 +2203,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^4"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Thorium or Neodymium?",
+					"question":"Which element has a higher ionization energy:  Thorium or Neodymium?",
 					"answer":"Thorium"
 			}
 		]
@@ -2224,7 +2224,7 @@ let data = [
 					"answer":"Pm"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Promethium or Rhodium?",
+					"question":"Which element has a higher Electronegativity:  Promethium or Rhodium?",
 					"answer":"Rhodium"
 			},
 			{
@@ -2240,7 +2240,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^5"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Osmium or Promethium?",
+					"question":"Which element has a higher ionization energy:  Osmium or Promethium?",
 					"answer":"Osmium"
 			}
 		]
@@ -2261,7 +2261,7 @@ let data = [
 					"answer":"Sm"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Samarium or Mercury?",
+					"question":"Which element has a higher Electronegativity:  Samarium or Mercury?",
 					"answer":"Mercury"
 			},
 			{
@@ -2277,7 +2277,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^6"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Osmium or Samarium?",
+					"question":"Which element has a higher ionization energy:  Osmium or Samarium?",
 					"answer":"Osmium"
 			}
 		]
@@ -2298,7 +2298,7 @@ let data = [
 					"answer":"Eu"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Europium or Vanadium?",
+					"question":"Which element has a higher Electronegativity:  Europium or Vanadium?",
 					"answer":"Vanadium"
 			},
 			{
@@ -2314,7 +2314,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^7"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Polonium or Europium?",
+					"question":"Which element has a higher ionization energy:  Polonium or Europium?",
 					"answer":"Polonium"
 			}
 		]
@@ -2335,7 +2335,7 @@ let data = [
 					"answer":"Gd"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Gadolinium or Neodymium?",
+					"question":"Which element has a higher Electronegativity:  Gadolinium or Neodymium?",
 					"answer":"Gadolinium"
 			},
 			{
@@ -2351,7 +2351,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^75d^1"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Polonium or Gadolinium?",
+					"question":"Which element has a higher ionization energy:  Polonium or Gadolinium?",
 					"answer":"Polonium"
 			}
 		]
@@ -2372,7 +2372,7 @@ let data = [
 					"answer":"Tb"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Terbium or Thulium?",
+					"question":"Which element has a higher Electronegativity:  Terbium or Thulium?",
 					"answer":"Thulium"
 			},
 			{
@@ -2388,7 +2388,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^9"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'): Indium or Terbium?",
+					"question":"Which element has a higher ionization energy: Indium or Terbium?",
 					"answer":"Terbium"
 			}
 		]
@@ -2409,7 +2409,7 @@ let data = [
 					"answer":"Dy"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Dysprosium or Ytterbium?",
+					"question":"Which element has a higher Electronegativity:  Dysprosium or Ytterbium?",
 					"answer":"Ytterbium"
 			},
 			{
@@ -2425,7 +2425,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^10"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Thulium or Dysprosium?",
+					"question":"Which element has a higher ionization energy:  Thulium or Dysprosium?",
 					"answer":"Thulium"
 			}
 		]
@@ -2446,7 +2446,7 @@ let data = [
 					"answer":"Ho"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Holmium or Rhodium?",
+					"question":"Which element has a higher Electronegativity:  Holmium or Rhodium?",
 					"answer":"Rhodium"
 			},
 			{
@@ -2462,7 +2462,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^11"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Irdium or Holmium?",
+					"question":"Which element has a higher ionization energy:  Irdium or Holmium?",
 					"answer":"Iridium"
 			}
 		]
@@ -2483,7 +2483,7 @@ let data = [
 					"answer":"Er"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Erbium or Promethium?",
+					"question":"Which element has a higher Electronegativity:  Erbium or Promethium?",
 					"answer":"Erbium"
 			},
 			{
@@ -2499,7 +2499,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^12"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Mendelevium or Erbium?",
+					"question":"Which element has a higher ionization energy:  Mendelevium or Erbium?",
 					"answer":"Mendelevium"
 			}
 		]
@@ -2520,7 +2520,7 @@ let data = [
 					"answer":"Tm"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Thulium or Sodium?",
+					"question":"Which element has a higher Electronegativity:  Thulium or Sodium?",
 					"answer":"Thulium"
 			},
 			{
@@ -2536,7 +2536,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^13"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Uranium or Thulium?",
+					"question":"Which element has a higher ionization energy:  Uranium or Thulium?",
 					"answer":"Uranium"
 			}
 		]
@@ -2557,7 +2557,7 @@ let data = [
 					"answer":"Yb"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Ytterbium or Tungsten?",
+					"question":"Which element has a higher Electronegativity:  Ytterbium or Tungsten?",
 					"answer":"Ytterbium"
 			},
 			{
@@ -2573,7 +2573,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Curium or Ytterbium?",
+					"question":"Which element has a higher ionization energy:  Curium or Ytterbium?",
 					"answer":"Ytterbium"
 			}
 		]
@@ -2594,7 +2594,7 @@ let data = [
 					"answer":"Lu"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Lutetium or Dysprosium?",
+					"question":"Which element has a higher Electronegativity:  Lutetium or Dysprosium?",
 					"answer":"Lutetium"
 			},
 			{
@@ -2610,7 +2610,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^1"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Radium or Lutetium?",
+					"question":"Which element has a higher ionization energy:  Radium or Lutetium?",
 					"answer":"Lutetium"
 			}
 		]
@@ -2631,7 +2631,7 @@ let data = [
 					"answer":"Hf"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Hafnium or Thulium?",
+					"question":"Which element has a higher Electronegativity:  Hafnium or Thulium?",
 					"answer":"Hafnium"
 			},
 			{
@@ -2647,7 +2647,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^2"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Iridium or Hafnium?",
+					"question":"Which element has a higher ionization energy:  Iridium or Hafnium?",
 					"answer":"Iridium"
 			}
 		]
@@ -2668,7 +2668,7 @@ let data = [
 					"answer":"Ta"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Tantalum or Magnesium?",
+					"question":"Which element has a higher Electronegativity:  Tantalum or Magnesium?",
 					"answer":"Tantalum"
 			},
 			{
@@ -2684,7 +2684,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^3"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'): Platnium  or Tantalum?",
+					"question":"Which element has a higher ionization energy: Platnium  or Tantalum?",
 					"answer":"Platinum"
 			}
 		]
@@ -2705,7 +2705,7 @@ let data = [
 					"answer":"W"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Tungsten or Krypton?",
+					"question":"Which element has a higher Electronegativity:  Tungsten or Krypton?",
 					"answer":"Krypton"
 			},
 			{
@@ -2721,7 +2721,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^4"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Francium or Tungsten?",
+					"question":"Which element has a higher ionization energy:  Francium or Tungsten?",
 					"answer":"Tungsten"
 			}
 		]
@@ -2742,7 +2742,7 @@ let data = [
 					"answer":"Re"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Rhenium or Aluminum?",
+					"question":"Which element has a higher Electronegativity:  Rhenium or Aluminum?",
 					"answer":"Rhenium"
 			},
 			{
@@ -2758,7 +2758,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^5"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Astatine or Rhenium?",
+					"question":"Which element has a higher ionization energy:  Astatine or Rhenium?",
 					"answer":"Astatine"
 			}
 		]
@@ -2779,7 +2779,7 @@ let data = [
 					"answer":"Os"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Osmium or Ytterbium?",
+					"question":"Which element has a higher Electronegativity:  Osmium or Ytterbium?",
 					"answer":"Osmium"
 			},
 			{
@@ -2795,7 +2795,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^6"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Iridium or Osmium?",
+					"question":"Which element has a higher ionization energy:  Iridium or Osmium?",
 					"answer":"Iridium"
 			}
 		]
@@ -2816,7 +2816,7 @@ let data = [
 					"answer":"Ir"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Iridium or Thallium?",
+					"question":"Which element has a higher Electronegativity:  Iridium or Thallium?",
 					"answer":"Iridium"
 			},
 			{
@@ -2832,7 +2832,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^7"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Lawrencium or Iridium?",
+					"question":"Which element has a higher ionization energy:  Lawrencium or Iridium?",
 					"answer":"Iridium"
 			}
 		]
@@ -2853,7 +2853,7 @@ let data = [
 					"answer":"Pt"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Platinum or Tin?",
+					"question":"Which element has a higher Electronegativity:  Platinum or Tin?",
 					"answer":"Platinum"
 			},
 			{
@@ -2869,7 +2869,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^9"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Cadmium or Platinum?",
+					"question":"Which element has a higher ionization energy:  Cadmium or Platinum?",
 					"answer":"Cadmium"
 			}
 		]
@@ -2890,7 +2890,7 @@ let data = [
 					"answer":"Au"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Gold or Niobium?",
+					"question":"Which element has a higher Electronegativity:  Gold or Niobium?",
 					"answer":"Gold"
 			},
 			{
@@ -2906,7 +2906,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Cobalt or Gold?",
+					"question":"Which element has a higher ionization energy:  Cobalt or Gold?",
 					"answer":"Gold"
 			}
 		]
@@ -2927,7 +2927,7 @@ let data = [
 					"answer":"Au"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Mercury or Chromium?",
+					"question":"Which element has a higher Electronegativity:  Mercury or Chromium?",
 					"answer":"Mercury"
 			},
 			{
@@ -2943,7 +2943,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Thorium or Mercury?",
+					"question":"Which element has a higher ionization energy:  Thorium or Mercury?",
 					"answer":"Mercury"
 			}
 		]
@@ -2964,7 +2964,7 @@ let data = [
 					"answer":"Tl"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Thallium or Praseodymium?",
+					"question":"Which element has a higher Electronegativity:  Thallium or Praseodymium?",
 					"answer":"Thallium"
 			},
 			{
@@ -2980,7 +2980,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'): Erbium or Thallium?",
+					"question":"Which element has a higher ionization energy: Erbium or Thallium?",
 					"answer":"Erbium"
 			}
 		]
@@ -3001,7 +3001,7 @@ let data = [
 					"answer":"Pb"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Lead or Bismuth?",
+					"question":"Which element has a higher Electronegativity:  Lead or Bismuth?",
 					"answer":"Lead"
 			},
 			{
@@ -3017,7 +3017,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^2"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'):  Uranium or Lead?",
+					"question":"Which element has a higher ionization energy:  Uranium or Lead?",
 					"answer":"Lead"
 			}
 		]
@@ -3038,7 +3038,7 @@ let data = [
 					"answer":"Bi"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Bismuth or Fancium?",
+					"question":"Which element has a higher Electronegativity:  Bismuth or Fancium?",
 					"answer":"Bismuth"
 			},
 			{
@@ -3054,7 +3054,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^3"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'): Lead or Bismuth?",
+					"question":"Which element has a higher ionization energy: Lead or Bismuth?",
 					"answer":"Lead"
 			}
 		]
@@ -3075,7 +3075,7 @@ let data = [
 					"answer":"Po"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Polonium or Thorium?",
+					"question":"Which element has a higher Electronegativity:  Polonium or Thorium?",
 					"answer":"Polonium"
 			},
 			{
@@ -3091,7 +3091,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^4"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'):  Francium or Polonium?",
+					"question":"Which element has a higher ionization energy:  Francium or Polonium?",
 					"answer":"Polonium"
 			}
 		]
@@ -3112,7 +3112,7 @@ let data = [
 					"answer":"At"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Astatine or Cobalt?",
+					"question":"Which element has a higher Electronegativity:  Astatine or Cobalt?",
 					"answer":"Astatine"
 			},
 			{
@@ -3128,7 +3128,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^5"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'):  Actinium or Astatine?",
+					"question":"Which element has a higher ionization energy:  Actinium or Astatine?",
 					"answer":"Astatine"
 			}
 		]
@@ -3161,7 +3161,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^6"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Curium or Radon?",
+					"question":"Which element has a higher ionization energy:  Curium or Radon?",
 					"answer":"Radon"
 			}
 		]
@@ -3182,7 +3182,7 @@ let data = [
 					"answer":"Fr"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Francium or Europium?",
+					"question":"Which element has a higher Electronegativity:  Francium or Europium?",
 					"answer":"Europium"
 			},
 			{
@@ -3198,7 +3198,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^6 7s^1"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'): Helium or Francium?",
+					"question":"Which element has a higher ionization energy: Helium or Francium?",
 					"answer":"Helium"
 			}
 		]
@@ -3219,7 +3219,7 @@ let data = [
 					"answer":"Ra"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Radium or Manganese?",
+					"question":"Which element has a higher Electronegativity:  Radium or Manganese?",
 					"answer":"Manganese"
 			},
 			{
@@ -3235,7 +3235,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^6 7s^2"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Lithium or Radium?",
+					"question":"Which element has a higher ionization energy:  Lithium or Radium?",
 					"answer":"Lithium"
 			}
 		]
@@ -3256,7 +3256,7 @@ let data = [
 					"answer":"Ac"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Actinium or Fermium?",
+					"question":"Which element has a higher Electronegativity:  Actinium or Fermium?",
 					"answer":1.1
 			},
 			{
@@ -3272,7 +3272,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^6 7s^2 6d^1"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'):  Plutonium or Actinium?",
+					"question":"Which element has a higher ionization energy:  Plutonium or Actinium?",
 					"answer":"Plutonium"
 			}
 		]
@@ -3293,7 +3293,7 @@ let data = [
 					"answer":"Th"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Thorium or Promethium?",
+					"question":"Which element has a higher Electronegativity:  Thorium or Promethium?",
 					"answer":"Thorium"
 			},
 			{
@@ -3309,7 +3309,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^6 7s^2 6d^2"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'): Fermium or Thorium?",
+					"question":"Which element has a higher ionization energy: Fermium or Thorium?",
 					"answer":"Fermium"
 			}
 		]
@@ -3330,7 +3330,7 @@ let data = [
 					"answer":"Pa"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Protactinium or Uranium?",
+					"question":"Which element has a higher Electronegativity:  Protactinium or Uranium?",
 					"answer":"Protactinium"
 			},
 			{
@@ -3346,7 +3346,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^2 6d^1"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Nobelium or Protactinium?",
+					"question":"Which element has a higher ionization energy:  Nobelium or Protactinium?",
 					"answer":"Nobelium"
 			}
 		]
@@ -3367,7 +3367,7 @@ let data = [
 					"answer":"U"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Uranium or Iodine?",
+					"question":"Which element has a higher Electronegativity:  Uranium or Iodine?",
 					"answer":"Iodine"
 			},
 			{
@@ -3383,7 +3383,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^3 6d^1"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Mendelevium or Uranium?",
+					"question":"Which element has a higher ionization energy:  Mendelevium or Uranium?",
 					"answer":"Mendelevium"
 			}
 		]
@@ -3404,7 +3404,7 @@ let data = [
 					"answer":"Np"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Neptunium or Fermium?",
+					"question":"Which element has a higher Electronegativity:  Neptunium or Fermium?",
 					"answer":"Neptunium"
 			},
 			{
@@ -3420,7 +3420,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^4 6d^1"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Neptunium or Aluminum?",
+					"question":"Which element has a higher ionization energy:  Neptunium or Aluminum?",
 					"answer":"Neptunium"
 			}
 		]
@@ -3441,7 +3441,7 @@ let data = [
 					"answer":"Pu"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Plutonium or Sulfur?",
+					"question":"Which element has a higher Electronegativity:  Plutonium or Sulfur?",
 					"answer":"Sulfur"
 			},
 			{
@@ -3457,7 +3457,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^6"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'): Erbium or Plutonium?",
+					"question":"Which element has a higher ionization energy: Erbium or Plutonium?",
 					"answer":"Erbium"
 			}
 		]
@@ -3478,7 +3478,7 @@ let data = [
 					"answer":"Am"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Americium or Cerium?",
+					"question":"Which element has a higher Electronegativity:  Americium or Cerium?",
 					"answer":"Americium"
 			},
 			{
@@ -3494,7 +3494,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^7"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'): Aluminum or Americium?",
+					"question":"Which element has a higher ionization energy: Aluminum or Americium?",
 					"answer":"Aluminum"
 			}
 		]
@@ -3515,7 +3515,7 @@ let data = [
 					"answer":"Cm"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Curium or Astatine?",
+					"question":"Which element has a higher Electronegativity:  Curium or Astatine?",
 					"answer":"Astatine"
 			},
 			{
@@ -3531,7 +3531,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^7 6d^1"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'): Gallium or Curium?",
+					"question":"Which element has a higher ionization energy: Gallium or Curium?",
 					"answer":"Gallium"
 			}
 		]
@@ -3552,7 +3552,7 @@ let data = [
 					"answer":"Bk"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Berkelium or Iodine?",
+					"question":"Which element has a higher Electronegativity:  Berkelium or Iodine?",
 					"answer":"Iodine"
 			},
 			{
@@ -3568,7 +3568,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^9"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'): Uranium or Berkelium?",
+					"question":"Which element has a higher ionization energy: Uranium or Berkelium?",
 					"answer":"Berkelium"
 			}
 		]
@@ -3589,7 +3589,7 @@ let data = [
 					"answer":"Cf"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Californium or Tungsten?",
+					"question":"Which element has a higher Electronegativity:  Californium or Tungsten?",
 					"answer":"Tungsten"
 			},
 			{
@@ -3605,7 +3605,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^10"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'):  Neptunium or Californium?",
+					"question":"Which element has a higher ionization energy:  Neptunium or Californium?",
 					"answer":"Neptunium"
 			}
 		]
@@ -3626,7 +3626,7 @@ let data = [
 					"answer":"Es"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Einstenium or Phosphorus?",
+					"question":"Which element has a higher Electronegativity:  Einstenium or Phosphorus?",
 					"answer":"Phosphorus"
 			},
 			{
@@ -3642,8 +3642,8 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^11"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'):  Meitnerium or Ensteinium?",
-					"answer":"unknown"
+					"question":"Which element has a higher ionization energy Radium or Ensteinium?",
+					"answer":"Ensteinium"
 			}
 		]
 	},
@@ -3663,8 +3663,8 @@ let data = [
 					"answer":"Fm"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Fermium or Seaborgium?",
-					"answer":"unknown"
+					"question":"Which element has a higher Electronegativity:  Fermium or Mercury?",
+					"answer":"Mercury"
 			},
 			{
 					"question":"Number of valence electrons in Fermium.",
@@ -3679,7 +3679,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^12"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'):  Nobelium or Fermium?",
+					"question":"Which element has a higher ionization energy:  Nobelium or Fermium?",
 					"answer":"Nobelium"
 			}
 		]
@@ -3700,7 +3700,7 @@ let data = [
 					"answer":"Md"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Mendelevium or Beryllium?",
+					"question":"Which element has a higher Electronegativity:  Mendelevium or Beryllium?",
 					"answer": "Beryllium"
 			},
 			{
@@ -3716,8 +3716,8 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^13"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'):  Hassium or Mendelevium?",
-					"answer":"unknown"
+					"question":"Which element has a higher ionization energy: Nobelium or Mendelevium?",
+					"answer":"Nobelium"
 			}
 		]
 	},
@@ -3737,7 +3737,7 @@ let data = [
 					"answer":"No"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Nobelium or Antimony?",
+					"question":"Which element has a higher Electronegativity:  Nobelium or Antimony?",
 					"answer":"Antimony"
 			},
 			{
@@ -3753,8 +3753,8 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^14"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'):  Meitnerium or Nobelium?",
-					"answer":"unknown"
+					"question":"Which element has a higher ionization energy: Scandium or Nobelium?",
+					"answer":"Nobelium"
 			}
 		]
 	},
@@ -3786,7 +3786,7 @@ let data = [
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^14 7p^1"
 			},
 			{
-					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'): Potassium or Lawrencium?",
+					"question":"Which element has a higher ionization energy: Potassium or Lawrencium?",
 					"answer":"Lawerncium"
 			}
 		]
@@ -3807,10 +3807,6 @@ let data = [
 					"answer":"Rf"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Rutherfordium or Curium?",
-					"answer":"unknown"
-			},
-			{
 					"question":"Number of valence electrons in Rutherfordium.",
 					"answer":4
 			},
@@ -3821,10 +3817,6 @@ let data = [
 			{
 					"question":"Rutherfordium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^14 6d^2"
-			},
-			{
-					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'):  Dubnium or Rutherfordium?",
-					"answer":"unknown"
 			}
 		]
 	},
@@ -3844,10 +3836,6 @@ let data = [
 					"answer":"Db"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Dubnium or Holmium?",
-					"answer":"unknown"
-			},
-			{
 					"question":"Number of valence electrons in Dubnium.",
 					"answer":5
 			},
@@ -3858,10 +3846,6 @@ let data = [
 			{
 					"question":"Dubnium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^14 6d^3"
-			},
-			{
-					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'):  Flerovium or Dubnium?",
-					"answer":"unknown"
 			}
 		]
 	},
@@ -3881,10 +3865,6 @@ let data = [
 					"answer":"Sg"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Seaborgium or Krypton?",
-					"answer":"unknown"
-			},
-			{
 					"question":"Number of valence electrons in Seaborgium.",
 					"answer":6
 			},
@@ -3895,10 +3875,6 @@ let data = [
 			{
 					"question":"Seaborgium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^14 6d^4"
-			},
-			{
-					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'):  Darmstadtium or Seaborgium?",
-					"answer":"unknown"
 			}
 		]
 	},
@@ -3918,10 +3894,6 @@ let data = [
 					"answer":"Bh"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Bohrium or Nickel?",
-					"answer":"unknown"
-			},
-			{
 					"question":"Number of valence electrons in Bohrium.",
 					"answer":7
 			},
@@ -3932,10 +3904,6 @@ let data = [
 			{
 					"question":"Bohrium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^14 6d^5"
-			},
-			{
-					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'):  Tennessine or Bohrium?",
-					"answer":"unknown"
 			}
 		]
 	},
@@ -3955,10 +3923,6 @@ let data = [
 					"answer":"Hs"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Hassium or Germanium?",
-					"answer":"unknown"
-			},
-			{
 					"question":"Number of valence electrons in Hassium.",
 					"answer":8
 			},
@@ -3969,10 +3933,6 @@ let data = [
 			{
 					"question":"Hassium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^14 6d^6"
-			},
-			{
-					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'):  Moscovium or Hassium?",
-					"answer":"unknown"
 			}
 		]
 	},
@@ -3992,20 +3952,12 @@ let data = [
 					"answer":"Mt"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Meitnerium or Fermium?",
-					"answer":"unknown"
-			},
-			{
 					"question":"Number of valence electrons in Meitnerium.",
 					"answer":9
 			},
 			{
 					"question":"Meitnerium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^14 6d^7"
-			},
-			{
-					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'):  Darmstadtium or Meitnerium?",
-					"answer":"unknown"
 			}
 		]
 	},
@@ -4025,20 +3977,12 @@ let data = [
 					"answer":"Ds"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Darmstadtium or Selenium?",
-					"answer":"unknown"
-			},
-			{
 					"question":"Number of valence electrons in Darmstadtium.",
 					"answer":10
 			},
 			{
 					"question":"Darmstadtium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^14 6d^8"
-			},
-			{
-					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'):  Nihonium or Darmstadtium?",
-					"answer":"unknown"
 			}
 		]
 	},
@@ -4058,20 +4002,12 @@ let data = [
 					"answer":"Rg"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Roentgenium or Antimony?",
-					"answer":"unknown"
-			},
-			{
 					"question":"Number of valence electrons in Roentgenium.",
 					"answer":11
 			},
 			{
 					"question":"Roentgenium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^14 6d^9"
-			},
-			{
-					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'):  Lead or Roentgenium?",
-					"answer":"unknown"
 			}
 		]
 	},
@@ -4091,20 +4027,12 @@ let data = [
 					"answer":"Cn"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Copernicium or Niobium?",
-					"answer":"unknown"
-			},
-			{
 					"question":"Number of valence electrons in Copernicium.",
 					"answer":12
 			},
 			{
 					"question":"Copernicium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^14 6d^10"
-			},
-			{
-					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'):  Flerovium or Copernicium?",
-					"answer":"unknown"
 			}
 		]
 	},
@@ -4124,20 +4052,12 @@ let data = [
 					"answer":"Nh"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Nihonium or Copernicium?",
-					"answer":"unknown"
-			},
-			{
 					"question":"Number of valence electrons in Nihonium.",
 					"answer":3
 			},
 			{
 					"question":"Nihonium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^14 6d^10 7p^1"
-			},
-			{
-					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'):  Moscovium or Nihonium?",
-					"answer":"unknown"
 			}
 		]
 	},
@@ -4157,20 +4077,12 @@ let data = [
 					"answer":"Fl"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Flerovium or Terbium?",
-					"answer":"unknown"
-			},
-			{
 					"question":"Number of valence electrons in Flerovium.",
 					"answer":4
 			},
 			{
 					"question":"Flerovium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^14 6d^10 7p^2"
-			},
-			{
-					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'):  Moscovium or Flerovium?",
-					"answer":"unknown"
 			}
 		]
 	},
@@ -4190,20 +4102,12 @@ let data = [
 					"answer":"Mc"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Moscovium or Tungsten?",
-					"answer":"unknown"
-			},
-			{
 					"question":"Number of valence electrons in Moscovium.",
 					"answer":5
 			},
 			{
 					"question":"Moscovium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^14 6d^10 7p^3"
-			},
-			{
-					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'): Hydrogen or Moscovium?",
-					"answer":"unknown"
 			}
 		]
 	},
@@ -4223,20 +4127,12 @@ let data = [
 					"answer":"Lv"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Livermorium or Neodymium?",
-					"answer":"unknown"
-			},
-			{
 					"question":"Number of valence electrons in Livermorium.",
 					"answer":6
 			},
 			{
 					"question":"Livermorium's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^14 6d^10 7p^4"
-			},
-			{
-					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'):  Moscovium or Livermorium?",
-					"answer":"unknown"
 			}
 		]
 	},
@@ -4256,20 +4152,12 @@ let data = [
 					"answer":"Ts"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Tennessine or Zinc?",
-					"answer":"unknown"
-			},
-			{
 					"question":"Number of valence electrons in Tennessine.",
 					"answer":7
 			},
 			{
 					"question":"Tennessine's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^14 6d^10 7p^5"
-			},
-			{
-					"question":"Which element has a higher ionization energy (if one element is unknown, type 'unknown'):  Oganesson or Tennessine?",
-					"answer":"unknown"
 			}
 		]
 	},
@@ -4289,20 +4177,12 @@ let data = [
 					"answer":"Og"
 			},
 			{
-					"question":"Which element has a higher Electronegativity (if unknown type 'unknown'):  Oganesson or Erbium?",
-					"answer":"unknown"
-			},
-			{
 					"question":"Number of valence electrons in Oganesson.",
 					"answer":8
 			},
 			{
 					"question":"Oganesson's Electron Configuration. (When a number is being raised, use the character '^', like for  1s<sup>1</sup>, you would say 1s^1)",
 					"answer":"1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^1 4d^10 5p^6 6s^2 4f^14 5d^10 6p^1 7s^2 5f^14 6d^10 7p^6"
-			},
-			{
-					"question":"Which element has a higher ionization energy (if one element's is unknown, type 'unknown'):  Tennessine or Oganesson?",
-					"answer":"unknown"
 			}
 		]
 	},

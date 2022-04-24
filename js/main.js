@@ -67,8 +67,9 @@ function resetForNextQuestion() {
     if(questionNumber >= 0) {
         question = data[arrayNumber].questionAndPoints[questionNumber].question
         $("#questionBody").html(question)
+        let width = (1/data[arrayNumber].questionAndPoints.length)*100
         $(".progress").append(`
-          <div  id= "progressBar${questionNumber}" class="progress-bar bg-info" role="progressbar" style="width: 12.5%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+          <div  id= "progressBar${questionNumber}" class="progress-bar bg-info" role="progressbar" style="width: ${width}%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
         `)
     }
 }
@@ -79,9 +80,7 @@ function checkAnswer(answerInputed, correctAnswer) {
             answerInputed = answerInputed.toLowerCase()
             correctAnswer = correctAnswer.toLowerCase()
         }
-    }else if(questionNumber == 1) {
-        answerInputed = answerInputed.toLowerCase();
-    }else if( questionNumber == 7 || questionNumber == 3){
+    }else if(typeof questionNumber === 'string') {
         answerInputed = answerInputed.toLowerCase()
         correctAnswer = correctAnswer.toLowerCase()
     }
@@ -186,10 +185,10 @@ function displayModal (clicked_id) {
     question = data[arrayNumber].questionAndPoints[questionNumber].question
 
     document.getElementById("questionBody").innerHTML = question
-
+    let width = (1/data[arrayNumber].questionAndPoints.length)*100
     displayProgress(title)
     $(".progress").append(`
-      <div  id= "progressBar${questionNumber}" class="progress-bar bg-info" role="progressbar" style="width: 12.5%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+      <div  id= "progressBar${questionNumber}" class="progress-bar bg-info" role="progressbar" style="width: ${width}%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
     `)
 }
 
@@ -199,24 +198,26 @@ function evaluateAnswer(){
         answerInputed = $("#input").val()
         correctAnswer = data[arrayNumber].questionAndPoints[questionNumber].answer
         question = data[arrayNumber].questionAndPoints[questionNumber].question
+        let width = (1/data[arrayNumber].questionAndPoints.length)*100
+        console.log(width)
         if(answerInputed == "") { // if empty answer
             handleEmptyAnswer()
             $(`#progressBar${questionNumber}`).replaceWith(`
-                <div id= "progressBar${questionNumber}" class="progress-bar bg-warning" role="progressbar" style="width: 12.5%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                <div id= "progressBar${questionNumber}" class="progress-bar bg-warning" role="progressbar" style="width: ${width}%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
                 `)
         } else {
             if(checkAnswer(answerInputed, correctAnswer)) { //right answer
                 storeQA(elementName, question, answerInputed, true)
                 displaySuccessMessage()
                 $(`#progressBar${questionNumber}`).replaceWith(`
-                <div class="progress-bar bg-success" role="progressbar" style="width: 12.5%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar bg-success" role="progressbar" style="width: ${width}%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
                 `)
                 resetForNextQuestion()
             } else { //wrong answer
                 storeQA(elementName, question, answerInputed, false)
                 displayFailureMessage(correctAnswer)
                 $(`#progressBar${questionNumber}`).replaceWith(`
-                <div class="progress-bar bg-danger" role="progressbar" style="width: 12.5%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar bg-danger" role="progressbar" style="width: ${width}%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
                 `)
                 resetForNextQuestion()
             }
