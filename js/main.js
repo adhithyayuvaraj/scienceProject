@@ -75,7 +75,7 @@ function resetForNextQuestion() {
 }
 
 function checkAnswer(answerInputed, correctAnswer) {
-    if(typeof correctAnswer === 'string' && typeof correctAnswer === 'string' ) {
+    if(typeof correctAnswer === 'string' && typeof correctAnswer === 'string' && question.includes("abbreviation") == false) {
         answerInputed = answerInputed.toLowerCase()
         correctAnswer = correctAnswer.toLowerCase()
     }
@@ -132,7 +132,7 @@ function displayProgress(elementName) {
         let qaArray = curArray['QA']
         let denominator = data[arrayNumber].questionAndPoints.length
 
-        $("#arrayText").append(`<div class="card"><h2 style="text-align:center">Score: ${score}/${denominator}</h2></div> <hr/> <br/>`)
+        $("#arrayText").append(`<div class="card" id="score"><h2 style="text-align:center">Score: ${score}/${denominator} <br/> Percentage: ${Math.round(score/denominator * 100)}%</h2></div> <hr/> <br/>`)
         let arrayTextHtml = `<tr><th>Questions<th/><th></th><tbody>`
         for(let i=0; i< qaArray.length; i+=2) {
             arrayTextHtml += `<tr>`

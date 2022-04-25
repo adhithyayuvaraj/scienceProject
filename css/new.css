@@ -20,6 +20,15 @@ body {
   text-align: center;
 }
 
+#score {
+  text-align: center;
+  width: 200%;
+}
+
+hr {
+  width: 200%;
+}
+
 #dropdown {
   float: right;
 }
