@@ -75,12 +75,7 @@ function resetForNextQuestion() {
 }
 
 function checkAnswer(answerInputed, correctAnswer) {
-    if(arrayNumber == 118){
-        if(questionNumber == 7 || questionNumber == 6 || questionNumber == 5 || questionNumber == 4){
-            answerInputed = answerInputed.toLowerCase()
-            correctAnswer = correctAnswer.toLowerCase()
-        }
-    }else if(typeof questionNumber === 'string') {
+    if(typeof correctAnswer === 'string' && typeof correctAnswer === 'string' ) {
         answerInputed = answerInputed.toLowerCase()
         correctAnswer = correctAnswer.toLowerCase()
     }
@@ -117,10 +112,10 @@ function displayFailureMessage(correctAnswer) {
 
 function handleCompletedElement(elementName) {
     let score = questionsAnsweredArray[elementName].score
-    if(score >= 4) {
+    if(data[arrayNumber].questionAndPoints.length*100 >= 50) {
         pop()
     }
-    $("#questionBody").html(`You have answered ${score}/8 questions correctly!!`)
+    $("#questionBody").html(`You have answered ${score}/${data[arrayNumber].questionAndPoints.length} questions correctly!!`)
     $("#quickMessage").hide()
     $("#quickMessage").text("")
     $("#questionInputBody").hide()
@@ -199,7 +194,6 @@ function evaluateAnswer(){
         correctAnswer = data[arrayNumber].questionAndPoints[questionNumber].answer
         question = data[arrayNumber].questionAndPoints[questionNumber].question
         let width = (1/data[arrayNumber].questionAndPoints.length)*100
-        console.log(width)
         if(answerInputed == "") { // if empty answer
             handleEmptyAnswer()
             $(`#progressBar${questionNumber}`).replaceWith(`
