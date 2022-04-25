@@ -1,4 +1,3 @@
-//making lots of VARIBLES. NUM NUM NUM
 let questionsAnsweredArray = {}
 let question
 let questionNumber = 0
@@ -112,7 +111,7 @@ function displayFailureMessage(correctAnswer) {
 
 function handleCompletedElement(elementName) {
     let score = questionsAnsweredArray[elementName].score
-    if(data[arrayNumber].questionAndPoints.length*100 >= 50) {
+    if(score/data[arrayNumber].questionAndPoints.length >= 0.5) {
         pop()
     }
     $("#questionBody").html(`You have answered ${score}/${data[arrayNumber].questionAndPoints.length} questions correctly!!`)
