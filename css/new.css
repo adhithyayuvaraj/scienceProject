@@ -19,13 +19,21 @@ body {
 #interactive {
   text-align: center;
 }
-
+#arrayText {
+  font-size: x-large;
+}
+#questionModal {
+  font-size: x-large;
+}
 hr {
   width: 200%;
 }
 
 #dropdown {
   float: right;
+}
+#score {
+  text-align: center;
 }
 
 .periodic {

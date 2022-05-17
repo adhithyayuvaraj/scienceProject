@@ -133,12 +133,14 @@ function displayProgress(elementName) {
         && questionsAnsweredArray[elementName]['QA'].length > 0) {
         $("#quickNote").text('')
         $("#arrayText").text('')
+        $("#score").text('')
+        
         let curArray = questionsAnsweredArray[elementName]
         let score = curArray['score']
         let qaArray = curArray['QA']
         let denominator = data[arrayNumber].questionAndPoints.length
 
-        $("#arrayText").append(`<div id="score"><h2 style="text-align:center">Score: ${score}/${denominator} <br/> Percentage: ${Math.round(score/denominator * 100)}%</h2></div> <hr/> <br/>`)
+        $("#score").append(`<div><h2 style="text-align:center">Score: ${score}/${denominator} <br/> Percentage: ${Math.round(score/denominator * 100)}%</h2></div> <hr/> <br/>`)
         let arrayTextHtml = `<tr><th>Questions<th/><th></th><tbody>`
         for(let i=0; i< qaArray.length; i+=2) {
             arrayTextHtml += `<tr>`
@@ -164,6 +166,7 @@ function displayProgress(elementName) {
         $("#quickNote").text('Answer a question to see your progress!')
         $('#quickNote').show()
         $("#arrayText").text('')
+        $("#score").text('')
     }
 }
 
@@ -180,6 +183,7 @@ function displayModal (clicked_id) {
     document.getElementById("questionModalLabel").innerHTML = title
     $("#quickMessage").show()
     $("#questionInputBody").show()
+    $("#score").html("")
     questionNumber = data[arrayNumber].questionAndPoints.length - 1
 
     
